@@ -1,0 +1,105 @@
+{
+    "gedung_utama": {
+      "lantai_1": [
+        "ATM Center",
+        "TB Dots",
+        "Pendaftaran FRISTA",
+        "Pendaftaran BPJS dan Umum",
+        "Syaraf",
+        "Penyakit Dalam Internist",
+        "Tindakan",
+        "Geriatri",
+        "THT KL",
+        "Jantung",
+        "Bedah Onkologi",
+        "Mata",
+        "Urologi",
+        "Obgyn",
+        "Anak",
+        "Rekam Medis",
+        "Laktasi",
+        "Penerimaan Resep",
+        "Penyerahan Resep",
+        "Depo Farmasi",
+        "Cafetaria",
+        "Kafe",
+        "Cafe",
+        "Administrasi",
+        "Kasir",
+        "USG",
+        "Radiologi",
+        "Jenazah"
+      ],
+      "lantai_2": [
+        "Operasi",
+        "Alamanda",
+        "CSSD",
+        "Recovery Room",
+        "ESWL",
+        "Dokter",
+        "Komite Medik",
+        "Laboratorium",
+        "Patologi Center",
+        "Depo Farmasi Rawat Inap",
+        "Nakes Lainnya",
+        "Nurse Station",
+        "Komite Keperawatan",
+        "Komite PPI",
+        "IT",
+        "Tindakan"
+      ],
+      "lantai_3": [
+        "Akasia",
+        "Area Bermain",
+        "Anggrek",
+        "Tindakan",
+        "ICU",
+        "NICU",
+        "Konsul Dokter",
+        "Bougenville",
+        "Bougenvile",
+        "Unit Dialisis",
+        "Nurse Station",
+        "CAPD"
+      ]
+    },
+    "halaman_belakang": {
+      "lantai_1": ["Mushola", "Kantin"]
+    },
+    "gedung_tulip": {
+      "lantai_1": [
+        "Tulip",
+        "Perinatologi",
+        "Bersalin",
+        "Pendaftaran Pasien Rawat Inap",
+        "Laundry",
+        "Pantry"
+      ],
+      "lantai_2": ["Thalasemia"]
+    },
+    "gedung_poli kemotrapi": {
+      "lantai_1": [
+        "Aula RS Medina",
+        "Gigi",
+        "Melati",
+        "Unit Kemoterapi",
+        "Gudang Farmasi",
+        "Dispending"
+      ]
+    },
+    "gedung_igd": {
+      "lantai_1": [
+        "Pendaftaran UGD",
+        "Dekontaminasi",
+        "UGD Isolasi",
+        "Depo Farmasi",
+        "Kebidanan"
+      ]
+    },
+    "setiap gedung": {
+      "1_manapun": [
+        "Toilet"
+      ]
+    }
+  }
+  

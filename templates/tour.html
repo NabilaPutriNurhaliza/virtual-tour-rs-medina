@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual Tour RS Medina</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('serve_assets', filename='css/main.css') }}"
+    />
+  </head>
+  <body>
+    <!-- Tombol untuk membuka sidebar hanya berupa ikon -->
+    <button class="openbtn" onclick="toggleSidebar()">☰</button>
+
+    <!-- Tombol untuk kembali ke halaman utama berupa ikon rumah -->
+    <a href="{{ url_for('index') }}" class="homebtn"> </a>
+
+    <!-- Sidebar untuk navigasi -->
+    <div id="mySidebar" class="sidebar">
+      <ul>
+        <!-- Gedung Utama dengan dropdown untuk lantai -->
+        <li class="gedung-utama">
+          <button class="dropdown-btn">
+            Gedung Utama
+            <span class="arrow">▼</span>
+          </button>
+          <ul class="dropdown-container">
+            <li>
+              <a href="{{ url_for('tour', page='L1 1 Gerbang Masuk') }}"
+                >Gerbang Masuk</a
+              >
+            </li>
+            <li>
+              <a href="{{ url_for('tour', page='U1 Lift') }}">Lantai 1</a>
+            </li>
+            <li>
+              <a href="{{ url_for('tour', page='U2 Lift') }}">Lantai 2</a>
+            </li>
+            <li>
+              <a href="{{ url_for('tour', page='U3 Lift') }}">Lantai 3</a>
+            </li>
+          </ul>
+        </li>
+
+        <!-- Gedung Poli Kemoterapi -->
+        <li>
+          <a href="{{ url_for('tour', page='L1 3 Pertigaan Masuk') }}"
+            >Gedung Poli Kemoterapi</a
+          >
+        </li>
+
+        <!-- Gedung Tulip dengan dropdown untuk lantai -->
+        <li>
+          <button class="dropdown-btn">
+            Gedung Tulip
+            <span class="arrow">▼</span>
+          </button>
+          <ul class="dropdown-container">
+            <li>
+              <a href="{{ url_for('tour', page='L1 7 Gedung Tulip') }}"
+                >Pintu Masuk</a
+              >
+            </li>
+            <li>
+              <a href="{{ url_for('tour', page='L1 8 Dalam Tulip') }}"
+                >Lantai 1</a
+              >
+            </li>
+            <li>
+              <a href="{{ url_for('tour', page='L2 1 Thalasemia') }}"
+                >Lantai 2</a
+              >
+            </li>
+          </ul>
+        </li>
+
+        <!-- Gedung IGD -->
+        <li>
+          <a href="{{ url_for('tour', page='IGD Tengah') }}">Gedung IGD</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Konten panorama -->
+    <div id="main" class="content">
+      <iframe
+        src="{{ url_for('serve_assets', filename='html/' + page + '.html') }}"
+        frameborder="0"
+      ></iframe>
+    </div>
+
+    <script>
+      function toggleSidebar() {
+        var sidebar = document.getElementById("mySidebar");
+
+        if (sidebar.style.width === "250px") {
+          sidebar.style.width = "0";
+        } else {
+          sidebar.style.width = "250px";
+        }
+      }
+
+      // Script untuk mengatur dropdown
+      var dropdown = document.getElementsByClassName("dropdown-btn");
+      var i;
+
+      for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var dropdownContent = this.nextElementSibling;
+          if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+          } else {
+            dropdownContent.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
