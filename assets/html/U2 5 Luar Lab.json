@@ -1,0 +1,152 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U2 5 Luar Lab_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 359.99999999999994,
+	        "maxtilt": 30.42652359552514,
+	        "minpan": 0,
+	        "mintilt": -30.42652359552514
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.586178041994571,
+	            "href": "U2 6 Dalam Lab.json",
+	            "opacity": "1.00;1.00",
+	            "position": "304.4437,-1.2331",
+	            "rotate": 0,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Masuk"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 11.884605288505552,
+	            "href": "U2 8 Alamanda 8.json",
+	            "opacity": "1.00;1.00",
+	            "position": "331.8499,14.4277",
+	            "rotate": 14.85445499420166,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 11.770521551370619,
+	            "href": "U2 4 ESWL.json",
+	            "opacity": "1.00;1.00",
+	            "position": "182.6036,15.0137",
+	            "rotate": 341.12677001953125,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.594412878155708,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "182.3687,-5.3676",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmapscale": "1.0;1.1",
+	            "bitmaptype": "floating",
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "202.8059,-4.3570",
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 6.7968135327100745,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "257.7749,-1.8591",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.676799945533275,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "326.4470,-7.2241",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U2 5 Luar Lab",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U2 5 Luar Lab_tiles/U2 5 Luar Lab_t_1b_%y_%x.jpg"},"down":{"src":"U2 5 Luar Lab_tiles/U2 5 Luar Lab_t_1d_%y_%x.jpg"},"front":{"src":"U2 5 Luar Lab_tiles/U2 5 Luar Lab_t_1f_%y_%x.jpg"},"height":2926,"left":{"src":"U2 5 Luar Lab_tiles/U2 5 Luar Lab_t_1l_%y_%x.jpg"},"right":{"src":"U2 5 Luar Lab_tiles/U2 5 Luar Lab_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 5 Luar Lab_tiles/U2 5 Luar Lab_t_1u_%y_%x.jpg"},"width":2926},{"back":{"src":"U2 5 Luar Lab_tiles/U2 5 Luar Lab_t_2b_%y_%x.jpg"},"down":{"src":"U2 5 Luar Lab_tiles/U2 5 Luar Lab_t_2d_%y_%x.jpg"},"front":{"src":"U2 5 Luar Lab_tiles/U2 5 Luar Lab_t_2f_%y_%x.jpg"},"height":1463,"left":{"src":"U2 5 Luar Lab_tiles/U2 5 Luar Lab_t_2l_%y_%x.jpg"},"right":{"src":"U2 5 Luar Lab_tiles/U2 5 Luar Lab_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 5 Luar Lab_tiles/U2 5 Luar Lab_t_2u_%y_%x.jpg"},"width":1463},{"back":{"src":"U2 5 Luar Lab_tiles/U2 5 Luar Lab_t_3b_%y_%x.jpg"},"down":{"src":"U2 5 Luar Lab_tiles/U2 5 Luar Lab_t_3d_%y_%x.jpg"},"front":{"src":"U2 5 Luar Lab_tiles/U2 5 Luar Lab_t_3f_%y_%x.jpg"},"height":732,"left":{"src":"U2 5 Luar Lab_tiles/U2 5 Luar Lab_t_3l_%y_%x.jpg"},"right":{"src":"U2 5 Luar Lab_tiles/U2 5 Luar Lab_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 5 Luar Lab_tiles/U2 5 Luar Lab_t_3u_%y_%x.jpg"},"width":732},{"back":{"src":"U2 5 Luar Lab_tiles/U2 5 Luar Lab_t_4b_%y_%x.jpg"},"down":{"src":"U2 5 Luar Lab_tiles/U2 5 Luar Lab_t_4d_%y_%x.jpg"},"front":{"src":"U2 5 Luar Lab_tiles/U2 5 Luar Lab_t_4f_%y_%x.jpg"},"height":366,"left":{"src":"U2 5 Luar Lab_tiles/U2 5 Luar Lab_t_4l_%y_%x.jpg"},"right":{"src":"U2 5 Luar Lab_tiles/U2 5 Luar Lab_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 5 Luar Lab_tiles/U2 5 Luar Lab_t_4u_%y_%x.jpg"},"width":366}],"multilevel":true,"preview":{"src":"U2 5 Luar Lab_tiles/U2 5 Luar Lab_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 112,
+	        "pan": 280.36,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

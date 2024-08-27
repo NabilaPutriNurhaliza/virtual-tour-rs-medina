@@ -1,0 +1,217 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U3 Lift_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 29.3763354815209,
+	        "minpan": 0,
+	        "mintilt": -29.3763354815209
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "L1.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 6.854373067617416,
+	            "href": "U1 Lift.json",
+	            "opacity": "1.00;1.00",
+	            "position": "82.4188,1.6227",
+	            "rotate": 0,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Turun ke Lantai 1"
+	            },
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "L2.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 6.474383175373077,
+	            "href": "U2 Lift.json",
+	            "opacity": "1.00;1.00",
+	            "position": "82.4188,-4.6682",
+	            "rotate": 0,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Turun ke Lantai 2"
+	            },
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 12.00276866555214,
+	            "href": "U3 1 Lift.json",
+	            "opacity": "1.00;1.00",
+	            "position": "125.2323,23.1198",
+	            "rotate": 0,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 13.424885272979736,
+	            "href": "U3 2 Nurse Station.json",
+	            "opacity": "1.00;1.00",
+	            "position": "326.0853,16.1173",
+	            "rotate": 0,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.8208869323134422,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "324.8250,-4.8578",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.6080817505717278,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "316.6900,-4.6303",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.2110266387462616,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "332.6162,-6.8984",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.042396433651447,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "352.4379,-7.8000",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.6337538436055183,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "136.8046,-3.9466",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.903488852083683,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "155.8243,-4.2886",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.8147560134530067,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "160.2928,-8.0248",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "L3 Selected.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 6.479401588439941,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "82.3425,-10.8119",
+	            "rotate": 0,
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Anda sedang berada di Lantai 3"
+	            },
+	            "transition": "",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U3 Lift",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U3 Lift_tiles/U3 Lift_t_1b_%y_%x.jpg"},"down":{"src":"U3 Lift_tiles/U3 Lift_t_1d_%y_%x.jpg"},"front":{"src":"U3 Lift_tiles/U3 Lift_t_1f_%y_%x.jpg"},"height":3000,"left":{"src":"U3 Lift_tiles/U3 Lift_t_1l_%y_%x.jpg"},"right":{"src":"U3 Lift_tiles/U3 Lift_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 Lift_tiles/U3 Lift_t_1u_%y_%x.jpg"},"width":3000},{"back":{"src":"U3 Lift_tiles/U3 Lift_t_2b_%y_%x.jpg"},"down":{"src":"U3 Lift_tiles/U3 Lift_t_2d_%y_%x.jpg"},"front":{"src":"U3 Lift_tiles/U3 Lift_t_2f_%y_%x.jpg"},"height":1500,"left":{"src":"U3 Lift_tiles/U3 Lift_t_2l_%y_%x.jpg"},"right":{"src":"U3 Lift_tiles/U3 Lift_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 Lift_tiles/U3 Lift_t_2u_%y_%x.jpg"},"width":1500},{"back":{"src":"U3 Lift_tiles/U3 Lift_t_3b_%y_%x.jpg"},"down":{"src":"U3 Lift_tiles/U3 Lift_t_3d_%y_%x.jpg"},"front":{"src":"U3 Lift_tiles/U3 Lift_t_3f_%y_%x.jpg"},"height":750,"left":{"src":"U3 Lift_tiles/U3 Lift_t_3l_%y_%x.jpg"},"right":{"src":"U3 Lift_tiles/U3 Lift_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 Lift_tiles/U3 Lift_t_3u_%y_%x.jpg"},"width":750},{"back":{"src":"U3 Lift_tiles/U3 Lift_t_4b_%y_%x.jpg"},"down":{"src":"U3 Lift_tiles/U3 Lift_t_4d_%y_%x.jpg"},"front":{"src":"U3 Lift_tiles/U3 Lift_t_4f_%y_%x.jpg"},"height":375,"left":{"src":"U3 Lift_tiles/U3 Lift_t_4l_%y_%x.jpg"},"right":{"src":"U3 Lift_tiles/U3 Lift_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 Lift_tiles/U3 Lift_t_4u_%y_%x.jpg"},"width":375}],"multilevel":true,"preview":{"src":"U3 Lift_tiles/U3 Lift_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 122.13,
+	        "pan": 53.24,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

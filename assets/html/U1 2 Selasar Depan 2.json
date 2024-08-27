@@ -1,0 +1,129 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U1 2 Selasar Depan 2_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 30.867349149170426,
+	        "minpan": 0,
+	        "mintilt": -30.867349149170426
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.60435476154089,
+	            "href": "U1 3 Pintu Masuk.json",
+	            "opacity": "1.00;1.00",
+	            "position": "182.4518,-2.1174",
+	            "rotate": 0,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Masuk"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 13.253384828567505,
+	            "href": "L1 3 Pertigaan Masuk.json",
+	            "opacity": "1.00;1.00",
+	            "position": "63.2364,14.6203",
+	            "rotate": 17.591388702392578,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 11.245247796177864,
+	            "href": "U1 1 Selasar Depan 1.json",
+	            "opacity": "1.00;1.00",
+	            "position": "320.1831,19.9791",
+	            "rotate": 334.3596496582031,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.9775915816426277,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "283.3867,-3.5652",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.5194113329052925,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "110.9774,-9.2933",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U1 2 Selasar Depan 2",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U1 2 Selasar Depan 2_tiles/U1 2 Selasar Depan 2_t_1b_%y_%x.jpg"},"down":{"src":"U1 2 Selasar Depan 2_tiles/U1 2 Selasar Depan 2_t_1d_%y_%x.jpg"},"front":{"src":"U1 2 Selasar Depan 2_tiles/U1 2 Selasar Depan 2_t_1f_%y_%x.jpg"},"height":2921,"left":{"src":"U1 2 Selasar Depan 2_tiles/U1 2 Selasar Depan 2_t_1l_%y_%x.jpg"},"right":{"src":"U1 2 Selasar Depan 2_tiles/U1 2 Selasar Depan 2_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 2 Selasar Depan 2_tiles/U1 2 Selasar Depan 2_t_1u_%y_%x.jpg"},"width":2921},{"back":{"src":"U1 2 Selasar Depan 2_tiles/U1 2 Selasar Depan 2_t_2b_%y_%x.jpg"},"down":{"src":"U1 2 Selasar Depan 2_tiles/U1 2 Selasar Depan 2_t_2d_%y_%x.jpg"},"front":{"src":"U1 2 Selasar Depan 2_tiles/U1 2 Selasar Depan 2_t_2f_%y_%x.jpg"},"height":1461,"left":{"src":"U1 2 Selasar Depan 2_tiles/U1 2 Selasar Depan 2_t_2l_%y_%x.jpg"},"right":{"src":"U1 2 Selasar Depan 2_tiles/U1 2 Selasar Depan 2_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 2 Selasar Depan 2_tiles/U1 2 Selasar Depan 2_t_2u_%y_%x.jpg"},"width":1461},{"back":{"src":"U1 2 Selasar Depan 2_tiles/U1 2 Selasar Depan 2_t_3b_%y_%x.jpg"},"down":{"src":"U1 2 Selasar Depan 2_tiles/U1 2 Selasar Depan 2_t_3d_%y_%x.jpg"},"front":{"src":"U1 2 Selasar Depan 2_tiles/U1 2 Selasar Depan 2_t_3f_%y_%x.jpg"},"height":731,"left":{"src":"U1 2 Selasar Depan 2_tiles/U1 2 Selasar Depan 2_t_3l_%y_%x.jpg"},"right":{"src":"U1 2 Selasar Depan 2_tiles/U1 2 Selasar Depan 2_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 2 Selasar Depan 2_tiles/U1 2 Selasar Depan 2_t_3u_%y_%x.jpg"},"width":731},{"back":{"src":"U1 2 Selasar Depan 2_tiles/U1 2 Selasar Depan 2_t_4b_%y_%x.jpg"},"down":{"src":"U1 2 Selasar Depan 2_tiles/U1 2 Selasar Depan 2_t_4d_%y_%x.jpg"},"front":{"src":"U1 2 Selasar Depan 2_tiles/U1 2 Selasar Depan 2_t_4f_%y_%x.jpg"},"height":366,"left":{"src":"U1 2 Selasar Depan 2_tiles/U1 2 Selasar Depan 2_t_4l_%y_%x.jpg"},"right":{"src":"U1 2 Selasar Depan 2_tiles/U1 2 Selasar Depan 2_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 2 Selasar Depan 2_tiles/U1 2 Selasar Depan 2_t_4u_%y_%x.jpg"},"width":366}],"multilevel":true,"preview":{"src":"U1 2 Selasar Depan 2_tiles/U1 2 Selasar Depan 2_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 114,
+	        "pan": 167.98,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

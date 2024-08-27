@@ -1,0 +1,224 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U2 8 Alamanda 8_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 28.774932328876346,
+	        "minpan": 0,
+	        "mintilt": -28.774932328876346
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.473443526774645,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "86.8093,-2.5279",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.6448132134974005,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "89.1089,-4.5893",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.8891874328255656,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "89.6838,-3.7888",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 6.327729374170304,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "143.8390,1.9922",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.417313657701016,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "205.9278,-5.1221",
+	            "rotate": 356.4236755371094,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.8641646020114424,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "193.0885,-1.8773",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.1695030611008408,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "190.5589,-4.4370",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.0114176012575629,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "188.2977,-2.1070",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 9.209506809711458,
+	            "href": "U2 5 Luar Lab.json",
+	            "opacity": "1.00;1.00",
+	            "position": "196.9594,14.0097",
+	            "rotate": 335.54779052734375,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 11.251516789197924,
+	            "href": "U2 9 Alamanda 7.json",
+	            "opacity": "1.00;1.00",
+	            "position": "81.5203,14.4418",
+	            "rotate": 1.8240755796432495,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 10.468767061829569,
+	            "href": "U3 10 Akasia 8.json",
+	            "opacity": "1.00;1.00",
+	            "position": "241.2264,11.0522",
+	            "rotate": 16.013324737548828,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Naik ke Lantai 3"
+	            },
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 7.6744792610406884,
+	            "href": "U1 8 Poli THT KL 2.json",
+	            "opacity": "1.00;1.00",
+	            "position": "281.4692,25.1854",
+	            "rotate": 329.9571533203125,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Turun ke Lantai 1"
+	            },
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U2 8 Alamanda 8",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U2 8 Alamanda 8_tiles/U2 8 Alamanda 8_t_1b_%y_%x.jpg"},"down":{"src":"U2 8 Alamanda 8_tiles/U2 8 Alamanda 8_t_1d_%y_%x.jpg"},"front":{"src":"U2 8 Alamanda 8_tiles/U2 8 Alamanda 8_t_1f_%y_%x.jpg"},"height":2989,"left":{"src":"U2 8 Alamanda 8_tiles/U2 8 Alamanda 8_t_1l_%y_%x.jpg"},"right":{"src":"U2 8 Alamanda 8_tiles/U2 8 Alamanda 8_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 8 Alamanda 8_tiles/U2 8 Alamanda 8_t_1u_%y_%x.jpg"},"width":2989},{"back":{"src":"U2 8 Alamanda 8_tiles/U2 8 Alamanda 8_t_2b_%y_%x.jpg"},"down":{"src":"U2 8 Alamanda 8_tiles/U2 8 Alamanda 8_t_2d_%y_%x.jpg"},"front":{"src":"U2 8 Alamanda 8_tiles/U2 8 Alamanda 8_t_2f_%y_%x.jpg"},"height":1495,"left":{"src":"U2 8 Alamanda 8_tiles/U2 8 Alamanda 8_t_2l_%y_%x.jpg"},"right":{"src":"U2 8 Alamanda 8_tiles/U2 8 Alamanda 8_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 8 Alamanda 8_tiles/U2 8 Alamanda 8_t_2u_%y_%x.jpg"},"width":1495},{"back":{"src":"U2 8 Alamanda 8_tiles/U2 8 Alamanda 8_t_3b_%y_%x.jpg"},"down":{"src":"U2 8 Alamanda 8_tiles/U2 8 Alamanda 8_t_3d_%y_%x.jpg"},"front":{"src":"U2 8 Alamanda 8_tiles/U2 8 Alamanda 8_t_3f_%y_%x.jpg"},"height":748,"left":{"src":"U2 8 Alamanda 8_tiles/U2 8 Alamanda 8_t_3l_%y_%x.jpg"},"right":{"src":"U2 8 Alamanda 8_tiles/U2 8 Alamanda 8_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 8 Alamanda 8_tiles/U2 8 Alamanda 8_t_3u_%y_%x.jpg"},"width":748},{"back":{"src":"U2 8 Alamanda 8_tiles/U2 8 Alamanda 8_t_4b_%y_%x.jpg"},"down":{"src":"U2 8 Alamanda 8_tiles/U2 8 Alamanda 8_t_4d_%y_%x.jpg"},"front":{"src":"U2 8 Alamanda 8_tiles/U2 8 Alamanda 8_t_4f_%y_%x.jpg"},"height":374,"left":{"src":"U2 8 Alamanda 8_tiles/U2 8 Alamanda 8_t_4l_%y_%x.jpg"},"right":{"src":"U2 8 Alamanda 8_tiles/U2 8 Alamanda 8_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 8 Alamanda 8_tiles/U2 8 Alamanda 8_t_4u_%y_%x.jpg"},"width":374}],"multilevel":true,"preview":{"src":"U2 8 Alamanda 8_tiles/U2 8 Alamanda 8_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 114.32,
+	        "pan": 180,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

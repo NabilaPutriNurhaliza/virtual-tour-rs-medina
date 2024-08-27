@@ -1,0 +1,142 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U3 8 Akasia 5_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 27.226001859089614,
+	        "minpan": 0,
+	        "mintilt": -27.226001859089614
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.7821136489510536,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "52.2581,-14.2869",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.305894240736961,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "144.2680,-7.0364",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.0841010473668575,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "158.2258,-8.3887",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.0133250709623098,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "158.6725,-7.4393",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 0.7387824542820454,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "160.3474,-9.1521",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 12.216913551092148,
+	            "href": "U3 1 Lift.json",
+	            "opacity": "1.00;1.00",
+	            "position": "56.2779,13.9018",
+	            "rotate": 355.608154296875,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 12.265299260616302,
+	            "href": "U3 9 Akasia 6.json",
+	            "opacity": "1.00;1.00",
+	            "position": "162.9156,9.2972",
+	            "rotate": 358.5036315917969,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U3 8 Akasia 5",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U3 8 Akasia 5_tiles/U3 8 Akasia 5_t_1b_%y_%x.jpg"},"down":{"src":"U3 8 Akasia 5_tiles/U3 8 Akasia 5_t_1d_%y_%x.jpg"},"front":{"src":"U3 8 Akasia 5_tiles/U3 8 Akasia 5_t_1f_%y_%x.jpg"},"height":3078,"left":{"src":"U3 8 Akasia 5_tiles/U3 8 Akasia 5_t_1l_%y_%x.jpg"},"right":{"src":"U3 8 Akasia 5_tiles/U3 8 Akasia 5_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 8 Akasia 5_tiles/U3 8 Akasia 5_t_1u_%y_%x.jpg"},"width":3078},{"back":{"src":"U3 8 Akasia 5_tiles/U3 8 Akasia 5_t_2b_%y_%x.jpg"},"down":{"src":"U3 8 Akasia 5_tiles/U3 8 Akasia 5_t_2d_%y_%x.jpg"},"front":{"src":"U3 8 Akasia 5_tiles/U3 8 Akasia 5_t_2f_%y_%x.jpg"},"height":1539,"left":{"src":"U3 8 Akasia 5_tiles/U3 8 Akasia 5_t_2l_%y_%x.jpg"},"right":{"src":"U3 8 Akasia 5_tiles/U3 8 Akasia 5_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 8 Akasia 5_tiles/U3 8 Akasia 5_t_2u_%y_%x.jpg"},"width":1539},{"back":{"src":"U3 8 Akasia 5_tiles/U3 8 Akasia 5_t_3b_%y_%x.jpg"},"down":{"src":"U3 8 Akasia 5_tiles/U3 8 Akasia 5_t_3d_%y_%x.jpg"},"front":{"src":"U3 8 Akasia 5_tiles/U3 8 Akasia 5_t_3f_%y_%x.jpg"},"height":770,"left":{"src":"U3 8 Akasia 5_tiles/U3 8 Akasia 5_t_3l_%y_%x.jpg"},"right":{"src":"U3 8 Akasia 5_tiles/U3 8 Akasia 5_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 8 Akasia 5_tiles/U3 8 Akasia 5_t_3u_%y_%x.jpg"},"width":770},{"back":{"src":"U3 8 Akasia 5_tiles/U3 8 Akasia 5_t_4b_%y_%x.jpg"},"down":{"src":"U3 8 Akasia 5_tiles/U3 8 Akasia 5_t_4d_%y_%x.jpg"},"front":{"src":"U3 8 Akasia 5_tiles/U3 8 Akasia 5_t_4f_%y_%x.jpg"},"height":385,"left":{"src":"U3 8 Akasia 5_tiles/U3 8 Akasia 5_t_4l_%y_%x.jpg"},"right":{"src":"U3 8 Akasia 5_tiles/U3 8 Akasia 5_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 8 Akasia 5_tiles/U3 8 Akasia 5_t_4u_%y_%x.jpg"},"width":385}],"multilevel":true,"preview":{"src":"U3 8 Akasia 5_tiles/U3 8 Akasia 5_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 105.68,
+	        "pan": 122.38,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

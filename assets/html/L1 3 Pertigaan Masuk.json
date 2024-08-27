@@ -1,0 +1,123 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "L1 3 Pertigaan Masuk_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 29.574736866096444,
+	        "minpan": 0,
+	        "mintilt": -29.574736866096444
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 9.348471388220787,
+	            "href": "U1 2 Selasar Depan 2.json",
+	            "opacity": "1.00;1.00",
+	            "position": "59.7407,18.9220",
+	            "rotate": 345.5740661621094,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 9.791102260351181,
+	            "href": "L1 2 Gerbang Masuk 2.json",
+	            "opacity": "1.00;1.00",
+	            "position": "115.5143,16.2722",
+	            "rotate": 13.284866333007812,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.008978456258774,
+	            "href": "A1 1 Kemo 1.json",
+	            "opacity": "1.00;1.00",
+	            "position": "240.0130,5.8525",
+	            "rotate": 0,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Masuk"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 11.307104229927063,
+	            "href": "L1 4 Masuk Parkiran.json",
+	            "opacity": "1.00;1.00",
+	            "position": "312.2385,18.6082",
+	            "rotate": 3.2948410511016846,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "L1 3 Pertigaan Masuk",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"L1 3 Pertigaan Masuk_tiles/L1 3 Pertigaan Masuk_t_1b_%y_%x.jpg"},"down":{"src":"L1 3 Pertigaan Masuk_tiles/L1 3 Pertigaan Masuk_t_1d_%y_%x.jpg"},"front":{"src":"L1 3 Pertigaan Masuk_tiles/L1 3 Pertigaan Masuk_t_1f_%y_%x.jpg"},"height":2946,"left":{"src":"L1 3 Pertigaan Masuk_tiles/L1 3 Pertigaan Masuk_t_1l_%y_%x.jpg"},"right":{"src":"L1 3 Pertigaan Masuk_tiles/L1 3 Pertigaan Masuk_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"L1 3 Pertigaan Masuk_tiles/L1 3 Pertigaan Masuk_t_1u_%y_%x.jpg"},"width":2946},{"back":{"src":"L1 3 Pertigaan Masuk_tiles/L1 3 Pertigaan Masuk_t_2b_%y_%x.jpg"},"down":{"src":"L1 3 Pertigaan Masuk_tiles/L1 3 Pertigaan Masuk_t_2d_%y_%x.jpg"},"front":{"src":"L1 3 Pertigaan Masuk_tiles/L1 3 Pertigaan Masuk_t_2f_%y_%x.jpg"},"height":1473,"left":{"src":"L1 3 Pertigaan Masuk_tiles/L1 3 Pertigaan Masuk_t_2l_%y_%x.jpg"},"right":{"src":"L1 3 Pertigaan Masuk_tiles/L1 3 Pertigaan Masuk_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"L1 3 Pertigaan Masuk_tiles/L1 3 Pertigaan Masuk_t_2u_%y_%x.jpg"},"width":1473},{"back":{"src":"L1 3 Pertigaan Masuk_tiles/L1 3 Pertigaan Masuk_t_3b_%y_%x.jpg"},"down":{"src":"L1 3 Pertigaan Masuk_tiles/L1 3 Pertigaan Masuk_t_3d_%y_%x.jpg"},"front":{"src":"L1 3 Pertigaan Masuk_tiles/L1 3 Pertigaan Masuk_t_3f_%y_%x.jpg"},"height":737,"left":{"src":"L1 3 Pertigaan Masuk_tiles/L1 3 Pertigaan Masuk_t_3l_%y_%x.jpg"},"right":{"src":"L1 3 Pertigaan Masuk_tiles/L1 3 Pertigaan Masuk_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"L1 3 Pertigaan Masuk_tiles/L1 3 Pertigaan Masuk_t_3u_%y_%x.jpg"},"width":737},{"back":{"src":"L1 3 Pertigaan Masuk_tiles/L1 3 Pertigaan Masuk_t_4b_%y_%x.jpg"},"down":{"src":"L1 3 Pertigaan Masuk_tiles/L1 3 Pertigaan Masuk_t_4d_%y_%x.jpg"},"front":{"src":"L1 3 Pertigaan Masuk_tiles/L1 3 Pertigaan Masuk_t_4f_%y_%x.jpg"},"height":369,"left":{"src":"L1 3 Pertigaan Masuk_tiles/L1 3 Pertigaan Masuk_t_4l_%y_%x.jpg"},"right":{"src":"L1 3 Pertigaan Masuk_tiles/L1 3 Pertigaan Masuk_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"L1 3 Pertigaan Masuk_tiles/L1 3 Pertigaan Masuk_t_4u_%y_%x.jpg"},"width":369}],"multilevel":true,"preview":{"src":"L1 3 Pertigaan Masuk_tiles/L1 3 Pertigaan Masuk_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 114.72,
+	        "pan": 239.92,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

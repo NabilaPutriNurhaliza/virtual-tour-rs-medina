@@ -1,0 +1,154 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U2 13 IT_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 359.99999999999994,
+	        "maxtilt": 29.494004251892274,
+	        "minpan": 0,
+	        "mintilt": -29.494004251892274
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.105944670736789,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "125.3179,-1.5411",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.007162600755691,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "198.1503,1.0018",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.41598629951477,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "218.6127,-0.2697",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.5755854472517963,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "275.3757,-2.9262",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.759898420423269,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "94.9518,-6.1421",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.4658795297145841,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "87.8613,-4.6526",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 12.477875053882597,
+	            "href": "U2 12 Administrasi.json",
+	            "opacity": "1.00;1.00",
+	            "position": "99.8073,17.7522",
+	            "rotate": 344.7500915527344,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 10.514637529850004,
+	            "href": "U2 1 Ruang Operasi.json",
+	            "opacity": "1.00;1.00",
+	            "position": "280.4624,22.6359",
+	            "rotate": 0,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U2 13 IT",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U2 13 IT_tiles/U2 13 IT_t_1b_%y_%x.jpg"},"down":{"src":"U2 13 IT_tiles/U2 13 IT_t_1d_%y_%x.jpg"},"front":{"src":"U2 13 IT_tiles/U2 13 IT_t_1f_%y_%x.jpg"},"height":2973,"left":{"src":"U2 13 IT_tiles/U2 13 IT_t_1l_%y_%x.jpg"},"right":{"src":"U2 13 IT_tiles/U2 13 IT_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 13 IT_tiles/U2 13 IT_t_1u_%y_%x.jpg"},"width":2973},{"back":{"src":"U2 13 IT_tiles/U2 13 IT_t_2b_%y_%x.jpg"},"down":{"src":"U2 13 IT_tiles/U2 13 IT_t_2d_%y_%x.jpg"},"front":{"src":"U2 13 IT_tiles/U2 13 IT_t_2f_%y_%x.jpg"},"height":1487,"left":{"src":"U2 13 IT_tiles/U2 13 IT_t_2l_%y_%x.jpg"},"right":{"src":"U2 13 IT_tiles/U2 13 IT_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 13 IT_tiles/U2 13 IT_t_2u_%y_%x.jpg"},"width":1487},{"back":{"src":"U2 13 IT_tiles/U2 13 IT_t_3b_%y_%x.jpg"},"down":{"src":"U2 13 IT_tiles/U2 13 IT_t_3d_%y_%x.jpg"},"front":{"src":"U2 13 IT_tiles/U2 13 IT_t_3f_%y_%x.jpg"},"height":744,"left":{"src":"U2 13 IT_tiles/U2 13 IT_t_3l_%y_%x.jpg"},"right":{"src":"U2 13 IT_tiles/U2 13 IT_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 13 IT_tiles/U2 13 IT_t_3u_%y_%x.jpg"},"width":744},{"back":{"src":"U2 13 IT_tiles/U2 13 IT_t_4b_%y_%x.jpg"},"down":{"src":"U2 13 IT_tiles/U2 13 IT_t_4d_%y_%x.jpg"},"front":{"src":"U2 13 IT_tiles/U2 13 IT_t_4f_%y_%x.jpg"},"height":372,"left":{"src":"U2 13 IT_tiles/U2 13 IT_t_4l_%y_%x.jpg"},"right":{"src":"U2 13 IT_tiles/U2 13 IT_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 13 IT_tiles/U2 13 IT_t_4u_%y_%x.jpg"},"width":372}],"multilevel":true,"preview":{"src":"U2 13 IT_tiles/U2 13 IT_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 110.48,
+	        "pan": 153.15,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

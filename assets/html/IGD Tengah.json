@@ -1,0 +1,177 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "IGD Tengah_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 30.693411895500322,
+	        "minpan": 0,
+	        "mintilt": -30.693411895500322
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.7359063364565372,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "206.7172,-0.8580",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.2107951901853085,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "215.2979,-0.0000",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.5558819994330406,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "224.5807,-0.7020",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.350189760327339,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "237.8418,-0.3900",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.6770400032401085,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "98.9122,-3.6613",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.100987672805786,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "69.1918,-3.1950",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 14.91423949599266,
+	            "href": "IGD Dalam.json",
+	            "opacity": "1.00;1.00",
+	            "position": "48.9101,18.0244",
+	            "rotate": 359.2524108886719,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 13.283731341362,
+	            "href": "IGD Keluar.json",
+	            "opacity": "1.00;1.00",
+	            "position": "227.4670,14.2471",
+	            "rotate": 0,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.649082273244858,
+	            "href": "IGD Dalem banget.json",
+	            "opacity": "1.00;1.00",
+	            "position": "140.5287,-1.5987",
+	            "rotate": 0,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Masuk"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "IGD Tengah",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"IGD Tengah_tiles/IGD Tengah_t_1b_%y_%x.jpg"},"down":{"src":"IGD Tengah_tiles/IGD Tengah_t_1d_%y_%x.jpg"},"front":{"src":"IGD Tengah_tiles/IGD Tengah_t_1f_%y_%x.jpg"},"height":2938,"left":{"src":"IGD Tengah_tiles/IGD Tengah_t_1l_%y_%x.jpg"},"right":{"src":"IGD Tengah_tiles/IGD Tengah_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"IGD Tengah_tiles/IGD Tengah_t_1u_%y_%x.jpg"},"width":2938},{"back":{"src":"IGD Tengah_tiles/IGD Tengah_t_2b_%y_%x.jpg"},"down":{"src":"IGD Tengah_tiles/IGD Tengah_t_2d_%y_%x.jpg"},"front":{"src":"IGD Tengah_tiles/IGD Tengah_t_2f_%y_%x.jpg"},"height":1469,"left":{"src":"IGD Tengah_tiles/IGD Tengah_t_2l_%y_%x.jpg"},"right":{"src":"IGD Tengah_tiles/IGD Tengah_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"IGD Tengah_tiles/IGD Tengah_t_2u_%y_%x.jpg"},"width":1469},{"back":{"src":"IGD Tengah_tiles/IGD Tengah_t_3b_%y_%x.jpg"},"down":{"src":"IGD Tengah_tiles/IGD Tengah_t_3d_%y_%x.jpg"},"front":{"src":"IGD Tengah_tiles/IGD Tengah_t_3f_%y_%x.jpg"},"height":735,"left":{"src":"IGD Tengah_tiles/IGD Tengah_t_3l_%y_%x.jpg"},"right":{"src":"IGD Tengah_tiles/IGD Tengah_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"IGD Tengah_tiles/IGD Tengah_t_3u_%y_%x.jpg"},"width":735},{"back":{"src":"IGD Tengah_tiles/IGD Tengah_t_4b_%y_%x.jpg"},"down":{"src":"IGD Tengah_tiles/IGD Tengah_t_4d_%y_%x.jpg"},"front":{"src":"IGD Tengah_tiles/IGD Tengah_t_4f_%y_%x.jpg"},"height":368,"left":{"src":"IGD Tengah_tiles/IGD Tengah_t_4l_%y_%x.jpg"},"right":{"src":"IGD Tengah_tiles/IGD Tengah_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"IGD Tengah_tiles/IGD Tengah_t_4u_%y_%x.jpg"},"width":368}],"multilevel":true,"preview":{"src":"IGD Tengah_tiles/IGD Tengah_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 104,
+	        "pan": 141.68,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

@@ -1,0 +1,112 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "IGD Keluar_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 359.99999999999994,
+	        "maxtilt": 30.8679880263062,
+	        "minpan": 0,
+	        "mintilt": -30.8679880263062
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 12.456173300743101,
+	            "href": "IGD Dalam.json",
+	            "opacity": "1.00;1.00",
+	            "position": "267.0625,14.8101",
+	            "rotate": 3.8604047298431396,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 6.749584525823592,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "117.6553,-9.7869",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 7.417657747864722,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "85.6675,-9.6342",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.9430277496576307,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "67.8267,-3.7084",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.946190014481544,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "35.9961,-0.2947",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "IGD Keluar",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"IGD Keluar_tiles/IGD Keluar_t_1b_%y_%x.jpg"},"down":{"src":"IGD Keluar_tiles/IGD Keluar_t_1d_%y_%x.jpg"},"front":{"src":"IGD Keluar_tiles/IGD Keluar_t_1f_%y_%x.jpg"},"height":2916,"left":{"src":"IGD Keluar_tiles/IGD Keluar_t_1l_%y_%x.jpg"},"right":{"src":"IGD Keluar_tiles/IGD Keluar_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"IGD Keluar_tiles/IGD Keluar_t_1u_%y_%x.jpg"},"width":2916},{"back":{"src":"IGD Keluar_tiles/IGD Keluar_t_2b_%y_%x.jpg"},"down":{"src":"IGD Keluar_tiles/IGD Keluar_t_2d_%y_%x.jpg"},"front":{"src":"IGD Keluar_tiles/IGD Keluar_t_2f_%y_%x.jpg"},"height":1458,"left":{"src":"IGD Keluar_tiles/IGD Keluar_t_2l_%y_%x.jpg"},"right":{"src":"IGD Keluar_tiles/IGD Keluar_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"IGD Keluar_tiles/IGD Keluar_t_2u_%y_%x.jpg"},"width":1458},{"back":{"src":"IGD Keluar_tiles/IGD Keluar_t_3b_%y_%x.jpg"},"down":{"src":"IGD Keluar_tiles/IGD Keluar_t_3d_%y_%x.jpg"},"front":{"src":"IGD Keluar_tiles/IGD Keluar_t_3f_%y_%x.jpg"},"height":729,"left":{"src":"IGD Keluar_tiles/IGD Keluar_t_3l_%y_%x.jpg"},"right":{"src":"IGD Keluar_tiles/IGD Keluar_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"IGD Keluar_tiles/IGD Keluar_t_3u_%y_%x.jpg"},"width":729},{"back":{"src":"IGD Keluar_tiles/IGD Keluar_t_4b_%y_%x.jpg"},"down":{"src":"IGD Keluar_tiles/IGD Keluar_t_4d_%y_%x.jpg"},"front":{"src":"IGD Keluar_tiles/IGD Keluar_t_4f_%y_%x.jpg"},"height":365,"left":{"src":"IGD Keluar_tiles/IGD Keluar_t_4l_%y_%x.jpg"},"right":{"src":"IGD Keluar_tiles/IGD Keluar_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"IGD Keluar_tiles/IGD Keluar_t_4u_%y_%x.jpg"},"width":365}],"multilevel":true,"preview":{"src":"IGD Keluar_tiles/IGD Keluar_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 118,
+	        "pan": 151.54,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

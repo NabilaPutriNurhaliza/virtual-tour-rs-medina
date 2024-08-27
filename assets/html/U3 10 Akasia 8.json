@@ -1,0 +1,158 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U3 10 Akasia 8_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 359.99999999999994,
+	        "maxtilt": 26.568819882943004,
+	        "minpan": 0,
+	        "mintilt": -26.568819882943004
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.2445982079952953,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "97.2384,-12.0402",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.832678150385618,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "99.8329,-9.7563",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.4235723167657848,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "101.1865,-11.8962",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 6.9727449864149085,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "149.7681,-1.2407",
+	            "rotate": 1.2312588691711426,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 12.26408690214157,
+	            "href": "U3 9 Akasia 6.json",
+	            "opacity": "1.00;1.00",
+	            "position": "93.7414,12.0042",
+	            "rotate": 359.2669372558594,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 10.186889693140982,
+	            "href": "U2 8 Alamanda 8.json",
+	            "opacity": "1.00;1.00",
+	            "position": "272.0869,22.1732",
+	            "rotate": 351.20623779296875,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Turun ke Lantai 2"
+	            },
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.766054689884185,
+	            "href": "U3 11 Dialisis 1.json",
+	            "opacity": "1.00;1.00",
+	            "position": "199.1017,-4.0542",
+	            "rotate": 0,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Masuk"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U3 10 Akasia 8",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U3 10 Akasia 8_tiles/U3 10 Akasia 8_t_1b_%y_%x.jpg"},"down":{"src":"U3 10 Akasia 8_tiles/U3 10 Akasia 8_t_1d_%y_%x.jpg"},"front":{"src":"U3 10 Akasia 8_tiles/U3 10 Akasia 8_t_1f_%y_%x.jpg"},"height":3047,"left":{"src":"U3 10 Akasia 8_tiles/U3 10 Akasia 8_t_1l_%y_%x.jpg"},"right":{"src":"U3 10 Akasia 8_tiles/U3 10 Akasia 8_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 10 Akasia 8_tiles/U3 10 Akasia 8_t_1u_%y_%x.jpg"},"width":3047},{"back":{"src":"U3 10 Akasia 8_tiles/U3 10 Akasia 8_t_2b_%y_%x.jpg"},"down":{"src":"U3 10 Akasia 8_tiles/U3 10 Akasia 8_t_2d_%y_%x.jpg"},"front":{"src":"U3 10 Akasia 8_tiles/U3 10 Akasia 8_t_2f_%y_%x.jpg"},"height":1524,"left":{"src":"U3 10 Akasia 8_tiles/U3 10 Akasia 8_t_2l_%y_%x.jpg"},"right":{"src":"U3 10 Akasia 8_tiles/U3 10 Akasia 8_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 10 Akasia 8_tiles/U3 10 Akasia 8_t_2u_%y_%x.jpg"},"width":1524},{"back":{"src":"U3 10 Akasia 8_tiles/U3 10 Akasia 8_t_3b_%y_%x.jpg"},"down":{"src":"U3 10 Akasia 8_tiles/U3 10 Akasia 8_t_3d_%y_%x.jpg"},"front":{"src":"U3 10 Akasia 8_tiles/U3 10 Akasia 8_t_3f_%y_%x.jpg"},"height":762,"left":{"src":"U3 10 Akasia 8_tiles/U3 10 Akasia 8_t_3l_%y_%x.jpg"},"right":{"src":"U3 10 Akasia 8_tiles/U3 10 Akasia 8_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 10 Akasia 8_tiles/U3 10 Akasia 8_t_3u_%y_%x.jpg"},"width":762},{"back":{"src":"U3 10 Akasia 8_tiles/U3 10 Akasia 8_t_4b_%y_%x.jpg"},"down":{"src":"U3 10 Akasia 8_tiles/U3 10 Akasia 8_t_4d_%y_%x.jpg"},"front":{"src":"U3 10 Akasia 8_tiles/U3 10 Akasia 8_t_4f_%y_%x.jpg"},"height":381,"left":{"src":"U3 10 Akasia 8_tiles/U3 10 Akasia 8_t_4l_%y_%x.jpg"},"right":{"src":"U3 10 Akasia 8_tiles/U3 10 Akasia 8_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 10 Akasia 8_tiles/U3 10 Akasia 8_t_4u_%y_%x.jpg"},"width":381}],"multilevel":true,"preview":{"src":"U3 10 Akasia 8_tiles/U3 10 Akasia 8_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 105.71,
+	        "pan": 229.29,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

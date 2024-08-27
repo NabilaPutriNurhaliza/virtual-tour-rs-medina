@@ -1,0 +1,104 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U3 11 Dialisis 1_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 359.99999999999994,
+	        "maxtilt": 27.61739254777025,
+	        "minpan": 0,
+	        "mintilt": -27.61739254777025
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.448681086301803,
+	            "href": "U3 13 Dialisis 3.json",
+	            "opacity": "1.00;1.00",
+	            "position": "239.5497,-4.8807",
+	            "rotate": 0,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Masuk"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.8421628847718234,
+	            "href": "U3 10 Akasia 8.json",
+	            "opacity": "1.00;1.00",
+	            "position": "263.3185,-6.5074",
+	            "rotate": 0,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Keluar"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.214414939284324,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "93.4320,-8.6596",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U3 11 Dialisis 1",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U3 11 Dialisis 1_tiles/U3 11 Dialisis 1_t_1b_%y_%x.jpg"},"down":{"src":"U3 11 Dialisis 1_tiles/U3 11 Dialisis 1_t_1d_%y_%x.jpg"},"front":{"src":"U3 11 Dialisis 1_tiles/U3 11 Dialisis 1_t_1f_%y_%x.jpg"},"height":3138,"left":{"src":"U3 11 Dialisis 1_tiles/U3 11 Dialisis 1_t_1l_%y_%x.jpg"},"right":{"src":"U3 11 Dialisis 1_tiles/U3 11 Dialisis 1_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 11 Dialisis 1_tiles/U3 11 Dialisis 1_t_1u_%y_%x.jpg"},"width":3138},{"back":{"src":"U3 11 Dialisis 1_tiles/U3 11 Dialisis 1_t_2b_%y_%x.jpg"},"down":{"src":"U3 11 Dialisis 1_tiles/U3 11 Dialisis 1_t_2d_%y_%x.jpg"},"front":{"src":"U3 11 Dialisis 1_tiles/U3 11 Dialisis 1_t_2f_%y_%x.jpg"},"height":1569,"left":{"src":"U3 11 Dialisis 1_tiles/U3 11 Dialisis 1_t_2l_%y_%x.jpg"},"right":{"src":"U3 11 Dialisis 1_tiles/U3 11 Dialisis 1_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 11 Dialisis 1_tiles/U3 11 Dialisis 1_t_2u_%y_%x.jpg"},"width":1569},{"back":{"src":"U3 11 Dialisis 1_tiles/U3 11 Dialisis 1_t_3b_%y_%x.jpg"},"down":{"src":"U3 11 Dialisis 1_tiles/U3 11 Dialisis 1_t_3d_%y_%x.jpg"},"front":{"src":"U3 11 Dialisis 1_tiles/U3 11 Dialisis 1_t_3f_%y_%x.jpg"},"height":785,"left":{"src":"U3 11 Dialisis 1_tiles/U3 11 Dialisis 1_t_3l_%y_%x.jpg"},"right":{"src":"U3 11 Dialisis 1_tiles/U3 11 Dialisis 1_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 11 Dialisis 1_tiles/U3 11 Dialisis 1_t_3u_%y_%x.jpg"},"width":785},{"back":{"src":"U3 11 Dialisis 1_tiles/U3 11 Dialisis 1_t_4b_%y_%x.jpg"},"down":{"src":"U3 11 Dialisis 1_tiles/U3 11 Dialisis 1_t_4d_%y_%x.jpg"},"front":{"src":"U3 11 Dialisis 1_tiles/U3 11 Dialisis 1_t_4f_%y_%x.jpg"},"height":393,"left":{"src":"U3 11 Dialisis 1_tiles/U3 11 Dialisis 1_t_4l_%y_%x.jpg"},"right":{"src":"U3 11 Dialisis 1_tiles/U3 11 Dialisis 1_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 11 Dialisis 1_tiles/U3 11 Dialisis 1_t_4u_%y_%x.jpg"},"width":393}],"multilevel":true,"preview":{"src":"U3 11 Dialisis 1_tiles/U3 11 Dialisis 1_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 108.85,
+	        "pan": 235.92,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

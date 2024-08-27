@@ -1,0 +1,110 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "A1 2 Kemo 2_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 359.99999999999994,
+	        "maxtilt": 27.867780126349885,
+	        "minpan": 0,
+	        "mintilt": -27.867780126349885
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.020107887685298,
+	            "href": "A1 1 Kemo 1.json",
+	            "opacity": "1.00;1.00",
+	            "position": "114.6330,-7.7903",
+	            "rotate": 4.212890625,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Keluar"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 8.934428840875624,
+	            "href": "A1 4 Kemo 4.json",
+	            "opacity": "1.00;1.00",
+	            "position": "210.6227,22.7420",
+	            "rotate": 330.72979736328125,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.833637364208697,
+	            "href": "A1 3 Kemo 3.json",
+	            "opacity": "1.00;1.00",
+	            "position": "341.3567,1.1362",
+	            "rotate": 0,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Masuk"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "A1 2 Kemo 2",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"A1 2 Kemo 2_tiles/A1 2 Kemo 2_t_1b_%y_%x.jpg"},"down":{"src":"A1 2 Kemo 2_tiles/A1 2 Kemo 2_t_1d_%y_%x.jpg"},"front":{"src":"A1 2 Kemo 2_tiles/A1 2 Kemo 2_t_1f_%y_%x.jpg"},"height":2974,"left":{"src":"A1 2 Kemo 2_tiles/A1 2 Kemo 2_t_1l_%y_%x.jpg"},"right":{"src":"A1 2 Kemo 2_tiles/A1 2 Kemo 2_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"A1 2 Kemo 2_tiles/A1 2 Kemo 2_t_1u_%y_%x.jpg"},"width":2974},{"back":{"src":"A1 2 Kemo 2_tiles/A1 2 Kemo 2_t_2b_%y_%x.jpg"},"down":{"src":"A1 2 Kemo 2_tiles/A1 2 Kemo 2_t_2d_%y_%x.jpg"},"front":{"src":"A1 2 Kemo 2_tiles/A1 2 Kemo 2_t_2f_%y_%x.jpg"},"height":1487,"left":{"src":"A1 2 Kemo 2_tiles/A1 2 Kemo 2_t_2l_%y_%x.jpg"},"right":{"src":"A1 2 Kemo 2_tiles/A1 2 Kemo 2_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"A1 2 Kemo 2_tiles/A1 2 Kemo 2_t_2u_%y_%x.jpg"},"width":1487},{"back":{"src":"A1 2 Kemo 2_tiles/A1 2 Kemo 2_t_3b_%y_%x.jpg"},"down":{"src":"A1 2 Kemo 2_tiles/A1 2 Kemo 2_t_3d_%y_%x.jpg"},"front":{"src":"A1 2 Kemo 2_tiles/A1 2 Kemo 2_t_3f_%y_%x.jpg"},"height":744,"left":{"src":"A1 2 Kemo 2_tiles/A1 2 Kemo 2_t_3l_%y_%x.jpg"},"right":{"src":"A1 2 Kemo 2_tiles/A1 2 Kemo 2_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"A1 2 Kemo 2_tiles/A1 2 Kemo 2_t_3u_%y_%x.jpg"},"width":744},{"back":{"src":"A1 2 Kemo 2_tiles/A1 2 Kemo 2_t_4b_%y_%x.jpg"},"down":{"src":"A1 2 Kemo 2_tiles/A1 2 Kemo 2_t_4d_%y_%x.jpg"},"front":{"src":"A1 2 Kemo 2_tiles/A1 2 Kemo 2_t_4f_%y_%x.jpg"},"height":372,"left":{"src":"A1 2 Kemo 2_tiles/A1 2 Kemo 2_t_4l_%y_%x.jpg"},"right":{"src":"A1 2 Kemo 2_tiles/A1 2 Kemo 2_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"A1 2 Kemo 2_tiles/A1 2 Kemo 2_t_4u_%y_%x.jpg"},"width":372}],"multilevel":true,"preview":{"src":"A1 2 Kemo 2_tiles/A1 2 Kemo 2_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 131.6,
+	        "pan": 248.52,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

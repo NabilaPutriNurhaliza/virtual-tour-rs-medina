@@ -1,0 +1,190 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U1 4 Ruang Tunggu Poli_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 359.99999999999994,
+	        "maxtilt": 29.984912416189403,
+	        "minpan": 0,
+	        "mintilt": -29.984912416189403
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.855355210602283,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "49.7270,-5.4866",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.51721141859889,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "82.0004,-6.3033",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.155220130458474,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "124.9268,-8.5834",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.1703116036951537,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "130.7447,-5.4866",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.740651942789554,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "156.4534,-3.3767",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.063368961215018,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "225.4815,-2.5535",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.8641614168882368,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "260.5460,-8.1216",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.0583955943584438,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "306.0668,-7.4656",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.066922217607497,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "326.9011,-3.4942",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 11.182871684432028,
+	            "href": "U1 5 Pintu Keluar.json",
+	            "opacity": "1.00;1.00",
+	            "position": "112.0332,19.1099",
+	            "rotate": 358.0201416015625,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 11.99017435312271,
+	            "href": "U1 3 Pintu Masuk.json",
+	            "opacity": "1.00;1.00",
+	            "position": "280.7513,14.6493",
+	            "rotate": 2.8277463912963867,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U1 4 Ruang Tunggu Poli",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U1 4 Ruang Tunggu Poli_tiles/U1 4 Ruang Tunggu Poli_t_1b_%y_%x.jpg"},"down":{"src":"U1 4 Ruang Tunggu Poli_tiles/U1 4 Ruang Tunggu Poli_t_1d_%y_%x.jpg"},"front":{"src":"U1 4 Ruang Tunggu Poli_tiles/U1 4 Ruang Tunggu Poli_t_1f_%y_%x.jpg"},"height":2915,"left":{"src":"U1 4 Ruang Tunggu Poli_tiles/U1 4 Ruang Tunggu Poli_t_1l_%y_%x.jpg"},"right":{"src":"U1 4 Ruang Tunggu Poli_tiles/U1 4 Ruang Tunggu Poli_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 4 Ruang Tunggu Poli_tiles/U1 4 Ruang Tunggu Poli_t_1u_%y_%x.jpg"},"width":2915},{"back":{"src":"U1 4 Ruang Tunggu Poli_tiles/U1 4 Ruang Tunggu Poli_t_2b_%y_%x.jpg"},"down":{"src":"U1 4 Ruang Tunggu Poli_tiles/U1 4 Ruang Tunggu Poli_t_2d_%y_%x.jpg"},"front":{"src":"U1 4 Ruang Tunggu Poli_tiles/U1 4 Ruang Tunggu Poli_t_2f_%y_%x.jpg"},"height":1458,"left":{"src":"U1 4 Ruang Tunggu Poli_tiles/U1 4 Ruang Tunggu Poli_t_2l_%y_%x.jpg"},"right":{"src":"U1 4 Ruang Tunggu Poli_tiles/U1 4 Ruang Tunggu Poli_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 4 Ruang Tunggu Poli_tiles/U1 4 Ruang Tunggu Poli_t_2u_%y_%x.jpg"},"width":1458},{"back":{"src":"U1 4 Ruang Tunggu Poli_tiles/U1 4 Ruang Tunggu Poli_t_3b_%y_%x.jpg"},"down":{"src":"U1 4 Ruang Tunggu Poli_tiles/U1 4 Ruang Tunggu Poli_t_3d_%y_%x.jpg"},"front":{"src":"U1 4 Ruang Tunggu Poli_tiles/U1 4 Ruang Tunggu Poli_t_3f_%y_%x.jpg"},"height":729,"left":{"src":"U1 4 Ruang Tunggu Poli_tiles/U1 4 Ruang Tunggu Poli_t_3l_%y_%x.jpg"},"right":{"src":"U1 4 Ruang Tunggu Poli_tiles/U1 4 Ruang Tunggu Poli_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 4 Ruang Tunggu Poli_tiles/U1 4 Ruang Tunggu Poli_t_3u_%y_%x.jpg"},"width":729},{"back":{"src":"U1 4 Ruang Tunggu Poli_tiles/U1 4 Ruang Tunggu Poli_t_4b_%y_%x.jpg"},"down":{"src":"U1 4 Ruang Tunggu Poli_tiles/U1 4 Ruang Tunggu Poli_t_4d_%y_%x.jpg"},"front":{"src":"U1 4 Ruang Tunggu Poli_tiles/U1 4 Ruang Tunggu Poli_t_4f_%y_%x.jpg"},"height":365,"left":{"src":"U1 4 Ruang Tunggu Poli_tiles/U1 4 Ruang Tunggu Poli_t_4l_%y_%x.jpg"},"right":{"src":"U1 4 Ruang Tunggu Poli_tiles/U1 4 Ruang Tunggu Poli_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 4 Ruang Tunggu Poli_tiles/U1 4 Ruang Tunggu Poli_t_4u_%y_%x.jpg"},"width":365}],"multilevel":true,"preview":{"src":"U1 4 Ruang Tunggu Poli_tiles/U1 4 Ruang Tunggu Poli_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 113.95,
+	        "pan": 119.12,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

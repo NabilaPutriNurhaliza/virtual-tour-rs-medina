@@ -1,0 +1,267 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U1 3 Pintu Masuk_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 30.216102349977813,
+	        "minpan": 0,
+	        "mintilt": -30.216102349977813
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.2280818596482277,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "168.1214,-1.6273",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.0336199700832367,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "174.6324,-0.0388",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.2956706769764423,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "330.3133,1.9757",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.8000695295631886,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "336.2041,-2.8269",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.196642179042101,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "86.6961,-2.7109",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.8130477331578732,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "83.4794,-3.0201",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.5503127872943878,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "80.9603,-4.6020",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.2147349957376719,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "78.7900,-6.2151",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.3170953001827002,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "61.9313,-6.2534",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.145398072898388,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "57.6682,-4.0239",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.5585997477173805,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "49.7621,-0.6201",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.924927808344364,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "34.3761,1.3562",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 12.030516117811203,
+	            "href": "U1 4 Ruang Tunggu Poli.json",
+	            "opacity": "1.00;1.00",
+	            "position": "66.8145,14.5967",
+	            "rotate": 0.9130028486251831,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 12.370339930057526,
+	            "href": "U1 10 Poli Dalam 1.json",
+	            "opacity": "1.00;1.00",
+	            "position": "159.1302,19.0675",
+	            "rotate": 2.989708662033081,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 11.279484182596207,
+	            "href": "U1 9 Poli THT KL 1.json",
+	            "opacity": "1.00;1.00",
+	            "position": "347.6370,17.8120",
+	            "rotate": 0,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.480736441910267,
+	            "href": "U1 2 Selasar Depan 2.json",
+	            "opacity": "1.00;1.00",
+	            "position": "266.3279,-6.0619",
+	            "rotate": 0,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Keluar"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U1 3 Pintu Masuk",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U1 3 Pintu Masuk_tiles/U1 3 Pintu Masuk_t_1b_%y_%x.jpg"},"down":{"src":"U1 3 Pintu Masuk_tiles/U1 3 Pintu Masuk_t_1d_%y_%x.jpg"},"front":{"src":"U1 3 Pintu Masuk_tiles/U1 3 Pintu Masuk_t_1f_%y_%x.jpg"},"height":2956,"left":{"src":"U1 3 Pintu Masuk_tiles/U1 3 Pintu Masuk_t_1l_%y_%x.jpg"},"right":{"src":"U1 3 Pintu Masuk_tiles/U1 3 Pintu Masuk_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 3 Pintu Masuk_tiles/U1 3 Pintu Masuk_t_1u_%y_%x.jpg"},"width":2956},{"back":{"src":"U1 3 Pintu Masuk_tiles/U1 3 Pintu Masuk_t_2b_%y_%x.jpg"},"down":{"src":"U1 3 Pintu Masuk_tiles/U1 3 Pintu Masuk_t_2d_%y_%x.jpg"},"front":{"src":"U1 3 Pintu Masuk_tiles/U1 3 Pintu Masuk_t_2f_%y_%x.jpg"},"height":1478,"left":{"src":"U1 3 Pintu Masuk_tiles/U1 3 Pintu Masuk_t_2l_%y_%x.jpg"},"right":{"src":"U1 3 Pintu Masuk_tiles/U1 3 Pintu Masuk_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 3 Pintu Masuk_tiles/U1 3 Pintu Masuk_t_2u_%y_%x.jpg"},"width":1478},{"back":{"src":"U1 3 Pintu Masuk_tiles/U1 3 Pintu Masuk_t_3b_%y_%x.jpg"},"down":{"src":"U1 3 Pintu Masuk_tiles/U1 3 Pintu Masuk_t_3d_%y_%x.jpg"},"front":{"src":"U1 3 Pintu Masuk_tiles/U1 3 Pintu Masuk_t_3f_%y_%x.jpg"},"height":739,"left":{"src":"U1 3 Pintu Masuk_tiles/U1 3 Pintu Masuk_t_3l_%y_%x.jpg"},"right":{"src":"U1 3 Pintu Masuk_tiles/U1 3 Pintu Masuk_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 3 Pintu Masuk_tiles/U1 3 Pintu Masuk_t_3u_%y_%x.jpg"},"width":739},{"back":{"src":"U1 3 Pintu Masuk_tiles/U1 3 Pintu Masuk_t_4b_%y_%x.jpg"},"down":{"src":"U1 3 Pintu Masuk_tiles/U1 3 Pintu Masuk_t_4d_%y_%x.jpg"},"front":{"src":"U1 3 Pintu Masuk_tiles/U1 3 Pintu Masuk_t_4f_%y_%x.jpg"},"height":370,"left":{"src":"U1 3 Pintu Masuk_tiles/U1 3 Pintu Masuk_t_4l_%y_%x.jpg"},"right":{"src":"U1 3 Pintu Masuk_tiles/U1 3 Pintu Masuk_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 3 Pintu Masuk_tiles/U1 3 Pintu Masuk_t_4u_%y_%x.jpg"},"width":370}],"multilevel":true,"preview":{"src":"U1 3 Pintu Masuk_tiles/U1 3 Pintu Masuk_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 126,
+	        "pan": 68.62,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

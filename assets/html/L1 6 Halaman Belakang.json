@@ -1,0 +1,141 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "L1 6 Halaman Belakang_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 31.326553165592042,
+	        "minpan": 0,
+	        "mintilt": -31.326553165592042
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.6537692174315453,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "194.6979,0.0199",
+	            "rotate": 0,
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Ini adalah pintu keluar\nMohon masuk lewat pintu depan"
+	            },
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 6.806857734918594,
+	            "href": "L1 5 Masuk Parkiran 2.json",
+	            "opacity": "1.00;1.00",
+	            "position": "259.3450,10.8808",
+	            "rotate": 0,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.9891496151685715,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "284.0805,11.2644",
+	            "rotate": 359.1930847167969,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.3115501925349236,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "327.0591,-6.4847",
+	            "rotate": 355.62237548828125,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.2834986448287964,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "342.3943,0.5377",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 10.158518627285957,
+	            "href": "L1 7 Gedung Tulip.json",
+	            "opacity": "1.00;1.00",
+	            "position": "101.8101,17.0264",
+	            "rotate": 0.07680394500494003,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "L1 6 Halaman Belakang",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"L1 6 Halaman Belakang_tiles/L1 6 Halaman Belakang_t_1b_%y_%x.jpg"},"down":{"src":"L1 6 Halaman Belakang_tiles/L1 6 Halaman Belakang_t_1d_%y_%x.jpg"},"front":{"src":"L1 6 Halaman Belakang_tiles/L1 6 Halaman Belakang_t_1f_%y_%x.jpg"},"height":2876,"left":{"src":"L1 6 Halaman Belakang_tiles/L1 6 Halaman Belakang_t_1l_%y_%x.jpg"},"right":{"src":"L1 6 Halaman Belakang_tiles/L1 6 Halaman Belakang_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"L1 6 Halaman Belakang_tiles/L1 6 Halaman Belakang_t_1u_%y_%x.jpg"},"width":2876},{"back":{"src":"L1 6 Halaman Belakang_tiles/L1 6 Halaman Belakang_t_2b_%y_%x.jpg"},"down":{"src":"L1 6 Halaman Belakang_tiles/L1 6 Halaman Belakang_t_2d_%y_%x.jpg"},"front":{"src":"L1 6 Halaman Belakang_tiles/L1 6 Halaman Belakang_t_2f_%y_%x.jpg"},"height":1438,"left":{"src":"L1 6 Halaman Belakang_tiles/L1 6 Halaman Belakang_t_2l_%y_%x.jpg"},"right":{"src":"L1 6 Halaman Belakang_tiles/L1 6 Halaman Belakang_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"L1 6 Halaman Belakang_tiles/L1 6 Halaman Belakang_t_2u_%y_%x.jpg"},"width":1438},{"back":{"src":"L1 6 Halaman Belakang_tiles/L1 6 Halaman Belakang_t_3b_%y_%x.jpg"},"down":{"src":"L1 6 Halaman Belakang_tiles/L1 6 Halaman Belakang_t_3d_%y_%x.jpg"},"front":{"src":"L1 6 Halaman Belakang_tiles/L1 6 Halaman Belakang_t_3f_%y_%x.jpg"},"height":719,"left":{"src":"L1 6 Halaman Belakang_tiles/L1 6 Halaman Belakang_t_3l_%y_%x.jpg"},"right":{"src":"L1 6 Halaman Belakang_tiles/L1 6 Halaman Belakang_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"L1 6 Halaman Belakang_tiles/L1 6 Halaman Belakang_t_3u_%y_%x.jpg"},"width":719},{"back":{"src":"L1 6 Halaman Belakang_tiles/L1 6 Halaman Belakang_t_4b_%y_%x.jpg"},"down":{"src":"L1 6 Halaman Belakang_tiles/L1 6 Halaman Belakang_t_4d_%y_%x.jpg"},"front":{"src":"L1 6 Halaman Belakang_tiles/L1 6 Halaman Belakang_t_4f_%y_%x.jpg"},"height":360,"left":{"src":"L1 6 Halaman Belakang_tiles/L1 6 Halaman Belakang_t_4l_%y_%x.jpg"},"right":{"src":"L1 6 Halaman Belakang_tiles/L1 6 Halaman Belakang_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"L1 6 Halaman Belakang_tiles/L1 6 Halaman Belakang_t_4u_%y_%x.jpg"},"width":360}],"multilevel":true,"preview":{"src":"L1 6 Halaman Belakang_tiles/L1 6 Halaman Belakang_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 110,
+	        "pan": 104.34,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

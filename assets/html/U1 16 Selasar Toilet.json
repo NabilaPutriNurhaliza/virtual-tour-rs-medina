@@ -1,0 +1,127 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U1 16 Selasar Toilet_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 27.74603708318445,
+	        "minpan": 0,
+	        "mintilt": -27.74603708318445
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 10.94318613409996,
+	            "href": "U2 1 Ruang Operasi.json",
+	            "opacity": "1.00;1.00",
+	            "position": "86.4328,13.4218",
+	            "rotate": 4.652218818664551,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Naik ke Lantai 2"
+	            },
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 10.438107401132584,
+	            "href": "U1 15 UGD Transit 3.json",
+	            "opacity": "1.00;1.00",
+	            "position": "50.2949,21.5387",
+	            "rotate": 326.5785827636719,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Menuju ke UGD Transit"
+	            },
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.041794888675213,
+	            "href": "U1 7 Radiologi.json",
+	            "opacity": "1.00;1.00",
+	            "position": "284.0360,2.1970",
+	            "rotate": 0,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Keluar"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.252179987728596,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "307.9541,0.7078",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U1 16 Selasar Toilet",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U1 16 Selasar Toilet_tiles/U1 16 Selasar Toilet_t_1b_%y_%x.jpg"},"down":{"src":"U1 16 Selasar Toilet_tiles/U1 16 Selasar Toilet_t_1d_%y_%x.jpg"},"front":{"src":"U1 16 Selasar Toilet_tiles/U1 16 Selasar Toilet_t_1f_%y_%x.jpg"},"height":3075,"left":{"src":"U1 16 Selasar Toilet_tiles/U1 16 Selasar Toilet_t_1l_%y_%x.jpg"},"right":{"src":"U1 16 Selasar Toilet_tiles/U1 16 Selasar Toilet_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 16 Selasar Toilet_tiles/U1 16 Selasar Toilet_t_1u_%y_%x.jpg"},"width":3075},{"back":{"src":"U1 16 Selasar Toilet_tiles/U1 16 Selasar Toilet_t_2b_%y_%x.jpg"},"down":{"src":"U1 16 Selasar Toilet_tiles/U1 16 Selasar Toilet_t_2d_%y_%x.jpg"},"front":{"src":"U1 16 Selasar Toilet_tiles/U1 16 Selasar Toilet_t_2f_%y_%x.jpg"},"height":1538,"left":{"src":"U1 16 Selasar Toilet_tiles/U1 16 Selasar Toilet_t_2l_%y_%x.jpg"},"right":{"src":"U1 16 Selasar Toilet_tiles/U1 16 Selasar Toilet_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 16 Selasar Toilet_tiles/U1 16 Selasar Toilet_t_2u_%y_%x.jpg"},"width":1538},{"back":{"src":"U1 16 Selasar Toilet_tiles/U1 16 Selasar Toilet_t_3b_%y_%x.jpg"},"down":{"src":"U1 16 Selasar Toilet_tiles/U1 16 Selasar Toilet_t_3d_%y_%x.jpg"},"front":{"src":"U1 16 Selasar Toilet_tiles/U1 16 Selasar Toilet_t_3f_%y_%x.jpg"},"height":769,"left":{"src":"U1 16 Selasar Toilet_tiles/U1 16 Selasar Toilet_t_3l_%y_%x.jpg"},"right":{"src":"U1 16 Selasar Toilet_tiles/U1 16 Selasar Toilet_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 16 Selasar Toilet_tiles/U1 16 Selasar Toilet_t_3u_%y_%x.jpg"},"width":769},{"back":{"src":"U1 16 Selasar Toilet_tiles/U1 16 Selasar Toilet_t_4b_%y_%x.jpg"},"down":{"src":"U1 16 Selasar Toilet_tiles/U1 16 Selasar Toilet_t_4d_%y_%x.jpg"},"front":{"src":"U1 16 Selasar Toilet_tiles/U1 16 Selasar Toilet_t_4f_%y_%x.jpg"},"height":385,"left":{"src":"U1 16 Selasar Toilet_tiles/U1 16 Selasar Toilet_t_4l_%y_%x.jpg"},"right":{"src":"U1 16 Selasar Toilet_tiles/U1 16 Selasar Toilet_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 16 Selasar Toilet_tiles/U1 16 Selasar Toilet_t_4u_%y_%x.jpg"},"width":385}],"multilevel":true,"preview":{"src":"U1 16 Selasar Toilet_tiles/U1 16 Selasar Toilet_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 121.24,
+	        "pan": 67.19,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

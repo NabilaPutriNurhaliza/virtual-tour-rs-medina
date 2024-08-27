@@ -1,0 +1,106 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "L1 4 Masuk Parkiran_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 359.99999999999994,
+	        "maxtilt": 31.7158662906718,
+	        "minpan": 0,
+	        "mintilt": -31.7158662906718
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.698407091200351,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "223.1944,13.9609",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.19766192138195,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "319.6826,0.5633",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 12.450871914625166,
+	            "href": "L1 5 Masuk Parkiran 2.json",
+	            "opacity": "1.00;1.00",
+	            "position": "325.6779,15.0920",
+	            "rotate": 0,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 13.41634377837181,
+	            "href": "L1 3 Pertigaan Masuk.json",
+	            "opacity": "1.00;1.00",
+	            "position": "109.8469,18.1937",
+	            "rotate": 0,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "L1 4 Masuk Parkiran",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"L1 4 Masuk Parkiran_tiles/L1 4 Masuk Parkiran_t_1b_%y_%x.jpg"},"down":{"src":"L1 4 Masuk Parkiran_tiles/L1 4 Masuk Parkiran_t_1d_%y_%x.jpg"},"front":{"src":"L1 4 Masuk Parkiran_tiles/L1 4 Masuk Parkiran_t_1f_%y_%x.jpg"},"height":2847,"left":{"src":"L1 4 Masuk Parkiran_tiles/L1 4 Masuk Parkiran_t_1l_%y_%x.jpg"},"right":{"src":"L1 4 Masuk Parkiran_tiles/L1 4 Masuk Parkiran_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"L1 4 Masuk Parkiran_tiles/L1 4 Masuk Parkiran_t_1u_%y_%x.jpg"},"width":2847},{"back":{"src":"L1 4 Masuk Parkiran_tiles/L1 4 Masuk Parkiran_t_2b_%y_%x.jpg"},"down":{"src":"L1 4 Masuk Parkiran_tiles/L1 4 Masuk Parkiran_t_2d_%y_%x.jpg"},"front":{"src":"L1 4 Masuk Parkiran_tiles/L1 4 Masuk Parkiran_t_2f_%y_%x.jpg"},"height":1424,"left":{"src":"L1 4 Masuk Parkiran_tiles/L1 4 Masuk Parkiran_t_2l_%y_%x.jpg"},"right":{"src":"L1 4 Masuk Parkiran_tiles/L1 4 Masuk Parkiran_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"L1 4 Masuk Parkiran_tiles/L1 4 Masuk Parkiran_t_2u_%y_%x.jpg"},"width":1424},{"back":{"src":"L1 4 Masuk Parkiran_tiles/L1 4 Masuk Parkiran_t_3b_%y_%x.jpg"},"down":{"src":"L1 4 Masuk Parkiran_tiles/L1 4 Masuk Parkiran_t_3d_%y_%x.jpg"},"front":{"src":"L1 4 Masuk Parkiran_tiles/L1 4 Masuk Parkiran_t_3f_%y_%x.jpg"},"height":712,"left":{"src":"L1 4 Masuk Parkiran_tiles/L1 4 Masuk Parkiran_t_3l_%y_%x.jpg"},"right":{"src":"L1 4 Masuk Parkiran_tiles/L1 4 Masuk Parkiran_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"L1 4 Masuk Parkiran_tiles/L1 4 Masuk Parkiran_t_3u_%y_%x.jpg"},"width":712},{"back":{"src":"L1 4 Masuk Parkiran_tiles/L1 4 Masuk Parkiran_t_4b_%y_%x.jpg"},"down":{"src":"L1 4 Masuk Parkiran_tiles/L1 4 Masuk Parkiran_t_4d_%y_%x.jpg"},"front":{"src":"L1 4 Masuk Parkiran_tiles/L1 4 Masuk Parkiran_t_4f_%y_%x.jpg"},"height":356,"left":{"src":"L1 4 Masuk Parkiran_tiles/L1 4 Masuk Parkiran_t_4l_%y_%x.jpg"},"right":{"src":"L1 4 Masuk Parkiran_tiles/L1 4 Masuk Parkiran_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"L1 4 Masuk Parkiran_tiles/L1 4 Masuk Parkiran_t_4u_%y_%x.jpg"},"width":356}],"multilevel":true,"preview":{"src":"L1 4 Masuk Parkiran_tiles/L1 4 Masuk Parkiran_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 108,
+	        "pan": 309.2,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

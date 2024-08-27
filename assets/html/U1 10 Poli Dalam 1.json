@@ -1,0 +1,130 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U1 10 Poli Dalam 1_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 28.320750074566043,
+	        "minpan": 0,
+	        "mintilt": -28.320750074566043
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.552745036780835,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "119.0440,4.6189",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.980110570788384,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "203.1626,2.5216",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.7269972711801531,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "221.6055,1.5063",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.4680722355842593,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "223.8927,0.0545",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 9.383311271667482,
+	            "href": "U1 3 Pintu Masuk.json",
+	            "opacity": "1.00;1.00",
+	            "position": "220.9520,17.7606",
+	            "rotate": 7.54661226272583,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 7.279348969459535,
+	            "href": "U1 11 Poli Dalam 2.json",
+	            "opacity": "1.00;1.00",
+	            "position": "67.9629,23.3560",
+	            "rotate": 357.2586975097656,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U1 10 Poli Dalam 1",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U1 10 Poli Dalam 1_tiles/U1 10 Poli Dalam 1_t_1b_%y_%x.jpg"},"down":{"src":"U1 10 Poli Dalam 1_tiles/U1 10 Poli Dalam 1_t_1d_%y_%x.jpg"},"front":{"src":"U1 10 Poli Dalam 1_tiles/U1 10 Poli Dalam 1_t_1f_%y_%x.jpg"},"height":3156,"left":{"src":"U1 10 Poli Dalam 1_tiles/U1 10 Poli Dalam 1_t_1l_%y_%x.jpg"},"right":{"src":"U1 10 Poli Dalam 1_tiles/U1 10 Poli Dalam 1_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 10 Poli Dalam 1_tiles/U1 10 Poli Dalam 1_t_1u_%y_%x.jpg"},"width":3156},{"back":{"src":"U1 10 Poli Dalam 1_tiles/U1 10 Poli Dalam 1_t_2b_%y_%x.jpg"},"down":{"src":"U1 10 Poli Dalam 1_tiles/U1 10 Poli Dalam 1_t_2d_%y_%x.jpg"},"front":{"src":"U1 10 Poli Dalam 1_tiles/U1 10 Poli Dalam 1_t_2f_%y_%x.jpg"},"height":1578,"left":{"src":"U1 10 Poli Dalam 1_tiles/U1 10 Poli Dalam 1_t_2l_%y_%x.jpg"},"right":{"src":"U1 10 Poli Dalam 1_tiles/U1 10 Poli Dalam 1_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 10 Poli Dalam 1_tiles/U1 10 Poli Dalam 1_t_2u_%y_%x.jpg"},"width":1578},{"back":{"src":"U1 10 Poli Dalam 1_tiles/U1 10 Poli Dalam 1_t_3b_%y_%x.jpg"},"down":{"src":"U1 10 Poli Dalam 1_tiles/U1 10 Poli Dalam 1_t_3d_%y_%x.jpg"},"front":{"src":"U1 10 Poli Dalam 1_tiles/U1 10 Poli Dalam 1_t_3f_%y_%x.jpg"},"height":789,"left":{"src":"U1 10 Poli Dalam 1_tiles/U1 10 Poli Dalam 1_t_3l_%y_%x.jpg"},"right":{"src":"U1 10 Poli Dalam 1_tiles/U1 10 Poli Dalam 1_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 10 Poli Dalam 1_tiles/U1 10 Poli Dalam 1_t_3u_%y_%x.jpg"},"width":789},{"back":{"src":"U1 10 Poli Dalam 1_tiles/U1 10 Poli Dalam 1_t_4b_%y_%x.jpg"},"down":{"src":"U1 10 Poli Dalam 1_tiles/U1 10 Poli Dalam 1_t_4d_%y_%x.jpg"},"front":{"src":"U1 10 Poli Dalam 1_tiles/U1 10 Poli Dalam 1_t_4f_%y_%x.jpg"},"height":395,"left":{"src":"U1 10 Poli Dalam 1_tiles/U1 10 Poli Dalam 1_t_4l_%y_%x.jpg"},"right":{"src":"U1 10 Poli Dalam 1_tiles/U1 10 Poli Dalam 1_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 10 Poli Dalam 1_tiles/U1 10 Poli Dalam 1_t_4u_%y_%x.jpg"},"width":395}],"multilevel":true,"preview":{"src":"U1 10 Poli Dalam 1_tiles/U1 10 Poli Dalam 1_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 90.96,
+	        "pan": 79.01,
+	        "tilt": 0.03
+	    }
+},
+"version": "4.1"
+}
+}

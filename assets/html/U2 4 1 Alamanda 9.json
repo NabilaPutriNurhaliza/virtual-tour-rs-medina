@@ -1,0 +1,105 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U2 4 1 Alamanda 9_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 27.48969647504776,
+	        "minpan": 0,
+	        "mintilt": -27.48969647504776
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.732129834592342,
+	            "href": "U2 4 ESWL.json",
+	            "opacity": "1.00;1.00",
+	            "position": "217.8829,-5.5862",
+	            "rotate": 0,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Keluar"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.095643252134323,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "277.0610,-7.3566",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.9024310559034348,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "300.2615,-10.3107",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.856019057333469,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "98.1818,-8.7848",
+	            "rotate": 1.3971810340881348,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U2 4 1 Alamanda 9",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U2 4 1 Alamanda 9_tiles/U2 4 1 Alamanda 9_t_1b_%y_%x.jpg"},"down":{"src":"U2 4 1 Alamanda 9_tiles/U2 4 1 Alamanda 9_t_1d_%y_%x.jpg"},"front":{"src":"U2 4 1 Alamanda 9_tiles/U2 4 1 Alamanda 9_t_1f_%y_%x.jpg"},"height":3067,"left":{"src":"U2 4 1 Alamanda 9_tiles/U2 4 1 Alamanda 9_t_1l_%y_%x.jpg"},"right":{"src":"U2 4 1 Alamanda 9_tiles/U2 4 1 Alamanda 9_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 4 1 Alamanda 9_tiles/U2 4 1 Alamanda 9_t_1u_%y_%x.jpg"},"width":3067},{"back":{"src":"U2 4 1 Alamanda 9_tiles/U2 4 1 Alamanda 9_t_2b_%y_%x.jpg"},"down":{"src":"U2 4 1 Alamanda 9_tiles/U2 4 1 Alamanda 9_t_2d_%y_%x.jpg"},"front":{"src":"U2 4 1 Alamanda 9_tiles/U2 4 1 Alamanda 9_t_2f_%y_%x.jpg"},"height":1534,"left":{"src":"U2 4 1 Alamanda 9_tiles/U2 4 1 Alamanda 9_t_2l_%y_%x.jpg"},"right":{"src":"U2 4 1 Alamanda 9_tiles/U2 4 1 Alamanda 9_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 4 1 Alamanda 9_tiles/U2 4 1 Alamanda 9_t_2u_%y_%x.jpg"},"width":1534},{"back":{"src":"U2 4 1 Alamanda 9_tiles/U2 4 1 Alamanda 9_t_3b_%y_%x.jpg"},"down":{"src":"U2 4 1 Alamanda 9_tiles/U2 4 1 Alamanda 9_t_3d_%y_%x.jpg"},"front":{"src":"U2 4 1 Alamanda 9_tiles/U2 4 1 Alamanda 9_t_3f_%y_%x.jpg"},"height":767,"left":{"src":"U2 4 1 Alamanda 9_tiles/U2 4 1 Alamanda 9_t_3l_%y_%x.jpg"},"right":{"src":"U2 4 1 Alamanda 9_tiles/U2 4 1 Alamanda 9_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 4 1 Alamanda 9_tiles/U2 4 1 Alamanda 9_t_3u_%y_%x.jpg"},"width":767},{"back":{"src":"U2 4 1 Alamanda 9_tiles/U2 4 1 Alamanda 9_t_4b_%y_%x.jpg"},"down":{"src":"U2 4 1 Alamanda 9_tiles/U2 4 1 Alamanda 9_t_4d_%y_%x.jpg"},"front":{"src":"U2 4 1 Alamanda 9_tiles/U2 4 1 Alamanda 9_t_4f_%y_%x.jpg"},"height":384,"left":{"src":"U2 4 1 Alamanda 9_tiles/U2 4 1 Alamanda 9_t_4l_%y_%x.jpg"},"right":{"src":"U2 4 1 Alamanda 9_tiles/U2 4 1 Alamanda 9_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 4 1 Alamanda 9_tiles/U2 4 1 Alamanda 9_t_4u_%y_%x.jpg"},"width":384}],"multilevel":true,"preview":{"src":"U2 4 1 Alamanda 9_tiles/U2 4 1 Alamanda 9_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 110.47,
+	        "pan": 295.85,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

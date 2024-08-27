@@ -1,0 +1,106 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "IGD Dalam_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 30.899664560776305,
+	        "minpan": 0,
+	        "mintilt": -30.899664560776305
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 6.518172919750214,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "39.9696,-9.8361",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.404849372804165,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "103.6322,-6.1628",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 12.782262861728668,
+	            "href": "IGD Masuk.json",
+	            "opacity": "1.00;1.00",
+	            "position": "255.5091,16.0934",
+	            "rotate": 359.2122497558594,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 12.534724473953247,
+	            "href": "IGD Tengah.json",
+	            "opacity": "1.00;1.00",
+	            "position": "137.3566,15.3338",
+	            "rotate": 359.16143798828125,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "IGD Dalam",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"IGD Dalam_tiles/IGD Dalam_t_1b_%y_%x.jpg"},"down":{"src":"IGD Dalam_tiles/IGD Dalam_t_1d_%y_%x.jpg"},"front":{"src":"IGD Dalam_tiles/IGD Dalam_t_1f_%y_%x.jpg"},"height":2935,"left":{"src":"IGD Dalam_tiles/IGD Dalam_t_1l_%y_%x.jpg"},"right":{"src":"IGD Dalam_tiles/IGD Dalam_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"IGD Dalam_tiles/IGD Dalam_t_1u_%y_%x.jpg"},"width":2935},{"back":{"src":"IGD Dalam_tiles/IGD Dalam_t_2b_%y_%x.jpg"},"down":{"src":"IGD Dalam_tiles/IGD Dalam_t_2d_%y_%x.jpg"},"front":{"src":"IGD Dalam_tiles/IGD Dalam_t_2f_%y_%x.jpg"},"height":1468,"left":{"src":"IGD Dalam_tiles/IGD Dalam_t_2l_%y_%x.jpg"},"right":{"src":"IGD Dalam_tiles/IGD Dalam_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"IGD Dalam_tiles/IGD Dalam_t_2u_%y_%x.jpg"},"width":1468},{"back":{"src":"IGD Dalam_tiles/IGD Dalam_t_3b_%y_%x.jpg"},"down":{"src":"IGD Dalam_tiles/IGD Dalam_t_3d_%y_%x.jpg"},"front":{"src":"IGD Dalam_tiles/IGD Dalam_t_3f_%y_%x.jpg"},"height":734,"left":{"src":"IGD Dalam_tiles/IGD Dalam_t_3l_%y_%x.jpg"},"right":{"src":"IGD Dalam_tiles/IGD Dalam_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"IGD Dalam_tiles/IGD Dalam_t_3u_%y_%x.jpg"},"width":734},{"back":{"src":"IGD Dalam_tiles/IGD Dalam_t_4b_%y_%x.jpg"},"down":{"src":"IGD Dalam_tiles/IGD Dalam_t_4d_%y_%x.jpg"},"front":{"src":"IGD Dalam_tiles/IGD Dalam_t_4f_%y_%x.jpg"},"height":367,"left":{"src":"IGD Dalam_tiles/IGD Dalam_t_4l_%y_%x.jpg"},"right":{"src":"IGD Dalam_tiles/IGD Dalam_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"IGD Dalam_tiles/IGD Dalam_t_4u_%y_%x.jpg"},"width":367}],"multilevel":true,"preview":{"src":"IGD Dalam_tiles/IGD Dalam_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 122,
+	        "pan": 121.66,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

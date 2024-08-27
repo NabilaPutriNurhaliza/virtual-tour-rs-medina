@@ -1,0 +1,136 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U3 7 Anggrek_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 28.939570358928503,
+	        "minpan": 0,
+	        "mintilt": -28.939570358928503
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.808450356125832,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "12.5177,-5.8138",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.559113942086697,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "53.8957,-10.5800",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.347563363611698,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "96.3168,-8.2112",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.12971206009388,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "146.6194,-8.5515",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.564432367682457,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "206.1945,-15.7410",
+	            "rotate": 358.876708984375,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.459822192788124,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "306.6838,-4.8947",
+	            "rotate": 358.7269592285156,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 10.273269563913345,
+	            "href": "U3 6 Akasia 4.json",
+	            "opacity": "1.00;1.00",
+	            "position": "259.1629,18.4233",
+	            "rotate": 319.32537841796875,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U3 7 Anggrek",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U3 7 Anggrek_tiles/U3 7 Anggrek_t_1b_%y_%x.jpg"},"down":{"src":"U3 7 Anggrek_tiles/U3 7 Anggrek_t_1d_%y_%x.jpg"},"front":{"src":"U3 7 Anggrek_tiles/U3 7 Anggrek_t_1f_%y_%x.jpg"},"height":2966,"left":{"src":"U3 7 Anggrek_tiles/U3 7 Anggrek_t_1l_%y_%x.jpg"},"right":{"src":"U3 7 Anggrek_tiles/U3 7 Anggrek_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 7 Anggrek_tiles/U3 7 Anggrek_t_1u_%y_%x.jpg"},"width":2966},{"back":{"src":"U3 7 Anggrek_tiles/U3 7 Anggrek_t_2b_%y_%x.jpg"},"down":{"src":"U3 7 Anggrek_tiles/U3 7 Anggrek_t_2d_%y_%x.jpg"},"front":{"src":"U3 7 Anggrek_tiles/U3 7 Anggrek_t_2f_%y_%x.jpg"},"height":1483,"left":{"src":"U3 7 Anggrek_tiles/U3 7 Anggrek_t_2l_%y_%x.jpg"},"right":{"src":"U3 7 Anggrek_tiles/U3 7 Anggrek_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 7 Anggrek_tiles/U3 7 Anggrek_t_2u_%y_%x.jpg"},"width":1483},{"back":{"src":"U3 7 Anggrek_tiles/U3 7 Anggrek_t_3b_%y_%x.jpg"},"down":{"src":"U3 7 Anggrek_tiles/U3 7 Anggrek_t_3d_%y_%x.jpg"},"front":{"src":"U3 7 Anggrek_tiles/U3 7 Anggrek_t_3f_%y_%x.jpg"},"height":742,"left":{"src":"U3 7 Anggrek_tiles/U3 7 Anggrek_t_3l_%y_%x.jpg"},"right":{"src":"U3 7 Anggrek_tiles/U3 7 Anggrek_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 7 Anggrek_tiles/U3 7 Anggrek_t_3u_%y_%x.jpg"},"width":742},{"back":{"src":"U3 7 Anggrek_tiles/U3 7 Anggrek_t_4b_%y_%x.jpg"},"down":{"src":"U3 7 Anggrek_tiles/U3 7 Anggrek_t_4d_%y_%x.jpg"},"front":{"src":"U3 7 Anggrek_tiles/U3 7 Anggrek_t_4f_%y_%x.jpg"},"height":371,"left":{"src":"U3 7 Anggrek_tiles/U3 7 Anggrek_t_4l_%y_%x.jpg"},"right":{"src":"U3 7 Anggrek_tiles/U3 7 Anggrek_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 7 Anggrek_tiles/U3 7 Anggrek_t_4u_%y_%x.jpg"},"width":371}],"multilevel":true,"preview":{"src":"U3 7 Anggrek_tiles/U3 7 Anggrek_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 112.82,
+	        "pan": 168.02,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

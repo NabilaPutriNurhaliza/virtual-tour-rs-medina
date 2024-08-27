@@ -1,0 +1,201 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U3 4 Akasia 1_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 29.0236371966481,
+	        "minpan": 0,
+	        "mintilt": -29.0236371966481
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 8.72121199965477,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "64.8000,4.6564",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.8939864560961723,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "138.7429,3.6332",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.102535869926214,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "125.3714,-0.5143",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.7155695520341396,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "124.6857,2.9498",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.4534230157732964,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "123.0476,0.5143",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 7.807305604219437,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "159.4286,2.7218",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.686688795685768,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "318.4000,1.1998",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 6.7213670164346695,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "343.3905,2.4937",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 9.810347780585289,
+	            "href": "U3 3 NICU.json",
+	            "opacity": "1.00;1.00",
+	            "position": "261.8286,25.2862",
+	            "rotate": 343.19671630859375,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 10.007091164588928,
+	            "href": "U3 5 Akasia 3.json",
+	            "opacity": "1.00;1.00",
+	            "position": "122.4000,16.6397",
+	            "rotate": 355.7692565917969,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 8.236562311649323,
+	            "href": "U2 1 Ruang Operasi.json",
+	            "opacity": "1.00;1.00",
+	            "position": "102.2857,22.8088",
+	            "rotate": 30.503204345703125,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Turun ke Lantai 2"
+	            },
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U3 4 Akasia 1",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U3 4 Akasia 1_tiles/U3 4 Akasia 1_t_1b_%y_%x.jpg"},"down":{"src":"U3 4 Akasia 1_tiles/U3 4 Akasia 1_t_1d_%y_%x.jpg"},"front":{"src":"U3 4 Akasia 1_tiles/U3 4 Akasia 1_t_1f_%y_%x.jpg"},"height":3008,"left":{"src":"U3 4 Akasia 1_tiles/U3 4 Akasia 1_t_1l_%y_%x.jpg"},"right":{"src":"U3 4 Akasia 1_tiles/U3 4 Akasia 1_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 4 Akasia 1_tiles/U3 4 Akasia 1_t_1u_%y_%x.jpg"},"width":3008},{"back":{"src":"U3 4 Akasia 1_tiles/U3 4 Akasia 1_t_2b_%y_%x.jpg"},"down":{"src":"U3 4 Akasia 1_tiles/U3 4 Akasia 1_t_2d_%y_%x.jpg"},"front":{"src":"U3 4 Akasia 1_tiles/U3 4 Akasia 1_t_2f_%y_%x.jpg"},"height":1504,"left":{"src":"U3 4 Akasia 1_tiles/U3 4 Akasia 1_t_2l_%y_%x.jpg"},"right":{"src":"U3 4 Akasia 1_tiles/U3 4 Akasia 1_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 4 Akasia 1_tiles/U3 4 Akasia 1_t_2u_%y_%x.jpg"},"width":1504},{"back":{"src":"U3 4 Akasia 1_tiles/U3 4 Akasia 1_t_3b_%y_%x.jpg"},"down":{"src":"U3 4 Akasia 1_tiles/U3 4 Akasia 1_t_3d_%y_%x.jpg"},"front":{"src":"U3 4 Akasia 1_tiles/U3 4 Akasia 1_t_3f_%y_%x.jpg"},"height":752,"left":{"src":"U3 4 Akasia 1_tiles/U3 4 Akasia 1_t_3l_%y_%x.jpg"},"right":{"src":"U3 4 Akasia 1_tiles/U3 4 Akasia 1_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 4 Akasia 1_tiles/U3 4 Akasia 1_t_3u_%y_%x.jpg"},"width":752},{"back":{"src":"U3 4 Akasia 1_tiles/U3 4 Akasia 1_t_4b_%y_%x.jpg"},"down":{"src":"U3 4 Akasia 1_tiles/U3 4 Akasia 1_t_4d_%y_%x.jpg"},"front":{"src":"U3 4 Akasia 1_tiles/U3 4 Akasia 1_t_4f_%y_%x.jpg"},"height":376,"left":{"src":"U3 4 Akasia 1_tiles/U3 4 Akasia 1_t_4l_%y_%x.jpg"},"right":{"src":"U3 4 Akasia 1_tiles/U3 4 Akasia 1_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 4 Akasia 1_tiles/U3 4 Akasia 1_t_4u_%y_%x.jpg"},"width":376}],"multilevel":true,"preview":{"src":"U3 4 Akasia 1_tiles/U3 4 Akasia 1_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 117.07,
+	        "pan": 162.82,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

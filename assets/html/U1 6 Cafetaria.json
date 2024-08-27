@@ -1,0 +1,178 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U1 6 Cafetaria_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 30.26342292461925,
+	        "minpan": 0,
+	        "mintilt": -30.26342292461925
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.228566884994508,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "31.2368,-3.7439",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.907625764608384,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "130.6972,-3.2794",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.884658008813859,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "150.7447,-3.2794",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.301276147365571,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "107.0753,-5.5962",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.6777072027325635,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "165.2752,-7.2076",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.7185834571719174,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "181.1267,-2.0389",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.8773665428161626,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "218.6575,-4.0532",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.166512914001943,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "312.1347,8.6178",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 11.384826600551607,
+	            "href": "U1 7 Radiologi.json",
+	            "opacity": "1.00;1.00",
+	            "position": "71.6426,17.3061",
+	            "rotate": 328.3334045410156,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 11.446789652109148,
+	            "href": "U1 5 Pintu Keluar.json",
+	            "opacity": "1.00;1.00",
+	            "position": "185.2061,20.6403",
+	            "rotate": 22.16553497314453,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U1 6 Cafetaria",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U1 6 Cafetaria_tiles/U1 6 Cafetaria_t_1b_%y_%x.jpg"},"down":{"src":"U1 6 Cafetaria_tiles/U1 6 Cafetaria_t_1d_%y_%x.jpg"},"front":{"src":"U1 6 Cafetaria_tiles/U1 6 Cafetaria_t_1f_%y_%x.jpg"},"height":2949,"left":{"src":"U1 6 Cafetaria_tiles/U1 6 Cafetaria_t_1l_%y_%x.jpg"},"right":{"src":"U1 6 Cafetaria_tiles/U1 6 Cafetaria_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 6 Cafetaria_tiles/U1 6 Cafetaria_t_1u_%y_%x.jpg"},"width":2949},{"back":{"src":"U1 6 Cafetaria_tiles/U1 6 Cafetaria_t_2b_%y_%x.jpg"},"down":{"src":"U1 6 Cafetaria_tiles/U1 6 Cafetaria_t_2d_%y_%x.jpg"},"front":{"src":"U1 6 Cafetaria_tiles/U1 6 Cafetaria_t_2f_%y_%x.jpg"},"height":1475,"left":{"src":"U1 6 Cafetaria_tiles/U1 6 Cafetaria_t_2l_%y_%x.jpg"},"right":{"src":"U1 6 Cafetaria_tiles/U1 6 Cafetaria_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 6 Cafetaria_tiles/U1 6 Cafetaria_t_2u_%y_%x.jpg"},"width":1475},{"back":{"src":"U1 6 Cafetaria_tiles/U1 6 Cafetaria_t_3b_%y_%x.jpg"},"down":{"src":"U1 6 Cafetaria_tiles/U1 6 Cafetaria_t_3d_%y_%x.jpg"},"front":{"src":"U1 6 Cafetaria_tiles/U1 6 Cafetaria_t_3f_%y_%x.jpg"},"height":738,"left":{"src":"U1 6 Cafetaria_tiles/U1 6 Cafetaria_t_3l_%y_%x.jpg"},"right":{"src":"U1 6 Cafetaria_tiles/U1 6 Cafetaria_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 6 Cafetaria_tiles/U1 6 Cafetaria_t_3u_%y_%x.jpg"},"width":738},{"back":{"src":"U1 6 Cafetaria_tiles/U1 6 Cafetaria_t_4b_%y_%x.jpg"},"down":{"src":"U1 6 Cafetaria_tiles/U1 6 Cafetaria_t_4d_%y_%x.jpg"},"front":{"src":"U1 6 Cafetaria_tiles/U1 6 Cafetaria_t_4f_%y_%x.jpg"},"height":369,"left":{"src":"U1 6 Cafetaria_tiles/U1 6 Cafetaria_t_4l_%y_%x.jpg"},"right":{"src":"U1 6 Cafetaria_tiles/U1 6 Cafetaria_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 6 Cafetaria_tiles/U1 6 Cafetaria_t_4u_%y_%x.jpg"},"width":369}],"multilevel":true,"preview":{"src":"U1 6 Cafetaria_tiles/U1 6 Cafetaria_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 108,
+	        "pan": 188.34,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

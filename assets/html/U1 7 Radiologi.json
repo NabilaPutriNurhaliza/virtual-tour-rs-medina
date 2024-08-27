@@ -1,0 +1,158 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U1 7 Radiologi_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 30.132456650980277,
+	        "minpan": 0,
+	        "mintilt": -30.132456650980277
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.9863833114504814,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "180.7500,-6.1539",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.5871732123196125,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "189.5526,-7.1663",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 10.547983422875404,
+	            "href": "U1 6 Cafetaria.json",
+	            "opacity": "1.00;1.00",
+	            "position": "185.8816,18.7070",
+	            "rotate": 10.994832992553711,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.660746864974499,
+	            "href": "U1 16 Selasar Toilet.json",
+	            "opacity": "1.00;1.00",
+	            "position": "137.6842,-1.5983",
+	            "rotate": 0,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Masuk"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.582494758069515,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "104.6842,-11.3176",
+	            "rotate": 356.89727783203125,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.160607755184174,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "42.7895,-3.9608",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.278421714901924,
+	            "href": "L1 7 Gedung Tulip.json",
+	            "opacity": "1.00;1.00",
+	            "position": "332.6053,0.4539",
+	            "rotate": 0,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Keluar"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U1 7 Radiologi",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U1 7 Radiologi_tiles/U1 7 Radiologi_t_1b_%y_%x.jpg"},"down":{"src":"U1 7 Radiologi_tiles/U1 7 Radiologi_t_1d_%y_%x.jpg"},"front":{"src":"U1 7 Radiologi_tiles/U1 7 Radiologi_t_1f_%y_%x.jpg"},"height":2902,"left":{"src":"U1 7 Radiologi_tiles/U1 7 Radiologi_t_1l_%y_%x.jpg"},"right":{"src":"U1 7 Radiologi_tiles/U1 7 Radiologi_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 7 Radiologi_tiles/U1 7 Radiologi_t_1u_%y_%x.jpg"},"width":2902},{"back":{"src":"U1 7 Radiologi_tiles/U1 7 Radiologi_t_2b_%y_%x.jpg"},"down":{"src":"U1 7 Radiologi_tiles/U1 7 Radiologi_t_2d_%y_%x.jpg"},"front":{"src":"U1 7 Radiologi_tiles/U1 7 Radiologi_t_2f_%y_%x.jpg"},"height":1451,"left":{"src":"U1 7 Radiologi_tiles/U1 7 Radiologi_t_2l_%y_%x.jpg"},"right":{"src":"U1 7 Radiologi_tiles/U1 7 Radiologi_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 7 Radiologi_tiles/U1 7 Radiologi_t_2u_%y_%x.jpg"},"width":1451},{"back":{"src":"U1 7 Radiologi_tiles/U1 7 Radiologi_t_3b_%y_%x.jpg"},"down":{"src":"U1 7 Radiologi_tiles/U1 7 Radiologi_t_3d_%y_%x.jpg"},"front":{"src":"U1 7 Radiologi_tiles/U1 7 Radiologi_t_3f_%y_%x.jpg"},"height":726,"left":{"src":"U1 7 Radiologi_tiles/U1 7 Radiologi_t_3l_%y_%x.jpg"},"right":{"src":"U1 7 Radiologi_tiles/U1 7 Radiologi_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 7 Radiologi_tiles/U1 7 Radiologi_t_3u_%y_%x.jpg"},"width":726},{"back":{"src":"U1 7 Radiologi_tiles/U1 7 Radiologi_t_4b_%y_%x.jpg"},"down":{"src":"U1 7 Radiologi_tiles/U1 7 Radiologi_t_4d_%y_%x.jpg"},"front":{"src":"U1 7 Radiologi_tiles/U1 7 Radiologi_t_4f_%y_%x.jpg"},"height":363,"left":{"src":"U1 7 Radiologi_tiles/U1 7 Radiologi_t_4l_%y_%x.jpg"},"right":{"src":"U1 7 Radiologi_tiles/U1 7 Radiologi_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 7 Radiologi_tiles/U1 7 Radiologi_t_4u_%y_%x.jpg"},"width":363}],"multilevel":true,"preview":{"src":"U1 7 Radiologi_tiles/U1 7 Radiologi_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 108,
+	        "pan": 140.61,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

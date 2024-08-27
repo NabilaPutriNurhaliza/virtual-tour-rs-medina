@@ -1,0 +1,88 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "IGD Dalem banget 2_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 29.844462234220103,
+	        "minpan": 0,
+	        "mintilt": -29.844462234220103
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.8952919617295265,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "51.3318,-2.4635",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 7.144688665866852,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "133.5229,0.2446",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 11.559652984142303,
+	            "href": "IGD Dalem banget.json",
+	            "opacity": "1.00;1.00",
+	            "position": "279.2013,17.2760",
+	            "rotate": 2.354119300842285,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "IGD Dalem banget 2",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"IGD Dalem banget 2_tiles/IGD Dalem banget 2_t_1b_%y_%x.jpg"},"down":{"src":"IGD Dalem banget 2_tiles/IGD Dalem banget 2_t_1d_%y_%x.jpg"},"front":{"src":"IGD Dalem banget 2_tiles/IGD Dalem banget 2_t_1f_%y_%x.jpg"},"height":3044,"left":{"src":"IGD Dalem banget 2_tiles/IGD Dalem banget 2_t_1l_%y_%x.jpg"},"right":{"src":"IGD Dalem banget 2_tiles/IGD Dalem banget 2_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"IGD Dalem banget 2_tiles/IGD Dalem banget 2_t_1u_%y_%x.jpg"},"width":3044},{"back":{"src":"IGD Dalem banget 2_tiles/IGD Dalem banget 2_t_2b_%y_%x.jpg"},"down":{"src":"IGD Dalem banget 2_tiles/IGD Dalem banget 2_t_2d_%y_%x.jpg"},"front":{"src":"IGD Dalem banget 2_tiles/IGD Dalem banget 2_t_2f_%y_%x.jpg"},"height":1522,"left":{"src":"IGD Dalem banget 2_tiles/IGD Dalem banget 2_t_2l_%y_%x.jpg"},"right":{"src":"IGD Dalem banget 2_tiles/IGD Dalem banget 2_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"IGD Dalem banget 2_tiles/IGD Dalem banget 2_t_2u_%y_%x.jpg"},"width":1522},{"back":{"src":"IGD Dalem banget 2_tiles/IGD Dalem banget 2_t_3b_%y_%x.jpg"},"down":{"src":"IGD Dalem banget 2_tiles/IGD Dalem banget 2_t_3d_%y_%x.jpg"},"front":{"src":"IGD Dalem banget 2_tiles/IGD Dalem banget 2_t_3f_%y_%x.jpg"},"height":761,"left":{"src":"IGD Dalem banget 2_tiles/IGD Dalem banget 2_t_3l_%y_%x.jpg"},"right":{"src":"IGD Dalem banget 2_tiles/IGD Dalem banget 2_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"IGD Dalem banget 2_tiles/IGD Dalem banget 2_t_3u_%y_%x.jpg"},"width":761},{"back":{"src":"IGD Dalem banget 2_tiles/IGD Dalem banget 2_t_4b_%y_%x.jpg"},"down":{"src":"IGD Dalem banget 2_tiles/IGD Dalem banget 2_t_4d_%y_%x.jpg"},"front":{"src":"IGD Dalem banget 2_tiles/IGD Dalem banget 2_t_4f_%y_%x.jpg"},"height":381,"left":{"src":"IGD Dalem banget 2_tiles/IGD Dalem banget 2_t_4l_%y_%x.jpg"},"right":{"src":"IGD Dalem banget 2_tiles/IGD Dalem banget 2_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"IGD Dalem banget 2_tiles/IGD Dalem banget 2_t_4u_%y_%x.jpg"},"width":381}],"multilevel":true,"preview":{"src":"IGD Dalem banget 2_tiles/IGD Dalem banget 2_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 111.53,
+	        "pan": 281.38,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

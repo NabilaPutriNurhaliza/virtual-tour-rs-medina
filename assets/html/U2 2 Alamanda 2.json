@@ -1,0 +1,154 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U2 2 Alamanda 2_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 28.9776876849715,
+	        "minpan": 0,
+	        "mintilt": -28.9776876849715
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.609093889594078,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "319.5987,-2.9879",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_2x.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.645289808511734,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "305.1536,-0.9592",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.628242179751396,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "291.5361,-1.4104",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 10.78706681728363,
+	            "href": "U2 1 Ruang Operasi.json",
+	            "opacity": "1.00;1.00",
+	            "position": "299.1724,18.4957",
+	            "rotate": 8.130102157592773,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.530627481639385,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "146.0313,2.2371",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.403637073934078,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "137.1912,1.7487",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.851725522428751,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "126.8088,-1.0720",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 10.738353878259659,
+	            "href": "U2 3 Alamanda 3.json",
+	            "opacity": "1.00;1.00",
+	            "position": "127.4483,19.9379",
+	            "rotate": 351.64654541015625,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U2 2 Alamanda 2",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U2 2 Alamanda 2_tiles/U2 2 Alamanda 2_t_1b_%y_%x.jpg"},"down":{"src":"U2 2 Alamanda 2_tiles/U2 2 Alamanda 2_t_1d_%y_%x.jpg"},"front":{"src":"U2 2 Alamanda 2_tiles/U2 2 Alamanda 2_t_1f_%y_%x.jpg"},"height":3046,"left":{"src":"U2 2 Alamanda 2_tiles/U2 2 Alamanda 2_t_1l_%y_%x.jpg"},"right":{"src":"U2 2 Alamanda 2_tiles/U2 2 Alamanda 2_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 2 Alamanda 2_tiles/U2 2 Alamanda 2_t_1u_%y_%x.jpg"},"width":3046},{"back":{"src":"U2 2 Alamanda 2_tiles/U2 2 Alamanda 2_t_2b_%y_%x.jpg"},"down":{"src":"U2 2 Alamanda 2_tiles/U2 2 Alamanda 2_t_2d_%y_%x.jpg"},"front":{"src":"U2 2 Alamanda 2_tiles/U2 2 Alamanda 2_t_2f_%y_%x.jpg"},"height":1523,"left":{"src":"U2 2 Alamanda 2_tiles/U2 2 Alamanda 2_t_2l_%y_%x.jpg"},"right":{"src":"U2 2 Alamanda 2_tiles/U2 2 Alamanda 2_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 2 Alamanda 2_tiles/U2 2 Alamanda 2_t_2u_%y_%x.jpg"},"width":1523},{"back":{"src":"U2 2 Alamanda 2_tiles/U2 2 Alamanda 2_t_3b_%y_%x.jpg"},"down":{"src":"U2 2 Alamanda 2_tiles/U2 2 Alamanda 2_t_3d_%y_%x.jpg"},"front":{"src":"U2 2 Alamanda 2_tiles/U2 2 Alamanda 2_t_3f_%y_%x.jpg"},"height":762,"left":{"src":"U2 2 Alamanda 2_tiles/U2 2 Alamanda 2_t_3l_%y_%x.jpg"},"right":{"src":"U2 2 Alamanda 2_tiles/U2 2 Alamanda 2_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 2 Alamanda 2_tiles/U2 2 Alamanda 2_t_3u_%y_%x.jpg"},"width":762},{"back":{"src":"U2 2 Alamanda 2_tiles/U2 2 Alamanda 2_t_4b_%y_%x.jpg"},"down":{"src":"U2 2 Alamanda 2_tiles/U2 2 Alamanda 2_t_4d_%y_%x.jpg"},"front":{"src":"U2 2 Alamanda 2_tiles/U2 2 Alamanda 2_t_4f_%y_%x.jpg"},"height":381,"left":{"src":"U2 2 Alamanda 2_tiles/U2 2 Alamanda 2_t_4l_%y_%x.jpg"},"right":{"src":"U2 2 Alamanda 2_tiles/U2 2 Alamanda 2_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 2 Alamanda 2_tiles/U2 2 Alamanda 2_t_4u_%y_%x.jpg"},"width":381}],"multilevel":true,"preview":{"src":"U2 2 Alamanda 2_tiles/U2 2 Alamanda 2_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 102.93,
+	        "pan": 136.11,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

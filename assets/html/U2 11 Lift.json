@@ -1,0 +1,166 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U2 11 Lift_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 29.142873294838054,
+	        "minpan": 0,
+	        "mintilt": -29.142873294838054
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.693815149366856,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "185.4952,1.6202",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.001945368945599,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "211.5740,2.4759",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.9274272322654724,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "220.7389,1.1361",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.759376719594002,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "268.0161,-1.0989",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 6.507045105099678,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "345.1351,-1.3223",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.5513342060148716,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "319.8758,-2.2528",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.442760732024908,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "321.8131,-1.7691",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 10.554890111088753,
+	            "href": "U2 10 Alamanda 5.json",
+	            "opacity": "1.00;1.00",
+	            "position": "133.6728,19.5627",
+	            "rotate": 0,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 10.728282853960991,
+	            "href": "U2 Lift.json",
+	            "opacity": "1.00;1.00",
+	            "position": "308.1031,24.4269",
+	            "rotate": 11.775859832763672,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U2 11 Lift",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U2 11 Lift_tiles/U2 11 Lift_t_1b_%y_%x.jpg"},"down":{"src":"U2 11 Lift_tiles/U2 11 Lift_t_1d_%y_%x.jpg"},"front":{"src":"U2 11 Lift_tiles/U2 11 Lift_t_1f_%y_%x.jpg"},"height":3075,"left":{"src":"U2 11 Lift_tiles/U2 11 Lift_t_1l_%y_%x.jpg"},"right":{"src":"U2 11 Lift_tiles/U2 11 Lift_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 11 Lift_tiles/U2 11 Lift_t_1u_%y_%x.jpg"},"width":3075},{"back":{"src":"U2 11 Lift_tiles/U2 11 Lift_t_2b_%y_%x.jpg"},"down":{"src":"U2 11 Lift_tiles/U2 11 Lift_t_2d_%y_%x.jpg"},"front":{"src":"U2 11 Lift_tiles/U2 11 Lift_t_2f_%y_%x.jpg"},"height":1538,"left":{"src":"U2 11 Lift_tiles/U2 11 Lift_t_2l_%y_%x.jpg"},"right":{"src":"U2 11 Lift_tiles/U2 11 Lift_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 11 Lift_tiles/U2 11 Lift_t_2u_%y_%x.jpg"},"width":1538},{"back":{"src":"U2 11 Lift_tiles/U2 11 Lift_t_3b_%y_%x.jpg"},"down":{"src":"U2 11 Lift_tiles/U2 11 Lift_t_3d_%y_%x.jpg"},"front":{"src":"U2 11 Lift_tiles/U2 11 Lift_t_3f_%y_%x.jpg"},"height":769,"left":{"src":"U2 11 Lift_tiles/U2 11 Lift_t_3l_%y_%x.jpg"},"right":{"src":"U2 11 Lift_tiles/U2 11 Lift_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 11 Lift_tiles/U2 11 Lift_t_3u_%y_%x.jpg"},"width":769},{"back":{"src":"U2 11 Lift_tiles/U2 11 Lift_t_4b_%y_%x.jpg"},"down":{"src":"U2 11 Lift_tiles/U2 11 Lift_t_4d_%y_%x.jpg"},"front":{"src":"U2 11 Lift_tiles/U2 11 Lift_t_4f_%y_%x.jpg"},"height":385,"left":{"src":"U2 11 Lift_tiles/U2 11 Lift_t_4l_%y_%x.jpg"},"right":{"src":"U2 11 Lift_tiles/U2 11 Lift_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 11 Lift_tiles/U2 11 Lift_t_4u_%y_%x.jpg"},"width":385}],"multilevel":true,"preview":{"src":"U2 11 Lift_tiles/U2 11 Lift_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 121.43,
+	        "pan": 265.61,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

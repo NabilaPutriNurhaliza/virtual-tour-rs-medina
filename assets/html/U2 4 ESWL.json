@@ -1,0 +1,235 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U2 4 ESWL_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 25.576045585973315,
+	        "minpan": 0,
+	        "mintilt": -25.576045585973315
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 11.321102678775787,
+	            "href": "U3 6 Akasia 4.json",
+	            "opacity": "1.00;1.00",
+	            "position": "326.3063,0.9379",
+	            "rotate": 2.948634386062622,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Naik ke Lantai 3"
+	            },
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 8.658536151051521,
+	            "href": "U1 11 Poli Dalam 2.json",
+	            "opacity": "1.00;1.00",
+	            "position": "295.6289,16.6724",
+	            "rotate": 30.20746421813965,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Turun ke Lantai 1"
+	            },
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.865222051739693,
+	            "href": "U2 4 1 Alamanda 9.json",
+	            "opacity": "1.00;1.00",
+	            "position": "256.2338,-7.0813",
+	            "rotate": 0,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Masuk"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 10.335557162761688,
+	            "href": "U2 3 Alamanda 3.json",
+	            "opacity": "1.00;1.00",
+	            "position": "164.2015,12.7514",
+	            "rotate": 0,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 12.282743006944656,
+	            "href": "U2 5 Luar Lab.json",
+	            "opacity": "1.00;1.00",
+	            "position": "69.1897,10.1014",
+	            "rotate": 4.418000221252441,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.919159933924675,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "39.1744,-9.1360",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.1095318496227264,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "62.8998,-10.1014",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.620471268892288,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "67.0931,-13.4841",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.8656575866043568,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "68.7116,-12.3659",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.991304650902748,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "143.6763,-6.1013",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.1859857626259327,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "160.4496,-10.2796",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.7380744591355324,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "161.3692,-12.1903",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U2 4 ESWL",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U2 4 ESWL_tiles/U2 4 ESWL_t_1b_%y_%x.jpg"},"down":{"src":"U2 4 ESWL_tiles/U2 4 ESWL_t_1d_%y_%x.jpg"},"front":{"src":"U2 4 ESWL_tiles/U2 4 ESWL_t_1f_%y_%x.jpg"},"height":3115,"left":{"src":"U2 4 ESWL_tiles/U2 4 ESWL_t_1l_%y_%x.jpg"},"right":{"src":"U2 4 ESWL_tiles/U2 4 ESWL_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 4 ESWL_tiles/U2 4 ESWL_t_1u_%y_%x.jpg"},"width":3115},{"back":{"src":"U2 4 ESWL_tiles/U2 4 ESWL_t_2b_%y_%x.jpg"},"down":{"src":"U2 4 ESWL_tiles/U2 4 ESWL_t_2d_%y_%x.jpg"},"front":{"src":"U2 4 ESWL_tiles/U2 4 ESWL_t_2f_%y_%x.jpg"},"height":1558,"left":{"src":"U2 4 ESWL_tiles/U2 4 ESWL_t_2l_%y_%x.jpg"},"right":{"src":"U2 4 ESWL_tiles/U2 4 ESWL_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 4 ESWL_tiles/U2 4 ESWL_t_2u_%y_%x.jpg"},"width":1558},{"back":{"src":"U2 4 ESWL_tiles/U2 4 ESWL_t_3b_%y_%x.jpg"},"down":{"src":"U2 4 ESWL_tiles/U2 4 ESWL_t_3d_%y_%x.jpg"},"front":{"src":"U2 4 ESWL_tiles/U2 4 ESWL_t_3f_%y_%x.jpg"},"height":779,"left":{"src":"U2 4 ESWL_tiles/U2 4 ESWL_t_3l_%y_%x.jpg"},"right":{"src":"U2 4 ESWL_tiles/U2 4 ESWL_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 4 ESWL_tiles/U2 4 ESWL_t_3u_%y_%x.jpg"},"width":779},{"back":{"src":"U2 4 ESWL_tiles/U2 4 ESWL_t_4b_%y_%x.jpg"},"down":{"src":"U2 4 ESWL_tiles/U2 4 ESWL_t_4d_%y_%x.jpg"},"front":{"src":"U2 4 ESWL_tiles/U2 4 ESWL_t_4f_%y_%x.jpg"},"height":390,"left":{"src":"U2 4 ESWL_tiles/U2 4 ESWL_t_4l_%y_%x.jpg"},"right":{"src":"U2 4 ESWL_tiles/U2 4 ESWL_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 4 ESWL_tiles/U2 4 ESWL_t_4u_%y_%x.jpg"},"width":390}],"multilevel":true,"preview":{"src":"U2 4 ESWL_tiles/U2 4 ESWL_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 102.73,
+	        "pan": 289.37,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

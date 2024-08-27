@@ -1,0 +1,130 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U1 9 Poli THT KL 1_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 28.418183082485804,
+	        "minpan": 0,
+	        "mintilt": -28.418183082485804
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.9942664206027985,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "172.7074,5.9019",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.831250198185444,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "119.3441,3.8335",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.266041822731495,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "78.7910,-5.0990",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.9113476760685444,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "74.4309,-4.2558",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 12.439119815826416,
+	            "href": "U1 8 Poli THT KL 2.json",
+	            "opacity": "1.00;1.00",
+	            "position": "244.2444,20.6796",
+	            "rotate": 2.040208339691162,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 12.703360319137573,
+	            "href": "U1 3 Pintu Masuk.json",
+	            "opacity": "1.00;1.00",
+	            "position": "76.9389,23.2673",
+	            "rotate": 354.3395080566406,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U1 9 Poli THT KL 1",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U1 9 Poli THT KL 1_tiles/U1 9 Poli THT KL 1_t_1b_%y_%x.jpg"},"down":{"src":"U1 9 Poli THT KL 1_tiles/U1 9 Poli THT KL 1_t_1d_%y_%x.jpg"},"front":{"src":"U1 9 Poli THT KL 1_tiles/U1 9 Poli THT KL 1_t_1f_%y_%x.jpg"},"height":2969,"left":{"src":"U1 9 Poli THT KL 1_tiles/U1 9 Poli THT KL 1_t_1l_%y_%x.jpg"},"right":{"src":"U1 9 Poli THT KL 1_tiles/U1 9 Poli THT KL 1_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 9 Poli THT KL 1_tiles/U1 9 Poli THT KL 1_t_1u_%y_%x.jpg"},"width":2969},{"back":{"src":"U1 9 Poli THT KL 1_tiles/U1 9 Poli THT KL 1_t_2b_%y_%x.jpg"},"down":{"src":"U1 9 Poli THT KL 1_tiles/U1 9 Poli THT KL 1_t_2d_%y_%x.jpg"},"front":{"src":"U1 9 Poli THT KL 1_tiles/U1 9 Poli THT KL 1_t_2f_%y_%x.jpg"},"height":1485,"left":{"src":"U1 9 Poli THT KL 1_tiles/U1 9 Poli THT KL 1_t_2l_%y_%x.jpg"},"right":{"src":"U1 9 Poli THT KL 1_tiles/U1 9 Poli THT KL 1_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 9 Poli THT KL 1_tiles/U1 9 Poli THT KL 1_t_2u_%y_%x.jpg"},"width":1485},{"back":{"src":"U1 9 Poli THT KL 1_tiles/U1 9 Poli THT KL 1_t_3b_%y_%x.jpg"},"down":{"src":"U1 9 Poli THT KL 1_tiles/U1 9 Poli THT KL 1_t_3d_%y_%x.jpg"},"front":{"src":"U1 9 Poli THT KL 1_tiles/U1 9 Poli THT KL 1_t_3f_%y_%x.jpg"},"height":743,"left":{"src":"U1 9 Poli THT KL 1_tiles/U1 9 Poli THT KL 1_t_3l_%y_%x.jpg"},"right":{"src":"U1 9 Poli THT KL 1_tiles/U1 9 Poli THT KL 1_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 9 Poli THT KL 1_tiles/U1 9 Poli THT KL 1_t_3u_%y_%x.jpg"},"width":743},{"back":{"src":"U1 9 Poli THT KL 1_tiles/U1 9 Poli THT KL 1_t_4b_%y_%x.jpg"},"down":{"src":"U1 9 Poli THT KL 1_tiles/U1 9 Poli THT KL 1_t_4d_%y_%x.jpg"},"front":{"src":"U1 9 Poli THT KL 1_tiles/U1 9 Poli THT KL 1_t_4f_%y_%x.jpg"},"height":372,"left":{"src":"U1 9 Poli THT KL 1_tiles/U1 9 Poli THT KL 1_t_4l_%y_%x.jpg"},"right":{"src":"U1 9 Poli THT KL 1_tiles/U1 9 Poli THT KL 1_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 9 Poli THT KL 1_tiles/U1 9 Poli THT KL 1_t_4u_%y_%x.jpg"},"width":372}],"multilevel":true,"preview":{"src":"U1 9 Poli THT KL 1_tiles/U1 9 Poli THT KL 1_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 111.25,
+	        "pan": 221.85,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

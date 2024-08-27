@@ -1,0 +1,188 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U2 1 Ruang Operasi_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 26.320947908548355,
+	        "minpan": 0,
+	        "mintilt": -26.320947908548355
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 6.9136083126068115,
+	            "href": "U3 4 Akasia 1.json",
+	            "opacity": "1.00;1.00",
+	            "position": "146.0506,0.0922",
+	            "rotate": 13.976283073425293,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Naik ke Lantai 3"
+	            },
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 10.63722588121891,
+	            "href": "U1 16 Selasar Toilet.json",
+	            "opacity": "1.00;1.00",
+	            "position": "162.9792,10.9121",
+	            "rotate": 342.16851806640625,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Turun ke Lantai 1"
+	            },
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 11.282828897237778,
+	            "href": "U2 13 IT.json",
+	            "opacity": "1.00;1.00",
+	            "position": "265.6572,13.4489",
+	            "rotate": 344.5092468261719,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 9.731996431946754,
+	            "href": "U2 2 Alamanda 2.json",
+	            "opacity": "1.00;1.00",
+	            "position": "191.6361,10.6986",
+	            "rotate": 311.1704406738281,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 7.061759456992149,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "88.8475,-6.4090",
+	            "rotate": 3.3664605617523193,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.630228079855442,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "197.8322,-7.6079",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.618585340678692,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "262.3379,-6.6274",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.344967380166054,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "284.7987,-5.5334",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.998529516160488,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "301.6166,-4.7651",
+	            "rotate": 1.0537241697311401,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U2 1 Ruang Operasi",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U2 1 Ruang Operasi_tiles/U2 1 Ruang Operasi_t_1b_%y_%x.jpg"},"down":{"src":"U2 1 Ruang Operasi_tiles/U2 1 Ruang Operasi_t_1d_%y_%x.jpg"},"front":{"src":"U2 1 Ruang Operasi_tiles/U2 1 Ruang Operasi_t_1f_%y_%x.jpg"},"height":3107,"left":{"src":"U2 1 Ruang Operasi_tiles/U2 1 Ruang Operasi_t_1l_%y_%x.jpg"},"right":{"src":"U2 1 Ruang Operasi_tiles/U2 1 Ruang Operasi_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 1 Ruang Operasi_tiles/U2 1 Ruang Operasi_t_1u_%y_%x.jpg"},"width":3107},{"back":{"src":"U2 1 Ruang Operasi_tiles/U2 1 Ruang Operasi_t_2b_%y_%x.jpg"},"down":{"src":"U2 1 Ruang Operasi_tiles/U2 1 Ruang Operasi_t_2d_%y_%x.jpg"},"front":{"src":"U2 1 Ruang Operasi_tiles/U2 1 Ruang Operasi_t_2f_%y_%x.jpg"},"height":1554,"left":{"src":"U2 1 Ruang Operasi_tiles/U2 1 Ruang Operasi_t_2l_%y_%x.jpg"},"right":{"src":"U2 1 Ruang Operasi_tiles/U2 1 Ruang Operasi_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 1 Ruang Operasi_tiles/U2 1 Ruang Operasi_t_2u_%y_%x.jpg"},"width":1554},{"back":{"src":"U2 1 Ruang Operasi_tiles/U2 1 Ruang Operasi_t_3b_%y_%x.jpg"},"down":{"src":"U2 1 Ruang Operasi_tiles/U2 1 Ruang Operasi_t_3d_%y_%x.jpg"},"front":{"src":"U2 1 Ruang Operasi_tiles/U2 1 Ruang Operasi_t_3f_%y_%x.jpg"},"height":777,"left":{"src":"U2 1 Ruang Operasi_tiles/U2 1 Ruang Operasi_t_3l_%y_%x.jpg"},"right":{"src":"U2 1 Ruang Operasi_tiles/U2 1 Ruang Operasi_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 1 Ruang Operasi_tiles/U2 1 Ruang Operasi_t_3u_%y_%x.jpg"},"width":777},{"back":{"src":"U2 1 Ruang Operasi_tiles/U2 1 Ruang Operasi_t_4b_%y_%x.jpg"},"down":{"src":"U2 1 Ruang Operasi_tiles/U2 1 Ruang Operasi_t_4d_%y_%x.jpg"},"front":{"src":"U2 1 Ruang Operasi_tiles/U2 1 Ruang Operasi_t_4f_%y_%x.jpg"},"height":389,"left":{"src":"U2 1 Ruang Operasi_tiles/U2 1 Ruang Operasi_t_4l_%y_%x.jpg"},"right":{"src":"U2 1 Ruang Operasi_tiles/U2 1 Ruang Operasi_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 1 Ruang Operasi_tiles/U2 1 Ruang Operasi_t_4u_%y_%x.jpg"},"width":389}],"multilevel":true,"preview":{"src":"U2 1 Ruang Operasi_tiles/U2 1 Ruang Operasi_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 104.96,
+	        "pan": 273.94,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

@@ -14,6 +14,7 @@
   --default-color: #444444; /* Default color used for the majority of the text */
   --heading-color: #222222; /* Color for headings and subheadings */
   --accent-color: #198c8e; /* Accent color for buttons, links, etc. */
+  --accent-color2: #19636d; /* Accent color for topbar*/
   --surface-color: #ffffff; /* Background for boxed elements */
   --contrast-color: #ffffff; /* Ensures text readability */
 }
@@ -89,7 +90,7 @@ h6 {
 }
 
 .header .topbar {
-  background-color: var(--accent-color);
+  background-color: var(--accent-color2);
   height: 40px;
   padding: 0;
   font-size: 14px;
@@ -508,10 +509,11 @@ h6 {
   bottom: 15px;
   z-index: 99999;
   background-color: var(--accent-color);
-  width: 45px;
-  height: 45px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   transition: all 0.4s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.616);
 }
 
 .scroll-top i {
@@ -534,8 +536,8 @@ h6 {
 .scroll-top::after {
   content: "Google Maps";
   position: absolute;
-  bottom: 70px; /* Adjust this based on the size of your button */
-  left: 50%;
+  bottom: 50px; /* Adjust this based on the size of your button */
+  left: 20%;
   transform: translateX(-50%);
   background-color: #333;
   color: #fff;
@@ -598,6 +600,11 @@ h6 {
   padding-right: 10px;
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
+.icon-image {
+  width: 200px;
+  object-fit: cover;
+}
+
 
 /*--------------------------------------------------------------
 # Global Sections
@@ -680,7 +687,7 @@ section,
 
 .hero .container {
   position: relative;
-  margin-top: 40px;
+  margin-top: 15px;
 }
 
 .hero h1 {
@@ -712,7 +719,7 @@ section,
   padding: 12px 30px;
   border-radius: 4px;
   transition: 0.5s;
-  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.459);
 }
 
 .hero .btn-get-started:hover {
@@ -813,6 +820,7 @@ section,
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 20px;
+  text-align: center;
 }
 
 .featured-services .service-item h4 a {
@@ -825,6 +833,7 @@ section,
   font-size: 14px;
   margin-bottom: 0;
   transition: ease-in-out 0.3s;
+  text-align: center;
 }
 
 .featured-services .service-item:hover h4 a,
@@ -839,6 +848,16 @@ section,
   border-radius: 0px;
 }
 
+@media (max-width: 575px) {
+
+  .featured-services .service-item .icon {
+    text-align: center;
+  }
+
+  .featured-services .service-item .icon-image {
+    width: 300px;
+  }
+}
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
@@ -909,7 +928,6 @@ section,
 .services .service-item .icon {
   margin: 0 auto;
   width: 64px;
-  height: 64px;
   background: var(--accent-color);
   border-radius: 4px;
   display: flex;
@@ -1266,7 +1284,7 @@ body, .sidebar ul li a, .dropdown-btn, .dropdown-container a {
   }
   .chatbox-body {
     font-size: 13px;
-    height: 60%; /* Sesuaikan tinggi body chatbox */
+    height: 90%; /* Sesuaikan tinggi body chatbox */
   }
   .chatbox-footer input[type="text"] {
     padding: 8px; /* Padding lebih kecil */

@@ -1,0 +1,217 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U2 Lift_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 30.64858977841565,
+	        "minpan": 0,
+	        "mintilt": -30.64858977841565
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 12.922959476709366,
+	            "href": "U2 11 Lift.json",
+	            "opacity": "1.00;1.00",
+	            "position": "125.5329,23.3413",
+	            "rotate": 0,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 12.247045487165451,
+	            "href": "U2 12 Administrasi.json",
+	            "opacity": "1.00;1.00",
+	            "position": "337.2250,21.7611",
+	            "rotate": 356.54693603515625,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.159493751823902,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "324.6408,-5.2926",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.6556074284017086,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "326.4165,-5.5987",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.4404496736824512,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "342.1274,-5.9044",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 6.570136025547981,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "223.1568,-13.1036",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.4462714567780495,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "173.1289,-4.1809",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.6954104527831078,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "150.6627,-3.4891",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "L3.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.78783892095089,
+	            "href": "U3 Lift.json",
+	            "opacity": "1.00;1.00",
+	            "position": "82.8780,-11.4822",
+	            "rotate": 0,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Naik ke Lantai 3"
+	            },
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.362873807549477,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "12.0437,-4.7564",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "L1.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 6.385522931814194,
+	            "href": "U1 Lift.json",
+	            "opacity": "1.00;1.00",
+	            "position": "82.9166,0.2509",
+	            "rotate": 0,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Turun ke Lantai 1"
+	            },
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "L2 Selected.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.973836705088615,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "82.9166,-5.7516",
+	            "rotate": 0,
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Anda sedang berada di Lantai 2"
+	            },
+	            "transition": "",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U2 Lift",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U2 Lift_tiles/U2 Lift_t_1b_%y_%x.jpg"},"down":{"src":"U2 Lift_tiles/U2 Lift_t_1d_%y_%x.jpg"},"front":{"src":"U2 Lift_tiles/U2 Lift_t_1f_%y_%x.jpg"},"height":2968,"left":{"src":"U2 Lift_tiles/U2 Lift_t_1l_%y_%x.jpg"},"right":{"src":"U2 Lift_tiles/U2 Lift_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 Lift_tiles/U2 Lift_t_1u_%y_%x.jpg"},"width":2968},{"back":{"src":"U2 Lift_tiles/U2 Lift_t_2b_%y_%x.jpg"},"down":{"src":"U2 Lift_tiles/U2 Lift_t_2d_%y_%x.jpg"},"front":{"src":"U2 Lift_tiles/U2 Lift_t_2f_%y_%x.jpg"},"height":1484,"left":{"src":"U2 Lift_tiles/U2 Lift_t_2l_%y_%x.jpg"},"right":{"src":"U2 Lift_tiles/U2 Lift_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 Lift_tiles/U2 Lift_t_2u_%y_%x.jpg"},"width":1484},{"back":{"src":"U2 Lift_tiles/U2 Lift_t_3b_%y_%x.jpg"},"down":{"src":"U2 Lift_tiles/U2 Lift_t_3d_%y_%x.jpg"},"front":{"src":"U2 Lift_tiles/U2 Lift_t_3f_%y_%x.jpg"},"height":742,"left":{"src":"U2 Lift_tiles/U2 Lift_t_3l_%y_%x.jpg"},"right":{"src":"U2 Lift_tiles/U2 Lift_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 Lift_tiles/U2 Lift_t_3u_%y_%x.jpg"},"width":742},{"back":{"src":"U2 Lift_tiles/U2 Lift_t_4b_%y_%x.jpg"},"down":{"src":"U2 Lift_tiles/U2 Lift_t_4d_%y_%x.jpg"},"front":{"src":"U2 Lift_tiles/U2 Lift_t_4f_%y_%x.jpg"},"height":371,"left":{"src":"U2 Lift_tiles/U2 Lift_t_4l_%y_%x.jpg"},"right":{"src":"U2 Lift_tiles/U2 Lift_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 Lift_tiles/U2 Lift_t_4u_%y_%x.jpg"},"width":371}],"multilevel":true,"preview":{"src":"U2 Lift_tiles/U2 Lift_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 112,
+	        "pan": 64.06,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

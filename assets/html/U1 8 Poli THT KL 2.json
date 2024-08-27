@@ -1,0 +1,135 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U1 8 Poli THT KL 2_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 24.633815665595165,
+	        "minpan": 0,
+	        "mintilt": -24.633815665595165
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.262916438281536,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "352.6953,4.3503",
+	            "rotate": 356.8201599121094,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.070798859000206,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "350.4211,3.8704",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 0.843752296641469,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "344.9426,4.0762",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 0.7537655252963305,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "343.5643,2.5309",
+	            "rotate": 0.7049475312232971,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 9.368874952197075,
+	            "href": "U1 9 Poli THT KL 1.json",
+	            "opacity": "1.00;1.00",
+	            "position": "341.8760,18.5966",
+	            "rotate": 0,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 12.381963282823563,
+	            "href": "U2 8 Alamanda 8.json",
+	            "opacity": "1.00;1.00",
+	            "position": "31.7688,18.7203",
+	            "rotate": 324.1344299316406,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Naik Ke Lantai 2"
+	            },
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U1 8 Poli THT KL 2",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U1 8 Poli THT KL 2_tiles/U1 8 Poli THT KL 2_t_1b_%y_%x.jpg"},"down":{"src":"U1 8 Poli THT KL 2_tiles/U1 8 Poli THT KL 2_t_1d_%y_%x.jpg"},"front":{"src":"U1 8 Poli THT KL 2_tiles/U1 8 Poli THT KL 2_t_1f_%y_%x.jpg"},"height":3325,"left":{"src":"U1 8 Poli THT KL 2_tiles/U1 8 Poli THT KL 2_t_1l_%y_%x.jpg"},"right":{"src":"U1 8 Poli THT KL 2_tiles/U1 8 Poli THT KL 2_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 8 Poli THT KL 2_tiles/U1 8 Poli THT KL 2_t_1u_%y_%x.jpg"},"width":3325},{"back":{"src":"U1 8 Poli THT KL 2_tiles/U1 8 Poli THT KL 2_t_2b_%y_%x.jpg"},"down":{"src":"U1 8 Poli THT KL 2_tiles/U1 8 Poli THT KL 2_t_2d_%y_%x.jpg"},"front":{"src":"U1 8 Poli THT KL 2_tiles/U1 8 Poli THT KL 2_t_2f_%y_%x.jpg"},"height":1663,"left":{"src":"U1 8 Poli THT KL 2_tiles/U1 8 Poli THT KL 2_t_2l_%y_%x.jpg"},"right":{"src":"U1 8 Poli THT KL 2_tiles/U1 8 Poli THT KL 2_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 8 Poli THT KL 2_tiles/U1 8 Poli THT KL 2_t_2u_%y_%x.jpg"},"width":1663},{"back":{"src":"U1 8 Poli THT KL 2_tiles/U1 8 Poli THT KL 2_t_3b_%y_%x.jpg"},"down":{"src":"U1 8 Poli THT KL 2_tiles/U1 8 Poli THT KL 2_t_3d_%y_%x.jpg"},"front":{"src":"U1 8 Poli THT KL 2_tiles/U1 8 Poli THT KL 2_t_3f_%y_%x.jpg"},"height":832,"left":{"src":"U1 8 Poli THT KL 2_tiles/U1 8 Poli THT KL 2_t_3l_%y_%x.jpg"},"right":{"src":"U1 8 Poli THT KL 2_tiles/U1 8 Poli THT KL 2_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 8 Poli THT KL 2_tiles/U1 8 Poli THT KL 2_t_3u_%y_%x.jpg"},"width":832},{"back":{"src":"U1 8 Poli THT KL 2_tiles/U1 8 Poli THT KL 2_t_4b_%y_%x.jpg"},"down":{"src":"U1 8 Poli THT KL 2_tiles/U1 8 Poli THT KL 2_t_4d_%y_%x.jpg"},"front":{"src":"U1 8 Poli THT KL 2_tiles/U1 8 Poli THT KL 2_t_4f_%y_%x.jpg"},"height":416,"left":{"src":"U1 8 Poli THT KL 2_tiles/U1 8 Poli THT KL 2_t_4l_%y_%x.jpg"},"right":{"src":"U1 8 Poli THT KL 2_tiles/U1 8 Poli THT KL 2_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 8 Poli THT KL 2_tiles/U1 8 Poli THT KL 2_t_4u_%y_%x.jpg"},"width":416}],"multilevel":true,"preview":{"src":"U1 8 Poli THT KL 2_tiles/U1 8 Poli THT KL 2_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 103.9,
+	        "pan": 10.61,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

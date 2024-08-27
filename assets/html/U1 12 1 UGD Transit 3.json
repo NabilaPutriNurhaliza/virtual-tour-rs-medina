@@ -1,0 +1,94 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U1 12 1 UGD Transit 3_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 359.99999999999994,
+	        "maxtilt": 28.54852096864318,
+	        "minpan": 0,
+	        "mintilt": -28.54852096864318
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.957612536847591,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "328.4145,-3.0429",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 7.743523344397544,
+	            "href": "U1 13 UGD Transit 2.json",
+	            "opacity": "1.00;1.00",
+	            "position": "322.7742,14.6033",
+	            "rotate": 324.3616638183594,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 9.074261114001272,
+	            "href": "U1 12 UGD Transit 1.json",
+	            "opacity": "1.00;1.00",
+	            "position": "103.8563,21.2646",
+	            "rotate": 16.39468765258789,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U1 12 1 UGD Transit 3",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U1 12 1 UGD Transit 3_tiles/U1 12 1 UGD Transit 3_t_1b_%y_%x.jpg"},"down":{"src":"U1 12 1 UGD Transit 3_tiles/U1 12 1 UGD Transit 3_t_1d_%y_%x.jpg"},"front":{"src":"U1 12 1 UGD Transit 3_tiles/U1 12 1 UGD Transit 3_t_1f_%y_%x.jpg"},"height":3047,"left":{"src":"U1 12 1 UGD Transit 3_tiles/U1 12 1 UGD Transit 3_t_1l_%y_%x.jpg"},"right":{"src":"U1 12 1 UGD Transit 3_tiles/U1 12 1 UGD Transit 3_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 12 1 UGD Transit 3_tiles/U1 12 1 UGD Transit 3_t_1u_%y_%x.jpg"},"width":3047},{"back":{"src":"U1 12 1 UGD Transit 3_tiles/U1 12 1 UGD Transit 3_t_2b_%y_%x.jpg"},"down":{"src":"U1 12 1 UGD Transit 3_tiles/U1 12 1 UGD Transit 3_t_2d_%y_%x.jpg"},"front":{"src":"U1 12 1 UGD Transit 3_tiles/U1 12 1 UGD Transit 3_t_2f_%y_%x.jpg"},"height":1524,"left":{"src":"U1 12 1 UGD Transit 3_tiles/U1 12 1 UGD Transit 3_t_2l_%y_%x.jpg"},"right":{"src":"U1 12 1 UGD Transit 3_tiles/U1 12 1 UGD Transit 3_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 12 1 UGD Transit 3_tiles/U1 12 1 UGD Transit 3_t_2u_%y_%x.jpg"},"width":1524},{"back":{"src":"U1 12 1 UGD Transit 3_tiles/U1 12 1 UGD Transit 3_t_3b_%y_%x.jpg"},"down":{"src":"U1 12 1 UGD Transit 3_tiles/U1 12 1 UGD Transit 3_t_3d_%y_%x.jpg"},"front":{"src":"U1 12 1 UGD Transit 3_tiles/U1 12 1 UGD Transit 3_t_3f_%y_%x.jpg"},"height":762,"left":{"src":"U1 12 1 UGD Transit 3_tiles/U1 12 1 UGD Transit 3_t_3l_%y_%x.jpg"},"right":{"src":"U1 12 1 UGD Transit 3_tiles/U1 12 1 UGD Transit 3_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 12 1 UGD Transit 3_tiles/U1 12 1 UGD Transit 3_t_3u_%y_%x.jpg"},"width":762},{"back":{"src":"U1 12 1 UGD Transit 3_tiles/U1 12 1 UGD Transit 3_t_4b_%y_%x.jpg"},"down":{"src":"U1 12 1 UGD Transit 3_tiles/U1 12 1 UGD Transit 3_t_4d_%y_%x.jpg"},"front":{"src":"U1 12 1 UGD Transit 3_tiles/U1 12 1 UGD Transit 3_t_4f_%y_%x.jpg"},"height":381,"left":{"src":"U1 12 1 UGD Transit 3_tiles/U1 12 1 UGD Transit 3_t_4l_%y_%x.jpg"},"right":{"src":"U1 12 1 UGD Transit 3_tiles/U1 12 1 UGD Transit 3_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 12 1 UGD Transit 3_tiles/U1 12 1 UGD Transit 3_t_4u_%y_%x.jpg"},"width":381}],"multilevel":true,"preview":{"src":"U1 12 1 UGD Transit 3_tiles/U1 12 1 UGD Transit 3_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 101.65,
+	        "pan": 307.56,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

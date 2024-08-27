@@ -1,0 +1,110 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "L1 7 Gedung Tulip_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 30.696360007284746,
+	        "minpan": 0,
+	        "mintilt": -30.696360007284746
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.449745528399945,
+	            "href": "L1 8 Dalam Tulip.json",
+	            "opacity": "1.00;1.00",
+	            "position": "235.9459,2.4701",
+	            "rotate": 0,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Masuk"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.4962667189538483,
+	            "href": "U1 7 Radiologi.json",
+	            "opacity": "1.00;1.00",
+	            "position": "331.4778,-2.2743",
+	            "rotate": 0,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Masuk"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 10.644632130861284,
+	            "href": "L1 6 Halaman Belakang.json",
+	            "opacity": "1.00;1.00",
+	            "position": "49.5902,9.4470",
+	            "rotate": 0,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "L1 7 Gedung Tulip",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"L1 7 Gedung Tulip_tiles/L1 7 Gedung Tulip_t_1b_%y_%x.jpg"},"down":{"src":"L1 7 Gedung Tulip_tiles/L1 7 Gedung Tulip_t_1d_%y_%x.jpg"},"front":{"src":"L1 7 Gedung Tulip_tiles/L1 7 Gedung Tulip_t_1f_%y_%x.jpg"},"height":2920,"left":{"src":"L1 7 Gedung Tulip_tiles/L1 7 Gedung Tulip_t_1l_%y_%x.jpg"},"right":{"src":"L1 7 Gedung Tulip_tiles/L1 7 Gedung Tulip_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"L1 7 Gedung Tulip_tiles/L1 7 Gedung Tulip_t_1u_%y_%x.jpg"},"width":2920},{"back":{"src":"L1 7 Gedung Tulip_tiles/L1 7 Gedung Tulip_t_2b_%y_%x.jpg"},"down":{"src":"L1 7 Gedung Tulip_tiles/L1 7 Gedung Tulip_t_2d_%y_%x.jpg"},"front":{"src":"L1 7 Gedung Tulip_tiles/L1 7 Gedung Tulip_t_2f_%y_%x.jpg"},"height":1460,"left":{"src":"L1 7 Gedung Tulip_tiles/L1 7 Gedung Tulip_t_2l_%y_%x.jpg"},"right":{"src":"L1 7 Gedung Tulip_tiles/L1 7 Gedung Tulip_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"L1 7 Gedung Tulip_tiles/L1 7 Gedung Tulip_t_2u_%y_%x.jpg"},"width":1460},{"back":{"src":"L1 7 Gedung Tulip_tiles/L1 7 Gedung Tulip_t_3b_%y_%x.jpg"},"down":{"src":"L1 7 Gedung Tulip_tiles/L1 7 Gedung Tulip_t_3d_%y_%x.jpg"},"front":{"src":"L1 7 Gedung Tulip_tiles/L1 7 Gedung Tulip_t_3f_%y_%x.jpg"},"height":730,"left":{"src":"L1 7 Gedung Tulip_tiles/L1 7 Gedung Tulip_t_3l_%y_%x.jpg"},"right":{"src":"L1 7 Gedung Tulip_tiles/L1 7 Gedung Tulip_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"L1 7 Gedung Tulip_tiles/L1 7 Gedung Tulip_t_3u_%y_%x.jpg"},"width":730},{"back":{"src":"L1 7 Gedung Tulip_tiles/L1 7 Gedung Tulip_t_4b_%y_%x.jpg"},"down":{"src":"L1 7 Gedung Tulip_tiles/L1 7 Gedung Tulip_t_4d_%y_%x.jpg"},"front":{"src":"L1 7 Gedung Tulip_tiles/L1 7 Gedung Tulip_t_4f_%y_%x.jpg"},"height":365,"left":{"src":"L1 7 Gedung Tulip_tiles/L1 7 Gedung Tulip_t_4l_%y_%x.jpg"},"right":{"src":"L1 7 Gedung Tulip_tiles/L1 7 Gedung Tulip_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"L1 7 Gedung Tulip_tiles/L1 7 Gedung Tulip_t_4u_%y_%x.jpg"},"width":365}],"multilevel":true,"preview":{"src":"L1 7 Gedung Tulip_tiles/L1 7 Gedung Tulip_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 116,
+	        "pan": 238.96,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

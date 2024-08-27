@@ -1,0 +1,135 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "IGD Dalem banget_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 359.99999999999994,
+	        "maxtilt": 28.449752624326017,
+	        "minpan": 0,
+	        "mintilt": -28.449752624326017
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.709702543914317,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "36.0333,-11.0230",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.34634368866682,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "116.7478,-9.9869",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.0679025650024405,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "313.2122,-7.9317",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.422060772776603,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "331.3951,-9.7717",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 13.00338953733444,
+	            "href": "IGD Dalem banget 2.json",
+	            "opacity": "1.00;1.00",
+	            "position": "137.7025,13.5978",
+	            "rotate": 0,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.789012506604194,
+	            "href": "IGD Tengah.json",
+	            "opacity": "1.00;1.00",
+	            "position": "78.8297,-9.7717",
+	            "rotate": 0,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Keluar"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "IGD Dalem banget",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"IGD Dalem banget_tiles/IGD Dalem banget_t_1b_%y_%x.jpg"},"down":{"src":"IGD Dalem banget_tiles/IGD Dalem banget_t_1d_%y_%x.jpg"},"front":{"src":"IGD Dalem banget_tiles/IGD Dalem banget_t_1f_%y_%x.jpg"},"height":3100,"left":{"src":"IGD Dalem banget_tiles/IGD Dalem banget_t_1l_%y_%x.jpg"},"right":{"src":"IGD Dalem banget_tiles/IGD Dalem banget_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"IGD Dalem banget_tiles/IGD Dalem banget_t_1u_%y_%x.jpg"},"width":3100},{"back":{"src":"IGD Dalem banget_tiles/IGD Dalem banget_t_2b_%y_%x.jpg"},"down":{"src":"IGD Dalem banget_tiles/IGD Dalem banget_t_2d_%y_%x.jpg"},"front":{"src":"IGD Dalem banget_tiles/IGD Dalem banget_t_2f_%y_%x.jpg"},"height":1550,"left":{"src":"IGD Dalem banget_tiles/IGD Dalem banget_t_2l_%y_%x.jpg"},"right":{"src":"IGD Dalem banget_tiles/IGD Dalem banget_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"IGD Dalem banget_tiles/IGD Dalem banget_t_2u_%y_%x.jpg"},"width":1550},{"back":{"src":"IGD Dalem banget_tiles/IGD Dalem banget_t_3b_%y_%x.jpg"},"down":{"src":"IGD Dalem banget_tiles/IGD Dalem banget_t_3d_%y_%x.jpg"},"front":{"src":"IGD Dalem banget_tiles/IGD Dalem banget_t_3f_%y_%x.jpg"},"height":775,"left":{"src":"IGD Dalem banget_tiles/IGD Dalem banget_t_3l_%y_%x.jpg"},"right":{"src":"IGD Dalem banget_tiles/IGD Dalem banget_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"IGD Dalem banget_tiles/IGD Dalem banget_t_3u_%y_%x.jpg"},"width":775},{"back":{"src":"IGD Dalem banget_tiles/IGD Dalem banget_t_4b_%y_%x.jpg"},"down":{"src":"IGD Dalem banget_tiles/IGD Dalem banget_t_4d_%y_%x.jpg"},"front":{"src":"IGD Dalem banget_tiles/IGD Dalem banget_t_4f_%y_%x.jpg"},"height":388,"left":{"src":"IGD Dalem banget_tiles/IGD Dalem banget_t_4l_%y_%x.jpg"},"right":{"src":"IGD Dalem banget_tiles/IGD Dalem banget_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"IGD Dalem banget_tiles/IGD Dalem banget_t_4u_%y_%x.jpg"},"width":388}],"multilevel":true,"preview":{"src":"IGD Dalem banget_tiles/IGD Dalem banget_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 109.35,
+	        "pan": 116.19,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

@@ -1,0 +1,94 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "IGD Masuk_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 31.267624483526035,
+	        "minpan": 0,
+	        "mintilt": -31.267624483526035
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.4129269048571587,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "64.2676,-3.4360",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 14.072272628545761,
+	            "href": "IGD Dalam.json",
+	            "opacity": "1.00;1.00",
+	            "position": "68.9586,12.2416",
+	            "rotate": 1.654869794845581,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 13.299573808908463,
+	            "href": "L1 1 Gerbang Masuk.json",
+	            "opacity": "1.00;1.00",
+	            "position": "324.9343,14.4617",
+	            "rotate": 4.221921443939209,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "IGD Masuk",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"IGD Masuk_tiles/IGD Masuk_t_1b_%y_%x.jpg"},"down":{"src":"IGD Masuk_tiles/IGD Masuk_t_1d_%y_%x.jpg"},"front":{"src":"IGD Masuk_tiles/IGD Masuk_t_1f_%y_%x.jpg"},"height":2931,"left":{"src":"IGD Masuk_tiles/IGD Masuk_t_1l_%y_%x.jpg"},"right":{"src":"IGD Masuk_tiles/IGD Masuk_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"IGD Masuk_tiles/IGD Masuk_t_1u_%y_%x.jpg"},"width":2931},{"back":{"src":"IGD Masuk_tiles/IGD Masuk_t_2b_%y_%x.jpg"},"down":{"src":"IGD Masuk_tiles/IGD Masuk_t_2d_%y_%x.jpg"},"front":{"src":"IGD Masuk_tiles/IGD Masuk_t_2f_%y_%x.jpg"},"height":1466,"left":{"src":"IGD Masuk_tiles/IGD Masuk_t_2l_%y_%x.jpg"},"right":{"src":"IGD Masuk_tiles/IGD Masuk_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"IGD Masuk_tiles/IGD Masuk_t_2u_%y_%x.jpg"},"width":1466},{"back":{"src":"IGD Masuk_tiles/IGD Masuk_t_3b_%y_%x.jpg"},"down":{"src":"IGD Masuk_tiles/IGD Masuk_t_3d_%y_%x.jpg"},"front":{"src":"IGD Masuk_tiles/IGD Masuk_t_3f_%y_%x.jpg"},"height":733,"left":{"src":"IGD Masuk_tiles/IGD Masuk_t_3l_%y_%x.jpg"},"right":{"src":"IGD Masuk_tiles/IGD Masuk_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"IGD Masuk_tiles/IGD Masuk_t_3u_%y_%x.jpg"},"width":733},{"back":{"src":"IGD Masuk_tiles/IGD Masuk_t_4b_%y_%x.jpg"},"down":{"src":"IGD Masuk_tiles/IGD Masuk_t_4d_%y_%x.jpg"},"front":{"src":"IGD Masuk_tiles/IGD Masuk_t_4f_%y_%x.jpg"},"height":367,"left":{"src":"IGD Masuk_tiles/IGD Masuk_t_4l_%y_%x.jpg"},"right":{"src":"IGD Masuk_tiles/IGD Masuk_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"IGD Masuk_tiles/IGD Masuk_t_4u_%y_%x.jpg"},"width":367}],"multilevel":true,"preview":{"src":"IGD Masuk_tiles/IGD Masuk_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 106,
+	        "pan": 94.13,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

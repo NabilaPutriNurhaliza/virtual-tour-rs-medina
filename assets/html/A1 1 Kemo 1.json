@@ -1,0 +1,128 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "A1 1 Kemo 1_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 30.245911741630078,
+	        "minpan": 0,
+	        "mintilt": -30.245911741630078
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.9696258157491684,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "80.3734,-2.8557",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.6920609958469868,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "88.0978,-3.3948",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.4143197610974312,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "92.6167,-3.8949",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.072754681110382,
+	            "href": "A1 2 Kemo 2.json",
+	            "opacity": "1.00;1.00",
+	            "position": "191.4129,2.2004",
+	            "rotate": 0,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Masuk"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.586840331554413,
+	            "href": "L1 3 Pertigaan Masuk.json",
+	            "opacity": "1.00;1.00",
+	            "position": "269.0827,-3.0483",
+	            "rotate": 0,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Keluar"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "A1 1 Kemo 1",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"A1 1 Kemo 1_tiles/A1 1 Kemo 1_t_1b_%y_%x.jpg"},"down":{"src":"A1 1 Kemo 1_tiles/A1 1 Kemo 1_t_1d_%y_%x.jpg"},"front":{"src":"A1 1 Kemo 1_tiles/A1 1 Kemo 1_t_1f_%y_%x.jpg"},"height":2966,"left":{"src":"A1 1 Kemo 1_tiles/A1 1 Kemo 1_t_1l_%y_%x.jpg"},"right":{"src":"A1 1 Kemo 1_tiles/A1 1 Kemo 1_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"A1 1 Kemo 1_tiles/A1 1 Kemo 1_t_1u_%y_%x.jpg"},"width":2966},{"back":{"src":"A1 1 Kemo 1_tiles/A1 1 Kemo 1_t_2b_%y_%x.jpg"},"down":{"src":"A1 1 Kemo 1_tiles/A1 1 Kemo 1_t_2d_%y_%x.jpg"},"front":{"src":"A1 1 Kemo 1_tiles/A1 1 Kemo 1_t_2f_%y_%x.jpg"},"height":1483,"left":{"src":"A1 1 Kemo 1_tiles/A1 1 Kemo 1_t_2l_%y_%x.jpg"},"right":{"src":"A1 1 Kemo 1_tiles/A1 1 Kemo 1_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"A1 1 Kemo 1_tiles/A1 1 Kemo 1_t_2u_%y_%x.jpg"},"width":1483},{"back":{"src":"A1 1 Kemo 1_tiles/A1 1 Kemo 1_t_3b_%y_%x.jpg"},"down":{"src":"A1 1 Kemo 1_tiles/A1 1 Kemo 1_t_3d_%y_%x.jpg"},"front":{"src":"A1 1 Kemo 1_tiles/A1 1 Kemo 1_t_3f_%y_%x.jpg"},"height":742,"left":{"src":"A1 1 Kemo 1_tiles/A1 1 Kemo 1_t_3l_%y_%x.jpg"},"right":{"src":"A1 1 Kemo 1_tiles/A1 1 Kemo 1_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"A1 1 Kemo 1_tiles/A1 1 Kemo 1_t_3u_%y_%x.jpg"},"width":742},{"back":{"src":"A1 1 Kemo 1_tiles/A1 1 Kemo 1_t_4b_%y_%x.jpg"},"down":{"src":"A1 1 Kemo 1_tiles/A1 1 Kemo 1_t_4d_%y_%x.jpg"},"front":{"src":"A1 1 Kemo 1_tiles/A1 1 Kemo 1_t_4f_%y_%x.jpg"},"height":371,"left":{"src":"A1 1 Kemo 1_tiles/A1 1 Kemo 1_t_4l_%y_%x.jpg"},"right":{"src":"A1 1 Kemo 1_tiles/A1 1 Kemo 1_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"A1 1 Kemo 1_tiles/A1 1 Kemo 1_t_4u_%y_%x.jpg"},"width":371}],"multilevel":true,"preview":{"src":"A1 1 Kemo 1_tiles/A1 1 Kemo 1_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 112,
+	        "pan": 129.86,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

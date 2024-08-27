@@ -1,0 +1,178 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U2 12 Administrasi_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 30.753882796274894,
+	        "minpan": 0,
+	        "mintilt": -30.753882796274894
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.0471338257193565,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "103.1660,-0.4247",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.914924845099449,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "29.0347,-3.4322",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.9252338074147701,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "33.8224,-2.4310",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.7180879786610603,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "51.1583,-2.3539",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.054936371743679,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "185.5598,1.3511",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.3581187054514885,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "223.5135,0.0772",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.1727504022419453,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "245.1737,-2.8933",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.231031835079193,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "258.9189,-4.7382",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 10.254727452993393,
+	            "href": "U2 13 IT.json",
+	            "opacity": "1.00;1.00",
+	            "position": "41.1197,18.3079",
+	            "rotate": 358.81146240234375,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 11.588860899209976,
+	            "href": "U2 Lift.json",
+	            "opacity": "1.00;1.00",
+	            "position": "221.0811,24.9371",
+	            "rotate": 358.87261962890625,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U2 12 Administrasi",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U2 12 Administrasi_tiles/U2 12 Administrasi_t_1b_%y_%x.jpg"},"down":{"src":"U2 12 Administrasi_tiles/U2 12 Administrasi_t_1d_%y_%x.jpg"},"front":{"src":"U2 12 Administrasi_tiles/U2 12 Administrasi_t_1f_%y_%x.jpg"},"height":2967,"left":{"src":"U2 12 Administrasi_tiles/U2 12 Administrasi_t_1l_%y_%x.jpg"},"right":{"src":"U2 12 Administrasi_tiles/U2 12 Administrasi_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 12 Administrasi_tiles/U2 12 Administrasi_t_1u_%y_%x.jpg"},"width":2967},{"back":{"src":"U2 12 Administrasi_tiles/U2 12 Administrasi_t_2b_%y_%x.jpg"},"down":{"src":"U2 12 Administrasi_tiles/U2 12 Administrasi_t_2d_%y_%x.jpg"},"front":{"src":"U2 12 Administrasi_tiles/U2 12 Administrasi_t_2f_%y_%x.jpg"},"height":1484,"left":{"src":"U2 12 Administrasi_tiles/U2 12 Administrasi_t_2l_%y_%x.jpg"},"right":{"src":"U2 12 Administrasi_tiles/U2 12 Administrasi_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 12 Administrasi_tiles/U2 12 Administrasi_t_2u_%y_%x.jpg"},"width":1484},{"back":{"src":"U2 12 Administrasi_tiles/U2 12 Administrasi_t_3b_%y_%x.jpg"},"down":{"src":"U2 12 Administrasi_tiles/U2 12 Administrasi_t_3d_%y_%x.jpg"},"front":{"src":"U2 12 Administrasi_tiles/U2 12 Administrasi_t_3f_%y_%x.jpg"},"height":742,"left":{"src":"U2 12 Administrasi_tiles/U2 12 Administrasi_t_3l_%y_%x.jpg"},"right":{"src":"U2 12 Administrasi_tiles/U2 12 Administrasi_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 12 Administrasi_tiles/U2 12 Administrasi_t_3u_%y_%x.jpg"},"width":742},{"back":{"src":"U2 12 Administrasi_tiles/U2 12 Administrasi_t_4b_%y_%x.jpg"},"down":{"src":"U2 12 Administrasi_tiles/U2 12 Administrasi_t_4d_%y_%x.jpg"},"front":{"src":"U2 12 Administrasi_tiles/U2 12 Administrasi_t_4f_%y_%x.jpg"},"height":371,"left":{"src":"U2 12 Administrasi_tiles/U2 12 Administrasi_t_4l_%y_%x.jpg"},"right":{"src":"U2 12 Administrasi_tiles/U2 12 Administrasi_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 12 Administrasi_tiles/U2 12 Administrasi_t_4u_%y_%x.jpg"},"width":371}],"multilevel":true,"preview":{"src":"U2 12 Administrasi_tiles/U2 12 Administrasi_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 116,
+	        "pan": 184.37,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

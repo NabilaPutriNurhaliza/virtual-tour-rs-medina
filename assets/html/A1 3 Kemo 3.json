@@ -1,0 +1,69 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "A1 3 Kemo 3_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 359.99999999999994,
+	        "maxtilt": 26.625276952755776,
+	        "minpan": 0,
+	        "mintilt": -26.625276952755776
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.527426719665527,
+	            "href": "A1 2 Kemo 2.json",
+	            "opacity": "1.00;1.00",
+	            "position": "132.0254,-4.4462",
+	            "rotate": 355.1827392578125,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Keluar"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "A1 3 Kemo 3",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"A1 3 Kemo 3_tiles/A1 3 Kemo 3_t_1b_%y_%x.jpg"},"down":{"src":"A1 3 Kemo 3_tiles/A1 3 Kemo 3_t_1d_%y_%x.jpg"},"front":{"src":"A1 3 Kemo 3_tiles/A1 3 Kemo 3_t_1f_%y_%x.jpg"},"height":3163,"left":{"src":"A1 3 Kemo 3_tiles/A1 3 Kemo 3_t_1l_%y_%x.jpg"},"right":{"src":"A1 3 Kemo 3_tiles/A1 3 Kemo 3_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"A1 3 Kemo 3_tiles/A1 3 Kemo 3_t_1u_%y_%x.jpg"},"width":3163},{"back":{"src":"A1 3 Kemo 3_tiles/A1 3 Kemo 3_t_2b_%y_%x.jpg"},"down":{"src":"A1 3 Kemo 3_tiles/A1 3 Kemo 3_t_2d_%y_%x.jpg"},"front":{"src":"A1 3 Kemo 3_tiles/A1 3 Kemo 3_t_2f_%y_%x.jpg"},"height":1582,"left":{"src":"A1 3 Kemo 3_tiles/A1 3 Kemo 3_t_2l_%y_%x.jpg"},"right":{"src":"A1 3 Kemo 3_tiles/A1 3 Kemo 3_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"A1 3 Kemo 3_tiles/A1 3 Kemo 3_t_2u_%y_%x.jpg"},"width":1582},{"back":{"src":"A1 3 Kemo 3_tiles/A1 3 Kemo 3_t_3b_%y_%x.jpg"},"down":{"src":"A1 3 Kemo 3_tiles/A1 3 Kemo 3_t_3d_%y_%x.jpg"},"front":{"src":"A1 3 Kemo 3_tiles/A1 3 Kemo 3_t_3f_%y_%x.jpg"},"height":791,"left":{"src":"A1 3 Kemo 3_tiles/A1 3 Kemo 3_t_3l_%y_%x.jpg"},"right":{"src":"A1 3 Kemo 3_tiles/A1 3 Kemo 3_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"A1 3 Kemo 3_tiles/A1 3 Kemo 3_t_3u_%y_%x.jpg"},"width":791},{"back":{"src":"A1 3 Kemo 3_tiles/A1 3 Kemo 3_t_4b_%y_%x.jpg"},"down":{"src":"A1 3 Kemo 3_tiles/A1 3 Kemo 3_t_4d_%y_%x.jpg"},"front":{"src":"A1 3 Kemo 3_tiles/A1 3 Kemo 3_t_4f_%y_%x.jpg"},"height":396,"left":{"src":"A1 3 Kemo 3_tiles/A1 3 Kemo 3_t_4l_%y_%x.jpg"},"right":{"src":"A1 3 Kemo 3_tiles/A1 3 Kemo 3_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"A1 3 Kemo 3_tiles/A1 3 Kemo 3_t_4u_%y_%x.jpg"},"width":396}],"multilevel":true,"preview":{"src":"A1 3 Kemo 3_tiles/A1 3 Kemo 3_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 91.88,
+	        "pan": 305.31,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

@@ -1,0 +1,111 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "L1 10 Tulip Laundry_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 27.739177648131832,
+	        "minpan": 0,
+	        "mintilt": -27.739177648131832
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.349443592131139,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "88.3646,-5.4469",
+	            "rotate": 1.2148455381393433,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.466958940029145,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "134.4473,-4.5766",
+	            "rotate": 355.7971496582031,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 11.865333616733553,
+	            "href": "L2 1 Thalasemia.json",
+	            "opacity": "1.00;1.00",
+	            "position": "204.8685,4.5403",
+	            "rotate": 352.3808898925781,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Naik ke Lantai 2 Ruang Thalasemia"
+	            },
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 13.347931355237963,
+	            "href": "L1 9 Persimpangan Tulip.json",
+	            "opacity": "1.00;1.00",
+	            "position": "239.8051,15.3200",
+	            "rotate": 19.988351821899414,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "L1 10 Tulip Laundry",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"L1 10 Tulip Laundry_tiles/L1 10 Tulip Laundry_t_1b_%y_%x.jpg"},"down":{"src":"L1 10 Tulip Laundry_tiles/L1 10 Tulip Laundry_t_1d_%y_%x.jpg"},"front":{"src":"L1 10 Tulip Laundry_tiles/L1 10 Tulip Laundry_t_1f_%y_%x.jpg"},"height":3135,"left":{"src":"L1 10 Tulip Laundry_tiles/L1 10 Tulip Laundry_t_1l_%y_%x.jpg"},"right":{"src":"L1 10 Tulip Laundry_tiles/L1 10 Tulip Laundry_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"L1 10 Tulip Laundry_tiles/L1 10 Tulip Laundry_t_1u_%y_%x.jpg"},"width":3135},{"back":{"src":"L1 10 Tulip Laundry_tiles/L1 10 Tulip Laundry_t_2b_%y_%x.jpg"},"down":{"src":"L1 10 Tulip Laundry_tiles/L1 10 Tulip Laundry_t_2d_%y_%x.jpg"},"front":{"src":"L1 10 Tulip Laundry_tiles/L1 10 Tulip Laundry_t_2f_%y_%x.jpg"},"height":1568,"left":{"src":"L1 10 Tulip Laundry_tiles/L1 10 Tulip Laundry_t_2l_%y_%x.jpg"},"right":{"src":"L1 10 Tulip Laundry_tiles/L1 10 Tulip Laundry_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"L1 10 Tulip Laundry_tiles/L1 10 Tulip Laundry_t_2u_%y_%x.jpg"},"width":1568},{"back":{"src":"L1 10 Tulip Laundry_tiles/L1 10 Tulip Laundry_t_3b_%y_%x.jpg"},"down":{"src":"L1 10 Tulip Laundry_tiles/L1 10 Tulip Laundry_t_3d_%y_%x.jpg"},"front":{"src":"L1 10 Tulip Laundry_tiles/L1 10 Tulip Laundry_t_3f_%y_%x.jpg"},"height":784,"left":{"src":"L1 10 Tulip Laundry_tiles/L1 10 Tulip Laundry_t_3l_%y_%x.jpg"},"right":{"src":"L1 10 Tulip Laundry_tiles/L1 10 Tulip Laundry_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"L1 10 Tulip Laundry_tiles/L1 10 Tulip Laundry_t_3u_%y_%x.jpg"},"width":784},{"back":{"src":"L1 10 Tulip Laundry_tiles/L1 10 Tulip Laundry_t_4b_%y_%x.jpg"},"down":{"src":"L1 10 Tulip Laundry_tiles/L1 10 Tulip Laundry_t_4d_%y_%x.jpg"},"front":{"src":"L1 10 Tulip Laundry_tiles/L1 10 Tulip Laundry_t_4f_%y_%x.jpg"},"height":392,"left":{"src":"L1 10 Tulip Laundry_tiles/L1 10 Tulip Laundry_t_4l_%y_%x.jpg"},"right":{"src":"L1 10 Tulip Laundry_tiles/L1 10 Tulip Laundry_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"L1 10 Tulip Laundry_tiles/L1 10 Tulip Laundry_t_4u_%y_%x.jpg"},"width":392}],"multilevel":true,"preview":{"src":"L1 10 Tulip Laundry_tiles/L1 10 Tulip Laundry_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 101.22,
+	        "pan": 112.97,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

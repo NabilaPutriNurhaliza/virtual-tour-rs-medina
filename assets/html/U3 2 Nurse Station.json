@@ -1,0 +1,202 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U3 2 Nurse Station_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 30.045983823992398,
+	        "minpan": 0,
+	        "mintilt": -30.045983823992398
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.4801289811730385,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "62.3695,-7.7581",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.2775003872811794,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "76.9353,-8.4037",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.1751105785369873,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "84.9930,-6.3847",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.611278273165226,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "95.0651,-8.7446",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.683024898171425,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "176.4941,-9.8010",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.582041069865227,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "250.8727,-7.3774",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.50634528696537,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "265.7872,-4.2727",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.809159703552723,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "276.9827,-6.9198",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.0975694246590137,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "279.3070,-6.5377",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.446201264858246,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "312.2738,-5.9635",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 13.327305167913437,
+	            "href": "U3 Lift.json",
+	            "opacity": "1.00;1.00",
+	            "position": "273.8448,24.4509",
+	            "rotate": 353.49749755859375,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 11.951458007097244,
+	            "href": "U3 3 NICU.json",
+	            "opacity": "1.00;1.00",
+	            "position": "82.5137,15.4759",
+	            "rotate": 2.449784278869629,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U3 2 Nurse Station",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U3 2 Nurse Station_tiles/U3 2 Nurse Station_t_1b_%y_%x.jpg"},"down":{"src":"U3 2 Nurse Station_tiles/U3 2 Nurse Station_t_1d_%y_%x.jpg"},"front":{"src":"U3 2 Nurse Station_tiles/U3 2 Nurse Station_t_1f_%y_%x.jpg"},"height":2958,"left":{"src":"U3 2 Nurse Station_tiles/U3 2 Nurse Station_t_1l_%y_%x.jpg"},"right":{"src":"U3 2 Nurse Station_tiles/U3 2 Nurse Station_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 2 Nurse Station_tiles/U3 2 Nurse Station_t_1u_%y_%x.jpg"},"width":2958},{"back":{"src":"U3 2 Nurse Station_tiles/U3 2 Nurse Station_t_2b_%y_%x.jpg"},"down":{"src":"U3 2 Nurse Station_tiles/U3 2 Nurse Station_t_2d_%y_%x.jpg"},"front":{"src":"U3 2 Nurse Station_tiles/U3 2 Nurse Station_t_2f_%y_%x.jpg"},"height":1479,"left":{"src":"U3 2 Nurse Station_tiles/U3 2 Nurse Station_t_2l_%y_%x.jpg"},"right":{"src":"U3 2 Nurse Station_tiles/U3 2 Nurse Station_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 2 Nurse Station_tiles/U3 2 Nurse Station_t_2u_%y_%x.jpg"},"width":1479},{"back":{"src":"U3 2 Nurse Station_tiles/U3 2 Nurse Station_t_3b_%y_%x.jpg"},"down":{"src":"U3 2 Nurse Station_tiles/U3 2 Nurse Station_t_3d_%y_%x.jpg"},"front":{"src":"U3 2 Nurse Station_tiles/U3 2 Nurse Station_t_3f_%y_%x.jpg"},"height":740,"left":{"src":"U3 2 Nurse Station_tiles/U3 2 Nurse Station_t_3l_%y_%x.jpg"},"right":{"src":"U3 2 Nurse Station_tiles/U3 2 Nurse Station_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 2 Nurse Station_tiles/U3 2 Nurse Station_t_3u_%y_%x.jpg"},"width":740},{"back":{"src":"U3 2 Nurse Station_tiles/U3 2 Nurse Station_t_4b_%y_%x.jpg"},"down":{"src":"U3 2 Nurse Station_tiles/U3 2 Nurse Station_t_4d_%y_%x.jpg"},"front":{"src":"U3 2 Nurse Station_tiles/U3 2 Nurse Station_t_4f_%y_%x.jpg"},"height":370,"left":{"src":"U3 2 Nurse Station_tiles/U3 2 Nurse Station_t_4l_%y_%x.jpg"},"right":{"src":"U3 2 Nurse Station_tiles/U3 2 Nurse Station_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 2 Nurse Station_tiles/U3 2 Nurse Station_t_4u_%y_%x.jpg"},"width":370}],"multilevel":true,"preview":{"src":"U3 2 Nurse Station_tiles/U3 2 Nurse Station_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 116,
+	        "pan": 83.92,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

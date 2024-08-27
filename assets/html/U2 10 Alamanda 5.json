@@ -1,0 +1,142 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U2 10 Alamanda 5_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 28.606936584631622,
+	        "minpan": 0,
+	        "mintilt": -28.606936584631622
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.261198028922081,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "52.6257,-7.1141",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.9564255997538567,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "126.1825,-0.7076",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.9394810311496258,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "146.9646,-5.3106",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.70260576531291,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "147.8212,-2.8654",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.2979073636233807,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "150.5028,-4.8672",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 10.643451288342476,
+	            "href": "U2 9 Alamanda 7.json",
+	            "opacity": "1.00;1.00",
+	            "position": "150.7263,13.8750",
+	            "rotate": 2.925747871398926,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 10.11117696762085,
+	            "href": "U2 11 Lift.json",
+	            "opacity": "1.00;1.00",
+	            "position": "52.2905,14.8884",
+	            "rotate": 345.1786193847656,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U2 10 Alamanda 5",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U2 10 Alamanda 5_tiles/U2 10 Alamanda 5_t_1b_%y_%x.jpg"},"down":{"src":"U2 10 Alamanda 5_tiles/U2 10 Alamanda 5_t_1d_%y_%x.jpg"},"front":{"src":"U2 10 Alamanda 5_tiles/U2 10 Alamanda 5_t_1f_%y_%x.jpg"},"height":3076,"left":{"src":"U2 10 Alamanda 5_tiles/U2 10 Alamanda 5_t_1l_%y_%x.jpg"},"right":{"src":"U2 10 Alamanda 5_tiles/U2 10 Alamanda 5_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 10 Alamanda 5_tiles/U2 10 Alamanda 5_t_1u_%y_%x.jpg"},"width":3076},{"back":{"src":"U2 10 Alamanda 5_tiles/U2 10 Alamanda 5_t_2b_%y_%x.jpg"},"down":{"src":"U2 10 Alamanda 5_tiles/U2 10 Alamanda 5_t_2d_%y_%x.jpg"},"front":{"src":"U2 10 Alamanda 5_tiles/U2 10 Alamanda 5_t_2f_%y_%x.jpg"},"height":1538,"left":{"src":"U2 10 Alamanda 5_tiles/U2 10 Alamanda 5_t_2l_%y_%x.jpg"},"right":{"src":"U2 10 Alamanda 5_tiles/U2 10 Alamanda 5_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 10 Alamanda 5_tiles/U2 10 Alamanda 5_t_2u_%y_%x.jpg"},"width":1538},{"back":{"src":"U2 10 Alamanda 5_tiles/U2 10 Alamanda 5_t_3b_%y_%x.jpg"},"down":{"src":"U2 10 Alamanda 5_tiles/U2 10 Alamanda 5_t_3d_%y_%x.jpg"},"front":{"src":"U2 10 Alamanda 5_tiles/U2 10 Alamanda 5_t_3f_%y_%x.jpg"},"height":769,"left":{"src":"U2 10 Alamanda 5_tiles/U2 10 Alamanda 5_t_3l_%y_%x.jpg"},"right":{"src":"U2 10 Alamanda 5_tiles/U2 10 Alamanda 5_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 10 Alamanda 5_tiles/U2 10 Alamanda 5_t_3u_%y_%x.jpg"},"width":769},{"back":{"src":"U2 10 Alamanda 5_tiles/U2 10 Alamanda 5_t_4b_%y_%x.jpg"},"down":{"src":"U2 10 Alamanda 5_tiles/U2 10 Alamanda 5_t_4d_%y_%x.jpg"},"front":{"src":"U2 10 Alamanda 5_tiles/U2 10 Alamanda 5_t_4f_%y_%x.jpg"},"height":385,"left":{"src":"U2 10 Alamanda 5_tiles/U2 10 Alamanda 5_t_4l_%y_%x.jpg"},"right":{"src":"U2 10 Alamanda 5_tiles/U2 10 Alamanda 5_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U2 10 Alamanda 5_tiles/U2 10 Alamanda 5_t_4u_%y_%x.jpg"},"width":385}],"multilevel":true,"preview":{"src":"U2 10 Alamanda 5_tiles/U2 10 Alamanda 5_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 113.82,
+	        "pan": 100.53,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

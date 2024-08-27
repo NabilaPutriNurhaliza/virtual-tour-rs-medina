@@ -1,0 +1,124 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U1 12 UGD Transit 1_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 27.159744457282716,
+	        "minpan": 0,
+	        "mintilt": -27.159744457282716
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 10.094739720225334,
+	            "href": "U1 11 Poli Dalam 2.json",
+	            "opacity": "1.00;1.00",
+	            "position": "155.0323,15.4715",
+	            "rotate": 356.6163024902344,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.9647234082221985,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "253.1250,-8.9625",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.624263074249029,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "245.3226,-7.7191",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 9.235061556100845,
+	            "href": "U1 12 1 UGD Transit 3.json",
+	            "opacity": "1.00;1.00",
+	            "position": "242.9274,20.3631",
+	            "rotate": 355.30133056640625,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.402655266225338,
+	            "href": "U1 14 Ruang PIPP.json",
+	            "opacity": "1.00;1.00",
+	            "position": "76.3548,-5.2114",
+	            "rotate": 0,
+	            "target": "myself",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U1 12 UGD Transit 1",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U1 12 UGD Transit 1_tiles/U1 12 UGD Transit 1_t_1b_%y_%x.jpg"},"down":{"src":"U1 12 UGD Transit 1_tiles/U1 12 UGD Transit 1_t_1d_%y_%x.jpg"},"front":{"src":"U1 12 UGD Transit 1_tiles/U1 12 UGD Transit 1_t_1f_%y_%x.jpg"},"height":3157,"left":{"src":"U1 12 UGD Transit 1_tiles/U1 12 UGD Transit 1_t_1l_%y_%x.jpg"},"right":{"src":"U1 12 UGD Transit 1_tiles/U1 12 UGD Transit 1_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 12 UGD Transit 1_tiles/U1 12 UGD Transit 1_t_1u_%y_%x.jpg"},"width":3157},{"back":{"src":"U1 12 UGD Transit 1_tiles/U1 12 UGD Transit 1_t_2b_%y_%x.jpg"},"down":{"src":"U1 12 UGD Transit 1_tiles/U1 12 UGD Transit 1_t_2d_%y_%x.jpg"},"front":{"src":"U1 12 UGD Transit 1_tiles/U1 12 UGD Transit 1_t_2f_%y_%x.jpg"},"height":1579,"left":{"src":"U1 12 UGD Transit 1_tiles/U1 12 UGD Transit 1_t_2l_%y_%x.jpg"},"right":{"src":"U1 12 UGD Transit 1_tiles/U1 12 UGD Transit 1_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 12 UGD Transit 1_tiles/U1 12 UGD Transit 1_t_2u_%y_%x.jpg"},"width":1579},{"back":{"src":"U1 12 UGD Transit 1_tiles/U1 12 UGD Transit 1_t_3b_%y_%x.jpg"},"down":{"src":"U1 12 UGD Transit 1_tiles/U1 12 UGD Transit 1_t_3d_%y_%x.jpg"},"front":{"src":"U1 12 UGD Transit 1_tiles/U1 12 UGD Transit 1_t_3f_%y_%x.jpg"},"height":790,"left":{"src":"U1 12 UGD Transit 1_tiles/U1 12 UGD Transit 1_t_3l_%y_%x.jpg"},"right":{"src":"U1 12 UGD Transit 1_tiles/U1 12 UGD Transit 1_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 12 UGD Transit 1_tiles/U1 12 UGD Transit 1_t_3u_%y_%x.jpg"},"width":790},{"back":{"src":"U1 12 UGD Transit 1_tiles/U1 12 UGD Transit 1_t_4b_%y_%x.jpg"},"down":{"src":"U1 12 UGD Transit 1_tiles/U1 12 UGD Transit 1_t_4d_%y_%x.jpg"},"front":{"src":"U1 12 UGD Transit 1_tiles/U1 12 UGD Transit 1_t_4f_%y_%x.jpg"},"height":395,"left":{"src":"U1 12 UGD Transit 1_tiles/U1 12 UGD Transit 1_t_4l_%y_%x.jpg"},"right":{"src":"U1 12 UGD Transit 1_tiles/U1 12 UGD Transit 1_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 12 UGD Transit 1_tiles/U1 12 UGD Transit 1_t_4u_%y_%x.jpg"},"width":395}],"multilevel":true,"preview":{"src":"U1 12 UGD Transit 1_tiles/U1 12 UGD Transit 1_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 101.48,
+	        "pan": 223.59,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

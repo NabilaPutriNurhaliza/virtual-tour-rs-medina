@@ -1,0 +1,303 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U1 5 Pintu Keluar_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 359.99999999999994,
+	        "maxtilt": 31.04160700261739,
+	        "minpan": 0,
+	        "mintilt": -31.04160700261739
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.358714371919631,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "31.9688,-11.7805",
+	            "rotate": 2.697230339050293,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.053686186671256,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "50.2144,-4.9196",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.635839261114597,
+	            "href": "L1 6 Halaman Belakang.json",
+	            "opacity": "1.00;1.00",
+	            "position": "142.7680,1.5396",
+	            "rotate": 0,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Keluar"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.1249827146530147,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "199.3762,2.2406",
+	            "rotate": 353.3255310058594,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.959506511688232,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "224.7953,-1.3448",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.753228437155485,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "255.6725,-4.1448",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.082983404397964,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "266.5887,-5.1131",
+	            "rotate": 356.44549560546875,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.95657318085432,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "283.7817,-4.6874",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 10.630403012037275,
+	            "href": "U1 6 Cafetaria.json",
+	            "opacity": "1.00;1.00",
+	            "position": "236.9201,24.1357",
+	            "rotate": 359.5301208496094,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 10.826176777482031,
+	            "href": "U1 4 Ruang Tunggu Poli.json",
+	            "opacity": "1.00;1.00",
+	            "position": "336.9201,21.2496",
+	            "rotate": 353.1293029785156,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.7100881226360796,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "312.1637,-4.1060",
+	            "rotate": 5.530310153961182,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.2808610033243892,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "317.8168,-2.8631",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.2073414027690885,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "320.4678,-1.0330",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 0.8383326418697833,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "322.0273,-1.6175",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 0.7964856550097464,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "336.1793,-2.2795",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.1297152563929556,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "338.9474,-2.3184",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.3826366700232027,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "343.7817,-3.1353",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.5633729659020899,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "354.2690,-5.3837",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 11.173182204365729,
+	            "href": "U1 Lift.json",
+	            "opacity": "1.00;1.00",
+	            "position": "55.4386,22.3253",
+	            "rotate": 0,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U1 5 Pintu Keluar",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U1 5 Pintu Keluar_tiles/U1 5 Pintu Keluar_t_1b_%y_%x.jpg"},"down":{"src":"U1 5 Pintu Keluar_tiles/U1 5 Pintu Keluar_t_1d_%y_%x.jpg"},"front":{"src":"U1 5 Pintu Keluar_tiles/U1 5 Pintu Keluar_t_1f_%y_%x.jpg"},"height":2939,"left":{"src":"U1 5 Pintu Keluar_tiles/U1 5 Pintu Keluar_t_1l_%y_%x.jpg"},"right":{"src":"U1 5 Pintu Keluar_tiles/U1 5 Pintu Keluar_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 5 Pintu Keluar_tiles/U1 5 Pintu Keluar_t_1u_%y_%x.jpg"},"width":2939},{"back":{"src":"U1 5 Pintu Keluar_tiles/U1 5 Pintu Keluar_t_2b_%y_%x.jpg"},"down":{"src":"U1 5 Pintu Keluar_tiles/U1 5 Pintu Keluar_t_2d_%y_%x.jpg"},"front":{"src":"U1 5 Pintu Keluar_tiles/U1 5 Pintu Keluar_t_2f_%y_%x.jpg"},"height":1470,"left":{"src":"U1 5 Pintu Keluar_tiles/U1 5 Pintu Keluar_t_2l_%y_%x.jpg"},"right":{"src":"U1 5 Pintu Keluar_tiles/U1 5 Pintu Keluar_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 5 Pintu Keluar_tiles/U1 5 Pintu Keluar_t_2u_%y_%x.jpg"},"width":1470},{"back":{"src":"U1 5 Pintu Keluar_tiles/U1 5 Pintu Keluar_t_3b_%y_%x.jpg"},"down":{"src":"U1 5 Pintu Keluar_tiles/U1 5 Pintu Keluar_t_3d_%y_%x.jpg"},"front":{"src":"U1 5 Pintu Keluar_tiles/U1 5 Pintu Keluar_t_3f_%y_%x.jpg"},"height":735,"left":{"src":"U1 5 Pintu Keluar_tiles/U1 5 Pintu Keluar_t_3l_%y_%x.jpg"},"right":{"src":"U1 5 Pintu Keluar_tiles/U1 5 Pintu Keluar_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 5 Pintu Keluar_tiles/U1 5 Pintu Keluar_t_3u_%y_%x.jpg"},"width":735},{"back":{"src":"U1 5 Pintu Keluar_tiles/U1 5 Pintu Keluar_t_4b_%y_%x.jpg"},"down":{"src":"U1 5 Pintu Keluar_tiles/U1 5 Pintu Keluar_t_4d_%y_%x.jpg"},"front":{"src":"U1 5 Pintu Keluar_tiles/U1 5 Pintu Keluar_t_4f_%y_%x.jpg"},"height":368,"left":{"src":"U1 5 Pintu Keluar_tiles/U1 5 Pintu Keluar_t_4l_%y_%x.jpg"},"right":{"src":"U1 5 Pintu Keluar_tiles/U1 5 Pintu Keluar_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U1 5 Pintu Keluar_tiles/U1 5 Pintu Keluar_t_4u_%y_%x.jpg"},"width":368}],"multilevel":true,"preview":{"src":"U1 5 Pintu Keluar_tiles/U1 5 Pintu Keluar_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 120,
+	        "pan": 68.45,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

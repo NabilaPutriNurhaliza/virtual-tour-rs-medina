@@ -1,0 +1,166 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "U3 3 NICU_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 29.74391038307861,
+	        "minpan": 0,
+	        "mintilt": -29.74391038307861
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 10.330100208520891,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "57.8211,-3.1531",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 8.13331000506878,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "100.4026,0.5789",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.942227937281133,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "141.4152,0.3922",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.991563424468041,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "242.9384,-6.1580",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.034068772569299,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "265.5364,-1.6244",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.8032258190214636,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "273.8286,-2.3705",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.2531326264142995,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "280.4026,-2.2586",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 10.843500494956972,
+	            "href": "U3 4 Akasia 1.json",
+	            "opacity": "1.00;1.00",
+	            "position": "140.8176,25.7081",
+	            "rotate": 7.070344924926758,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 10.507896468043329,
+	            "href": "U3 2 Nurse Station.json",
+	            "opacity": "1.00;1.00",
+	            "position": "265.5738,19.5101",
+	            "rotate": 0,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "U3 3 NICU",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"U3 3 NICU_tiles/U3 3 NICU_t_1b_%y_%x.jpg"},"down":{"src":"U3 3 NICU_tiles/U3 3 NICU_t_1d_%y_%x.jpg"},"front":{"src":"U3 3 NICU_tiles/U3 3 NICU_t_1f_%y_%x.jpg"},"height":3067,"left":{"src":"U3 3 NICU_tiles/U3 3 NICU_t_1l_%y_%x.jpg"},"right":{"src":"U3 3 NICU_tiles/U3 3 NICU_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 3 NICU_tiles/U3 3 NICU_t_1u_%y_%x.jpg"},"width":3067},{"back":{"src":"U3 3 NICU_tiles/U3 3 NICU_t_2b_%y_%x.jpg"},"down":{"src":"U3 3 NICU_tiles/U3 3 NICU_t_2d_%y_%x.jpg"},"front":{"src":"U3 3 NICU_tiles/U3 3 NICU_t_2f_%y_%x.jpg"},"height":1534,"left":{"src":"U3 3 NICU_tiles/U3 3 NICU_t_2l_%y_%x.jpg"},"right":{"src":"U3 3 NICU_tiles/U3 3 NICU_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 3 NICU_tiles/U3 3 NICU_t_2u_%y_%x.jpg"},"width":1534},{"back":{"src":"U3 3 NICU_tiles/U3 3 NICU_t_3b_%y_%x.jpg"},"down":{"src":"U3 3 NICU_tiles/U3 3 NICU_t_3d_%y_%x.jpg"},"front":{"src":"U3 3 NICU_tiles/U3 3 NICU_t_3f_%y_%x.jpg"},"height":767,"left":{"src":"U3 3 NICU_tiles/U3 3 NICU_t_3l_%y_%x.jpg"},"right":{"src":"U3 3 NICU_tiles/U3 3 NICU_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 3 NICU_tiles/U3 3 NICU_t_3u_%y_%x.jpg"},"width":767},{"back":{"src":"U3 3 NICU_tiles/U3 3 NICU_t_4b_%y_%x.jpg"},"down":{"src":"U3 3 NICU_tiles/U3 3 NICU_t_4d_%y_%x.jpg"},"front":{"src":"U3 3 NICU_tiles/U3 3 NICU_t_4f_%y_%x.jpg"},"height":384,"left":{"src":"U3 3 NICU_tiles/U3 3 NICU_t_4l_%y_%x.jpg"},"right":{"src":"U3 3 NICU_tiles/U3 3 NICU_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"U3 3 NICU_tiles/U3 3 NICU_t_4u_%y_%x.jpg"},"width":384}],"multilevel":true,"preview":{"src":"U3 3 NICU_tiles/U3 3 NICU_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 107.23,
+	        "pan": 115.35,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

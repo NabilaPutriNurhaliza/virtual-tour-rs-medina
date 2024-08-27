@@ -1,0 +1,171 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "L1 8 Dalam Tulip_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 30.197249726525758,
+	        "minpan": 0,
+	        "mintilt": -30.197249726525758
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 3.4631559625267982,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "50.5317,-7.7616",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.394150160253048,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "72.4670,-5.2300",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.9373099505901337,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "80.2382,-4.8501",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.9076881371438503,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "113.5049,-3.8225",
+	            "rotate": 1.2165229320526123,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.4023340828716755,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "121.6206,-4.3176",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 11.382599025964737,
+	            "href": "L1 9 Persimpangan Tulip.json",
+	            "opacity": "1.00;1.00",
+	            "position": "131.0379,10.7442",
+	            "rotate": 333.201904296875,
+	            "target": "myself",
+	            "transition": "blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 5.252569243311882,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "249.0600,5.3818",
+	            "rotate": 348.080810546875,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white_shadow.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.688670288771391,
+	            "href": "",
+	            "opacity": "1.00;1.00",
+	            "position": "312.5308,-1.0718",
+	            "rotate": 0,
+	            "target": "",
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 4.716128781437874,
+	            "href": "L1 7 Gedung Tulip.json",
+	            "opacity": "1.00;1.00",
+	            "position": "281.9821,-2.1810",
+	            "rotate": 0,
+	            "target": "myself",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Keluar"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "L1 8 Dalam Tulip",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"L1 8 Dalam Tulip_tiles/L1 8 Dalam Tulip_t_1b_%y_%x.jpg"},"down":{"src":"L1 8 Dalam Tulip_tiles/L1 8 Dalam Tulip_t_1d_%y_%x.jpg"},"front":{"src":"L1 8 Dalam Tulip_tiles/L1 8 Dalam Tulip_t_1f_%y_%x.jpg"},"height":2993,"left":{"src":"L1 8 Dalam Tulip_tiles/L1 8 Dalam Tulip_t_1l_%y_%x.jpg"},"right":{"src":"L1 8 Dalam Tulip_tiles/L1 8 Dalam Tulip_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"L1 8 Dalam Tulip_tiles/L1 8 Dalam Tulip_t_1u_%y_%x.jpg"},"width":2993},{"back":{"src":"L1 8 Dalam Tulip_tiles/L1 8 Dalam Tulip_t_2b_%y_%x.jpg"},"down":{"src":"L1 8 Dalam Tulip_tiles/L1 8 Dalam Tulip_t_2d_%y_%x.jpg"},"front":{"src":"L1 8 Dalam Tulip_tiles/L1 8 Dalam Tulip_t_2f_%y_%x.jpg"},"height":1497,"left":{"src":"L1 8 Dalam Tulip_tiles/L1 8 Dalam Tulip_t_2l_%y_%x.jpg"},"right":{"src":"L1 8 Dalam Tulip_tiles/L1 8 Dalam Tulip_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"L1 8 Dalam Tulip_tiles/L1 8 Dalam Tulip_t_2u_%y_%x.jpg"},"width":1497},{"back":{"src":"L1 8 Dalam Tulip_tiles/L1 8 Dalam Tulip_t_3b_%y_%x.jpg"},"down":{"src":"L1 8 Dalam Tulip_tiles/L1 8 Dalam Tulip_t_3d_%y_%x.jpg"},"front":{"src":"L1 8 Dalam Tulip_tiles/L1 8 Dalam Tulip_t_3f_%y_%x.jpg"},"height":749,"left":{"src":"L1 8 Dalam Tulip_tiles/L1 8 Dalam Tulip_t_3l_%y_%x.jpg"},"right":{"src":"L1 8 Dalam Tulip_tiles/L1 8 Dalam Tulip_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"L1 8 Dalam Tulip_tiles/L1 8 Dalam Tulip_t_3u_%y_%x.jpg"},"width":749},{"back":{"src":"L1 8 Dalam Tulip_tiles/L1 8 Dalam Tulip_t_4b_%y_%x.jpg"},"down":{"src":"L1 8 Dalam Tulip_tiles/L1 8 Dalam Tulip_t_4d_%y_%x.jpg"},"front":{"src":"L1 8 Dalam Tulip_tiles/L1 8 Dalam Tulip_t_4f_%y_%x.jpg"},"height":375,"left":{"src":"L1 8 Dalam Tulip_tiles/L1 8 Dalam Tulip_t_4l_%y_%x.jpg"},"right":{"src":"L1 8 Dalam Tulip_tiles/L1 8 Dalam Tulip_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"L1 8 Dalam Tulip_tiles/L1 8 Dalam Tulip_t_4u_%y_%x.jpg"},"width":375}],"multilevel":true,"preview":{"src":"L1 8 Dalam Tulip_tiles/L1 8 Dalam Tulip_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 114,
+	        "pan": 94.7,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}
