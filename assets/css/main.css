@@ -772,6 +772,7 @@ section,
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+    margin-top: 20px;
   }
 
   .hero .btn-get-started,
@@ -814,6 +815,7 @@ section,
 
 .featured-services .service-item .icon {
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .featured-services .service-item .icon i {
