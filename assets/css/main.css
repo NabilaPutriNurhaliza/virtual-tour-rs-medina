@@ -717,6 +717,7 @@ section,
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 30px;
+  margin-right: 20px;
   border-radius: 4px;
   transition: 0.5s;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.459);
@@ -726,6 +727,11 @@ section,
   color: var(--contrast-color);
   background: color-mix(in srgb, var(--accent-color), transparent 15%);
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+}
+
+.icon-large {
+  font-size: 2rem; /* Ubah nilai ini sesuai dengan ukuran yang diinginkan */
+  margin-right: 5px;
 }
 
 .hero .btn-watch-video {
@@ -770,7 +776,7 @@ section,
 
   .hero .btn-get-started,
   .hero .btn-watch-video {
-    font-size: 13px;
+    font-size: 15px;
   }
 }
 
@@ -855,7 +861,7 @@ section,
   }
 
   .featured-services .service-item .icon-image {
-    width: 300px;
+    width: 250px;
   }
 }
 /*--------------------------------------------------------------
