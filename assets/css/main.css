@@ -1095,7 +1095,7 @@ section,
   margin-right: 5px;
 }
 .chatbox-footer button {
-  padding: 10px 10px;
+  padding: 10px 15px;
   border-radius: 5px;
   border: none;
   background-color: #34999b;
@@ -1173,6 +1173,10 @@ section,
 /* Mengatur font secara global */
 body, .sidebar ul li a, .dropdown-btn, .dropdown-container a {
   font-family: Arial, Helvetica, sans-serif; /* Ganti ini dengan font yang digunakan oleh "Gedung Utama" dan "Gedung Tulip" */
+}
+
+#navmenu ul li a.active {
+  color: var(--nav-hover-color); /* Warna ketika menu aktif */
 }
 
 /* Sidebar Styling */
