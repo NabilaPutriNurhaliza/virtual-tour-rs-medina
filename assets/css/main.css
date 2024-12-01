@@ -1310,3 +1310,43 @@ body, .sidebar ul li a, .dropdown-btn, .dropdown-container a {
     max-width: 80%; /* Bubble chat lebih lebar pada layar kecil */
   }
 }
+
+.room-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.room-item {
+  padding: 5px 10px;
+  margin: 1px 0;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: left;
+  transition: background-color 0.3s ease;
+}
+
+.room-item:hover {
+  background-color: #e0e0e0;
+}
+
+.arrow-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.arrow-button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 2px 7px;
+  cursor: pointer;
+  font-size: 11px;
+  color: #333;
+}
+
+.arrow-button:hover {
+  background-color: #e0e0e0;
+}
