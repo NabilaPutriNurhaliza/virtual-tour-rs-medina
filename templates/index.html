@@ -142,11 +142,8 @@
         <div class="chatbox-body" id="chatbox-body">
           <div class="bubble bot">Halo! Ruangan apa yang sedang Anda cari?</div>
         </div>
-        <div class="chatbox-footer">
-          <input type="text" id="user-input" placeholder="Ketik pesan..." />
-          <button id="send-button">Kirim</button>
-        </div>
       </div>
+
       <!-- JavaScript untuk chatbot -->
       <script>
         document.addEventListener("DOMContentLoaded", function () {
@@ -154,155 +151,230 @@
 
           menuItems.forEach((item) => {
             item.addEventListener("click", function () {
-              // Hapus kelas 'active' dari semua item
               menuItems.forEach((i) => i.classList.remove("active"));
-
-              // Tambahkan kelas 'active' ke item yang diklik
               this.classList.add("active");
             });
           });
-        });
 
-        // Toggle chatbox visibility ketika ikon chat di-klik
-        document
-          .getElementById("chat-icon")
-          .addEventListener("click", function () {
-            var chatbox = document.getElementById("chatbox");
-            chatbox.style.display =
-              chatbox.style.display === "none" || chatbox.style.display === ""
-                ? "flex"
-                : "none";
-          });
+          document
+            .getElementById("chat-icon")
+            .addEventListener("click", function () {
+              var chatbox = document.getElementById("chatbox");
+              chatbox.style.display =
+                chatbox.style.display === "none" || chatbox.style.display === ""
+                  ? "flex"
+                  : "none";
 
-        // Function untuk mengirim pesan user
-        function sendMessage() {
-          var userMessage = document
-            .getElementById("user-input")
-            .value.trim()
-            .toLowerCase();
-          if (userMessage) {
-            var chatBody = document.getElementById("chatbox-body");
+              if (chatbox.style.display === "flex") {
+                initiateChat();
+              }
+            });
 
-            // User message bubble
-            var userBubble = document.createElement("div");
-            userBubble.textContent = userMessage;
+          // Function untuk memulai percakapan awal
+          function initiateChat() {
+            const chatBody = document.getElementById("chatbox-body");
+            chatBody.innerHTML = "";
+
+            const greeting = document.createElement("div");
+            greeting.textContent =
+              "Halo! Medibot akan membantu menemukan letak lokasi ruangan yang ada di Rumah Sakit Medina.";
+            greeting.className = "bubble bot";
+            chatBody.appendChild(greeting);
+
+            const question = document.createElement("div");
+            question.textContent = "Ruang apa yang Anda cari?";
+            question.className = "bubble bot";
+            chatBody.appendChild(question);
+
+            const optionsIcon = document.createElement("div");
+            optionsIcon.className = "bubble bot options-icon";
+
+            const iconButton = document.createElement("button");
+            iconButton.className = "icon-button";
+            iconButton.innerHTML = "&#9776; Pilih Ruangan";
+            iconButton.addEventListener("click", function () {
+              showRoomOptions();
+            });
+
+            optionsIcon.appendChild(iconButton);
+            chatBody.appendChild(optionsIcon);
+            chatBody.scrollTop = chatBody.scrollHeight;
+          }
+
+          // Function untuk menampilkan daftar ruangan
+          function showRoomOptions() {
+            const chatBody = document.getElementById("chatbox-body");
+            const optionsIcon = document.querySelector(
+              ".bubble.bot.options-icon"
+            );
+
+            if (optionsIcon) {
+              chatBody.removeChild(optionsIcon); // Hilangkan tombol "Pilih Ruangan"
+            }
+
+            fetch('{{ url_for("static", filename="data/ruangan.json") }}')
+              .then((response) => response.json())
+              .then((data) => {
+                const options = document.createElement("div");
+                options.className = "bubble bot options";
+
+                const roomList = document.createElement("ul");
+                roomList.className = "room-list";
+
+                const allRooms = [];
+                for (const [building, floors] of Object.entries(data)) {
+                  for (const [floor, rooms] of Object.entries(floors)) {
+                    allRooms.push(...rooms);
+                  }
+                }
+
+                allRooms.sort((a, b) => a.localeCompare(b));
+
+                allRooms.forEach((room) => {
+                  const listItem = document.createElement("li");
+                  listItem.className = "room-item";
+                  listItem.textContent = room;
+                  listItem.addEventListener("click", function () {
+                    selectRoom(room);
+                  });
+                  roomList.appendChild(listItem);
+                });
+
+                options.appendChild(roomList);
+
+                // Tambahkan tombol panah untuk menutup daftar
+                const arrowContainer = document.createElement("div");
+                arrowContainer.className = "arrow-container";
+                const arrowButton = document.createElement("button");
+                arrowButton.className = "arrow-button";
+                arrowButton.innerHTML = "&#9650; Tutup"; // Panah ke atas
+                arrowButton.addEventListener("click", function () {
+                  chatBody.removeChild(options); // Hapus daftar ruangan
+                  restoreRoomButton(); // Tampilkan kembali tombol "Pilih Ruangan"
+                });
+
+                arrowContainer.appendChild(arrowButton);
+                options.appendChild(arrowContainer);
+
+                chatBody.appendChild(options);
+                chatBody.scrollTop = chatBody.scrollHeight;
+              })
+              .catch((error) => {
+                console.error("Error fetching room data:", error);
+                const errorBubble = document.createElement("div");
+                errorBubble.textContent =
+                  "Maaf, terjadi kesalahan saat memuat data.";
+                errorBubble.className = "bubble bot";
+                chatBody.appendChild(errorBubble);
+              });
+          }
+
+          // Function untuk menampilkan kembali tombol "Pilih Ruangan"
+          function restoreRoomButton() {
+            const chatBody = document.getElementById("chatbox-body");
+
+            const optionsIcon = document.createElement("div");
+            optionsIcon.className = "bubble bot options-icon";
+
+            const iconButton = document.createElement("button");
+            iconButton.className = "icon-button";
+            iconButton.innerHTML = "&#9776; Pilih Ruangan";
+            iconButton.addEventListener("click", function () {
+              showRoomOptions();
+            });
+
+            optionsIcon.appendChild(iconButton);
+            chatBody.appendChild(optionsIcon);
+            chatBody.scrollTop = chatBody.scrollHeight;
+          }
+
+          // Function untuk menangani pilihan ruangan
+          function selectRoom(room) {
+            const chatBody = document.getElementById("chatbox-body");
+
+            // Menambahkan balasan pengguna
+            const userBubble = document.createElement("div");
+            userBubble.textContent = room;
             userBubble.className = "bubble user";
             chatBody.appendChild(userBubble);
             chatBody.scrollTop = chatBody.scrollHeight;
 
-            // Clear input
-            document.getElementById("user-input").value = "";
+            // Menghapus list ruangan yang muncul sebelumnya
+            const roomList = document.querySelector(".bubble.bot.options");
+            if (roomList) {
+              chatBody.removeChild(roomList);
+            }
 
-            // Simulate bot response
             fetch('{{ url_for("static", filename="data/ruangan.json") }}')
               .then((response) => response.json())
               .then((data) => {
-                var defaultBotResponse =
-                  "Maaf, saya hanya bisa menjawab lokasi suatu ruangan saja.";
-                var botResponse = "";
-                var locationsMap = {};
-
-                // Normalize user message
-                var userMessageWords = userMessage
-                  .replace(/[^a-z0-9\s]/g, "")
-                  .toLowerCase()
-                  .split(/\s+/);
-
-                // Iterate through buildings
+                let botResponse = "Maaf, ruangan tidak ditemukan.";
                 for (const [building, floors] of Object.entries(data)) {
-                  // Iterate through floors within each building
                   for (const [floor, rooms] of Object.entries(floors)) {
-                    // Iterate through room names
-                    rooms.forEach((room) => {
-                      var normalizedRoom = room.toLowerCase();
-                      var roomWords = normalizedRoom.split(/\s+/);
-
-                      if (
-                        userMessageWords.some((word) =>
-                          roomWords.includes(word)
-                        )
-                      ) {
-                        if (!locationsMap[room]) {
-                          locationsMap[room] = [];
-                        }
-                        locationsMap[room].push(
-                          `di ${building.replace("_", " ")}, lantai ${
-                            floor.replace("_", " ").split(" ")[1]
-                          }`
-                        );
-                      }
-                    });
-                  }
-                }
-
-                // Construct bot response from locationsMap
-                var foundLocations = [];
-                var poliKeywords = ["poli"];
-                var ruangKeywords = ["ruang"];
-
-                for (const [room, locations] of Object.entries(locationsMap)) {
-                  if (locations.length > 0) {
-                    if (
-                      poliKeywords.some((keyword) =>
-                        userMessageWords.includes(keyword)
-                      )
-                    ) {
-                      foundLocations.push(
-                        `Poli ${room} terletak ${locations.join(", dan ")}`
-                      );
-                    } else {
-                      foundLocations.push(
-                        `Ruang ${room} terletak ${locations.join(", dan ")}`
-                      );
+                    if (rooms.includes(room)) {
+                      botResponse = `${room} terletak di ${building.replace(
+                        "_",
+                        " "
+                      )}, lantai ${floor.replace("_", " ").split(" ")[1]}`;
+                      break;
                     }
                   }
                 }
 
-                if (foundLocations.length > 0) {
-                  botResponse = foundLocations.join(". ") + ".";
-                } else {
-                  botResponse = defaultBotResponse;
-                }
-
-                // Display bot response
-                var botBubble = document.createElement("div");
+                // Menambahkan balasan bot
+                const botBubble = document.createElement("div");
                 botBubble.textContent = botResponse;
                 botBubble.className = "bubble bot";
                 chatBody.appendChild(botBubble);
                 chatBody.scrollTop = chatBody.scrollHeight;
+
+                // Menambahkan kembali tombol "Pilih Ruangan"
+                const optionsIcon = document.createElement("div");
+                optionsIcon.className = "bubble bot options-icon";
+
+                const iconButton = document.createElement("button");
+                iconButton.className = "icon-button";
+                iconButton.innerHTML = "&#9776; Pilih Ruangan";
+                iconButton.addEventListener("click", function () {
+                  showRoomOptions();
+                });
+
+                optionsIcon.appendChild(iconButton);
+                chatBody.appendChild(optionsIcon);
+                chatBody.scrollTop = chatBody.scrollHeight;
               })
               .catch((error) => {
                 console.error("Error fetching data:", error);
-                var errorBubble = document.createElement("div");
+                const errorBubble = document.createElement("div");
                 errorBubble.textContent =
                   "Maaf, terjadi kesalahan saat mengambil data.";
                 errorBubble.className = "bubble bot";
                 chatBody.appendChild(errorBubble);
+
+                // Tetap menambahkan tombol "Pilih Ruangan" meskipun ada error
+                const optionsIcon = document.createElement("div");
+                optionsIcon.className = "bubble bot options-icon";
+
+                const iconButton = document.createElement("button");
+                iconButton.className = "icon-button";
+                iconButton.innerHTML = "&#9776; Pilih Ruangan";
+                iconButton.addEventListener("click", function () {
+                  showRoomOptions();
+                });
+
+                optionsIcon.appendChild(iconButton);
+                chatBody.appendChild(optionsIcon);
                 chatBody.scrollTop = chatBody.scrollHeight;
               });
           }
-        }
 
-        // Mengirim pesan saat tombol "Kirim" di-klik
-        document
-          .getElementById("send-button")
-          .addEventListener("click", sendMessage);
-
-        // Mengirim pesan saat tombol Enter ditekan
-        document
-          .getElementById("user-input")
-          .addEventListener("keypress", function (e) {
-            if (e.key === "Enter") {
-              sendMessage();
-            }
-          });
-
-        // Menutup chatbox saat ikon close di-klik
-        document
-          .getElementById("close-chatbox")
-          .addEventListener("click", function () {
-            document.getElementById("chatbox").style.display = "none";
-          });
+          // Menutup chatbox saat ikon close di-klik
+          document
+            .getElementById("close-chatbox")
+            .addEventListener("click", function () {
+              document.getElementById("chatbox").style.display = "none";
+            });
+        });
       </script>
 
       <!-- Featured Services Section -->
