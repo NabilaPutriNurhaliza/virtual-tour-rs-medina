@@ -1,99 +1,98 @@
 {
-    "gedung_utama": {
+    "Gedung_Utama": {
       "lantai_1": [
         "ATM Center",
-        "TB Dots",
-        "Pendaftaran FRISTA",
-        "Pendaftaran BPJS dan Umum",
-        "Syaraf",
-        "Penyakit Dalam Internist",
-        "Tindakan",
-        "Geriatri",
-        "THT KL",
-        "Jantung",
-        "Bedah Onkologi",
-        "Mata",
-        "Urologi",
-        "Obgyn",
-        "Anak",
-        "Rekam Medis",
-        "Laktasi",
-        "Penerimaan Resep",
-        "Penyerahan Resep",
+        "Poli TB Dots",
+        "Ruang Pendaftaran FRISTA",
+        "Ruang Pendaftaran BPJS dan Umum",
+        "Poli Syaraf",
+        "Poli Penyakit Dalam Internist",
+        "Poli Geriatri",
+        "Poli THT KL",
+        "Poli Jantung",
+        "Poli Bedah Onkologi",
+        "Poli Mata",
+        "Poli Urologi",
+        "Poli Obgyn",
+        "Poli Anak",
+        "Ruang Rekam Medis",
+        "Ruang Laktasi",
+        "Ruang Penerimaan Resep",
+        "Ruang Penyerahan Resep",
         "Depo Farmasi",
         "Cafetaria",
-        "Kafe",
-        "Cafe",
-        "Administrasi",
+        "Ruang Administrasi",
         "Kasir",
-        "USG",
-        "Radiologi",
-        "Jenazah"
+        "Ruang USG",
+        "Ruang Radiologi",
+        "Ruang Jenazah"
       ],
       "lantai_2": [
-        "Operasi",
-        "Alamanda",
-        "CSSD",
+        "Ruang Operasi",
+        "Ruang Alamanda",
+        "Ruang CSSD",
         "Recovery Room",
-        "ESWL",
-        "Dokter",
-        "Komite Medik",
+        "Ruang ESWL",
+        "Ruang Dokter",
+        "Ruang Komite Medik",
         "Laboratorium",
-        "Patologi Center",
+        "Ruang Patologi Center",
         "Depo Farmasi Rawat Inap",
-        "Nakes Lainnya",
+        "Ruang Nakes Lainnya",
         "Nurse Station",
-        "Komite Keperawatan",
-        "Komite PPI",
-        "IT",
-        "Tindakan"
+        "Ruang Komite Keperawatan",
+        "Ruang Komite PPI",
+        "Ruang IT"
       ],
       "lantai_3": [
-        "Akasia",
-        "Area Bermain",
-        "Anggrek",
-        "Tindakan",
+        "Ruang Akasia",
+        "Area Bermain Anak",
+        "Ruang Anggrek",
         "ICU",
         "NICU",
-        "Konsul Dokter",
-        "Bougenville",
-        "Bougenvile",
+        "Ruang Konsul Dokter",
+        "Ruang Bougenville",
         "Unit Dialisis",
         "Nurse Station",
-        "CAPD"
+        "Ruang CAPD"
+      ]
+    },
+    "Gedung_utama": {
+      "1_manapun": [
+        "Ruang Tindakan"
       ]
     },
     "halaman_belakang": {
       "lantai_1": ["Mushola", "Kantin"]
     },
-    "gedung_tulip": {
+    "Gedung_Tulip": {
       "lantai_1": [
-        "Tulip",
-        "Perinatologi",
-        "Bersalin",
+        "Ruang Tulip",
+        "Ruang Perinatologi",
+        "Ruang Bersalin",
         "Pendaftaran Pasien Rawat Inap",
-        "Laundry",
-        "Pantry"
+        "Ruang Laundry",
+        "Ruang Pantry"
       ],
-      "lantai_2": ["Thalasemia"]
+      "lantai_2": ["Ruang Thalasemia"]
     },
-    "gedung_poli kemotrapi": {
+    "Gedung_Poli Kemotrapi": {
       "lantai_1": [
         "Aula RS Medina",
-        "Gigi",
-        "Melati",
+        "Poli Gigi",
+        "Poli Melati",
         "Unit Kemoterapi",
         "Gudang Farmasi",
-        "Dispending"
+        "Ruang Dispending"
       ]
     },
-    "gedung_igd": {
+    "Gedung_IGD": {
       "lantai_1": [
-        "Pendaftaran UGD",
-        "Dekontaminasi",
-        "UGD Isolasi",
+        "Ruang Pendaftaran UGD",
+        "Ruang Dekontaminasi",
+        "Ruang UGD Isolasi",
         "Depo Farmasi",
-        "Kebidanan"
+        "Ruang Kebidanan"
       ]
     },
     "setiap gedung": {
